@@ -91,7 +91,14 @@ reef.&lt;/p&gt;
 	</element>
 	<element name="Nematocyst" type="Sub Race" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_SUB_RACE_NEMATOCYST">
 		<description>
-			<html>&lt;p&gt;An adaptation for confrontation, combat, and conflict. It carries with it an innately toxic weapon.&lt;/p&gt;</html>
+			<html>&lt;p&gt;An adaptation for confrontation, combat, and conflict. It carries with it an innately toxic weapon.&lt;/p&gt;
+&lt;p&gt;
+&lt;span class="feature"&gt;Ability Score Increase.&lt;/span&gt;Your Dexterity and Constitution scores both increase by 1. &lt;br /&gt;
+&lt;span class="feature"&gt;Nematocyst.&lt;/span&gt; You have a long, barbed appendage, a natural weapon which you can use to make unarmed strikes. If you hit with this finesse weapon, you can deal piercing damage equal to 1d4 + your Strength or Dexterity modifier (your choice), instead of the bludgeoning damage normal for an unarmed strike. 
+&lt;br /&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;As a bonus action when you hit a creature with your nematocyst on your turn, you can inject it with a potent neurotoxin. If the creature isn’t an undead or construct, it must succeed on a &lt;b&gt;Constitution saving throw&lt;/b&gt; (DC equals 8 + your Constitution modifier + your proficiency bonus) or be &lt;b&gt;paralysed&lt;/b&gt; until the end of its next turn. After you use this bonus action, you can’t do so again until you finish a long rest.&lt;br /&gt;
+&lt;span class="feature"&gt;Toxic Adaptation.&lt;/span&gt;You have advantage on saving
+throws against being poisoned, and you have resistance to poison damage. 
+&lt;/p&gt;</html>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -134,7 +141,13 @@ you finish a long rest.&lt;/p&gt;</html>
 	</element>
 	<element name="Shimmerskin" type="Sub Race" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_SUB_RACE_SHIMMERSKIN">
 		<description>
-			<html>&lt;p&gt;And adaptation that relies on diplomacy, subterfuge, and enchantment to charm antagonists and avoid conflict.&lt;/p&gt;</html>
+			<html>&lt;p&gt;And adaptation that relies on diplomacy, subterfuge, and enchantment to charm antagonists and avoid conflict.&lt;/p&gt;
+&lt;p&gt;
+&lt;span class="feature"&gt;Ability Score Increase.&lt;/span&gt;Your Charisma score increases by 2.&lt;br /&gt;
+&lt;span class="feature"&gt;Shimmerskin.&lt;/span&gt;As a bonus action, you can cause your skin to shimmer in a pleasing array of colours for &lt;b&gt;10 minutes&lt;/b&gt;. For the duration, you have &lt;b&gt;advantage&lt;/b&gt; on all Charisma checks. Once you use this trait, you can’t do so again until you finish a long rest.&lt;br /&gt;
+&lt;span class="feature"&gt;Hypnotic Phosphoresence.&lt;/span&gt;You know the &lt;i&gt;minor illusion&lt;/i&gt; cantrip. Starting at 3rd level, you can cast the &lt;i&gt;charm person&lt;/i&gt; spell once with this trait, and you regain the ability to do so when you finish a long rest. Starting at 5th level, you can cast the &lt;i&gt;suggestion&lt;/i&gt; spell once with this trait, and you regain the ability to do so when you finish a long rest.
+&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Charisma is your spellcasting ability for these spells. When you cast them with this trait, they don’t require components.
+&lt;/p&gt;</html>
 		</description>
 		<sheet display="false" />
 		<rules>
