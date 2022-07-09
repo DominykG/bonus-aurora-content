@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="Gobboc" type="Race" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACE_GOBBOC">
+		<description>
+			<html>&lt;p class="flavor"&gt;Nestled in secluded clearings in the woods, on hilltops with extraordinary vantages, or in easily collapsible canyons, gobbocs seek safety above all else. Survival is a gobboc’s watchword; their own survival is their number one goal on expedition — treasure, glory, and saving the world be damned.&lt;/p&gt;
+&lt;h4&gt;BRAVE COWARDS&lt;/h4&gt;
+&lt;p&gt;You’ll likely recognise the back of a gobboc’s head more than the front, given their propensity to run away at the first sign of danger. While this is the epitome of cowardice, it is a specifically brave kind of cowardice; life is scary and living another day is the bravest thing you can do. At least, this is what is taught to gobboc from the moment they can walk, a few hours after they’re born.&lt;/p&gt;
+&lt;p class="indent"&gt;A typical gobboc is never the first to enter a room, nor the last in a line of dungeon delvers. They aim to keep bodies firmly before and behind them, a tactical meat shield to ward off harm. Indeed, gobbocs are the ultimate hit and run fighters, retreating from a foe before it can retaliate to their precise and lightning quick attacks. This method of fighting, taught to all gobbocs, is known as the ‘Klucking Fighting Creed’.&lt;/p&gt; 
+&lt;h4&gt;FIT AND SIT&lt;/h4&gt;
+&lt;p&gt;Gobbocs have a peculiar tendency to sit on things. The pinnacle of this innate desire is the ‘Festival of Brooding’, sometimes known as the Eggstravangaza. This annual event finds all the gobbocs in a town creating the most comfortable thrones, bean bag chairs, and bundles of straw possible before sitting on them around a huge bonfire. There are no fireworks; sudden, loud noises are frowned upon in gobboc society.&lt;/p&gt;	
+&lt;h4&gt;AVIAN ASCENDENCY&lt;/h4&gt;
+&lt;p&gt;Gobbocs worship other birds. The bigger the bird, the more holy it is. In fact, similarly to kobolds, gobboc belief is innately magical. It is so potent that gobboc belief makes birds more intelligent. In times of war, gobboc hosts are often accompanied by flocks of birds, including mounted divisions of razor-clawed and quick-witted cassowaries and flying contingents of super-intelligent hippogriffs. It is widely posited that the famous gobboc playwright Owlfred Hatchcluck based his play, &lt;i&gt;The Birds&lt;/i&gt;, on this uniquely gobboc occurrence.&lt;/p&gt;
+&lt;h4&gt;GOBBOC TRAITS&lt;/h4&gt;
+&lt;p&gt;As a gobboc, you have the following racial traits.&lt;/p&gt;
+&lt;span class="feature"&gt;Ability Score Increase.&lt;/span&gt;Your Dexterity score increases by 2, and either your Charisma score or Wisdom score increases by 1 (your choice).&lt;br /&gt;
+&lt;span class="feature"&gt;Age.&lt;/span&gt;Gobbocs grow quickly and die young. They walk hours after hatching, reach adulthood by age 7, and live around 30 years.&lt;br /&gt;
+&lt;span class="feature"&gt;Size.&lt;/span&gt;Gobbocs are a diminutive race and stand on average 2 to 3 feet tall. Your size is Small.&lt;br /&gt;
+&lt;span class="feature"&gt;Speed.&lt;/span&gt;Your base walking speed is 25 feet.&lt;br /&gt;
+&lt;span class="feature"&gt;Chicken Curse.&lt;/span&gt;You can cast the &lt;i&gt;polymorph&lt;/i&gt; spell on yourself with this trait, using Charisma as your spellcasting ability. Once you cast the spell, you can’t cast it again with this trait until you finish a long rest. When you use this version of &lt;i&gt;polymorph&lt;/i&gt;, you always assume the form of a Tiny chicken.&lt;br /&gt;
+&lt;span class="feature"&gt;Commune with Fowl Folk.&lt;/span&gt;You have the ability to communicate in a limited manner with feathered beasts and monstrosities. They can understand the meaning of your words, though you have no special ability to understand them in return. You have &lt;b&gt;advantage&lt;/b&gt; on all Charisma checks you make to influence them.&lt;br /&gt;
+&lt;span class="feature"&gt;Coward’s Creed.&lt;/span&gt;After successfully hitting with a melee attack, you can take the Disengage action as a bonus action.&lt;br /&gt;
+&lt;span class="feature"&gt;Feathered.&lt;/span&gt;Your light bones and feathered form reduces the impact of gravity; you take only half damage from falling.&lt;br /&gt;
+&lt;span class="feature"&gt;Headless Chicken.&lt;/span&gt;When you are reduced to 0 hit points but not killed outright, you don’t immediately fall unconscious. Instead, you interrupt the current turn and can immediately take the Disengage action and move up to your speed. You fall unconscious in the space where you finish this movement.&lt;br /&gt;
+&lt;span class="feature"&gt;Languages.&lt;/span&gt;You can speak, read, and write Common and one other language of your choice.&lt;br /&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="2" />
+			<select type="Ability Score Improvement" name="Ability Score Improvement (Gobboc)" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<stat name="innate speed" value="25" bonus="base" />
+			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_CHICKEN_CURSE" />
+			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_COMMUNE_WITH_FOWL_FOLK" />
+		</rules>
+	</element>
+	<element name="Gobboc (Wisdom)" type="Ability Score Improvement" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_ABILITY_SCORE_IMPROVEMENT_GOBBOC_WISDOM">
+		<sheet display="false" />
+		<rules>
+			<stat name="wisdom" value="1" />
+		</rules>
+	</element>
+	<element name="Gobboc (Charisma)" type="Ability Score Improvement" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_ABILITY_SCORE_IMPROVEMENT_GOBBOC_CHARISMA">
+		<sheet display="false" />
+		<rules>
+			<stat name="charisma" value="1" />
+		</rules>
+	</element>
+	<element name="Chicken Curse" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_CHICKEN_CURSE">
+		<description>
+			<html>&lt;p&gt;You can cast the polymorph spell on yourself with this trait, using Charisma as your spellcasting ability. Once you cast the spell, you can’t cast it again with this trait until you finish a long rest. When you use this version of polymorph, you always assume the form of a Tiny chicken.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You can cast the polymorph spell on yourself with this trait, using Charisma as your spellcasting ability. Once you cast the spell, you can’t cast it again with this trait until you finish a long rest. When you use this version of polymorph, you always assume the form of a Tiny chicken.</description>
+		</sheet>
+	</element>
+	<element name="Commune with Fowl Folk" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_COMMUNE_WITH_FOWL_FOLK">
+		<description>
+			<html>&lt;p&gt;You have the ability to communicate in a limited manner with feathered beasts and monstrosities. They can understand the meaning of your words, though you have no special ability to understand them in return. You have &lt;b&gt;advantage&lt;/b&gt; on all Charisma checks you make to influence them.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You have the ability to communicate in a limited manner with feathered beasts and monstrosities. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them.</description>
+		</sheet>
+	</element>
+</elements>
