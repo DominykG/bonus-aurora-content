@@ -28,7 +28,7 @@
 		<sheet display="false" />
 		<rules>
 			<stat name="dexterity" value="2" />
-			<select type="Ability Score Improvement" name="Ability Score Improvement (Cyclopian)" supports="Cyclopian" />
+			<select type="Ability Score Improvement" name="Ability Score Improvement (Cyclopian)" supports="ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_WISDOM" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
 			<stat name="innate speed" value="30" bonus="base" />
@@ -39,20 +39,6 @@
 			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_TOP_SHELF" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
 			<grant type="Language" id="ID_LANGUAGE_UNDERCOMMON" />
-		</rules>
-	</element>
-	<element name="Cyclopian (Intelligence)" type="Ability Score Improvement" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_ABILITY_SCORE_IMPROVEMENT_CYCLOPIAN_INTELLIGENCE">
-		<supports>Cyclopian</supports>
-		<sheet display="false" />
-		<rules>
-			<stat name="intelligence" value="1" />
-		</rules>
-	</element>
-	<element name="Cyclopian (Wisdom)" type="Ability Score Improvement" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_ABILITY_SCORE_IMPROVEMENT_CYCLOPIAN_WISDOM">
-		<supports>Cyclopian</supports>
-		<sheet display="false" />
-		<rules>
-			<stat name="wisdom" value="1" />
 		</rules>
 	</element>
 	<element name="Knowledge Seeker" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_KNOWLEDGE_SEEKER">

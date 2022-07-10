@@ -26,7 +26,7 @@
 		<sheet display="false" />
 		<rules>
 			<stat name="dexterity" value="2" />
-			<select type="Ability Score Improvement" name="Ability Score Improvement (Gobboc)" supports="gobboc" />
+			<select type="Ability Score Improvement" name="Ability Score Improvement (Gobboc)" supports="ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_CHARISMA" />
 			<grant type="Size" id="ID_SIZE_SMALL" />
 			<stat name="innate speed" value="25" bonus="base" />
 			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_CHICKEN_CURSE" />
@@ -36,20 +36,6 @@
 			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_HEADLESS_CHICKEN" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
 			<select type="Language" name="Language (Gobboc)" />
-		</rules>
-	</element>
-	<element name="Gobboc (Wisdom)" type="Ability Score Improvement" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_ABILITY_SCORE_IMPROVEMENT_GOBBOC_WISDOM">
-		<supports>gobboc</supports>
-		<sheet display="false" />
-		<rules>
-			<stat name="wisdom" value="1" />
-		</rules>
-	</element>
-	<element name="Gobboc (Charisma)" type="Ability Score Improvement" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_ABILITY_SCORE_IMPROVEMENT_GOBBOC_CHARISMA">
-		<supports>gobboc</supports>
-		<sheet display="false" />
-		<rules>
-			<stat name="charisma" value="1" />
 		</rules>
 	</element>
 	<element name="Chicken Curse" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_CHICKEN_CURSE">
