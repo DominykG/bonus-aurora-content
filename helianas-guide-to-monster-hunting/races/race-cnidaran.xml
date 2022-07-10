@@ -82,14 +82,15 @@ reef.&lt;/p&gt;
 	</element>
 	<element name="Cnidaran Subrace" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_CNIDARAN_SUBRACE">
 		<description>
-			<html>When a polyp produces a medusozoa, it can birth one of two morphs: a nematocyst or a shimmerskin. The former is adapted for confrontation, combat, and conflict, and carries with it an innately toxic weapon. The latter relies on diplomacy, subterfuge, and enchantment to charm antagonists and avoid conflict. Together, these two morphs are capable of pursuing two very different strategies in interspecies interactions. Choose one of these subraces.</html>
+			<html>&lt;html&gt;When a polyp produces a medusozoa, it can birth one of two morphs: a nematocyst or a shimmerskin. The former is adapted for confrontation, combat, and conflict, and carries with it an innately toxic weapon. The latter relies on diplomacy, subterfuge, and enchantment to charm antagonists and avoid conflict. Together, these two morphs are capable of pursuing two very different strategies in interspecies interactions. Choose one of these subraces.&lt;/html&gt;</html>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Sub Race" name="Cnidaran Subrace" />
+			<select type="Sub Race" name="Cnidaran Subrace" supports="cnidaran" />
 		</rules>
 	</element>
 	<element name="Nematocyst" type="Sub Race" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_SUB_RACE_NEMATOCYST">
+		<supports>cnidaran</supports>
 		<description>
 			<html>&lt;p&gt;An adaptation for confrontation, combat, and conflict. It carries with it an innately toxic weapon.&lt;/p&gt;
 &lt;p&gt;
@@ -140,6 +141,7 @@ you finish a long rest.&lt;/p&gt;</html>
 		</sheet>
 	</element>
 	<element name="Shimmerskin" type="Sub Race" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_SUB_RACE_SHIMMERSKIN">
+		<supports>cnidaran</supports>
 		<description>
 			<html>&lt;p&gt;And adaptation that relies on diplomacy, subterfuge, and enchantment to charm antagonists and avoid conflict.&lt;/p&gt;
 &lt;p&gt;

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="Heliana’s Guide to Monster Hunting" type="Source" source="Core" id="ID_SOURCE_HELIANAS_GUIDE_TO_MONSTER_HUNTING">
+		<setters>
+			<set name="abbreviation">HGTMH</set>
+			<set name="author">Jess Jackoaw</set>
+			<set name="third-party">true</set>
+			<set name="url">https://www.patreon.com/LootTavern</set>
+		</setters>
+	</element>
+</elements>

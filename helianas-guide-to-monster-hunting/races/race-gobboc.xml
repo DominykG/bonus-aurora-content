@@ -26,20 +26,27 @@
 		<sheet display="false" />
 		<rules>
 			<stat name="dexterity" value="2" />
-			<select type="Ability Score Improvement" name="Ability Score Improvement (Gobboc)" />
+			<select type="Ability Score Improvement" name="Ability Score Improvement (Gobboc)" supports="gobboc" />
 			<grant type="Size" id="ID_SIZE_SMALL" />
 			<stat name="innate speed" value="25" bonus="base" />
 			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_CHICKEN_CURSE" />
 			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_COMMUNE_WITH_FOWL_FOLK" />
+			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_COWARDS_CREED" />
+			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_FEATHERED" />
+			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_HEADLESS_CHICKEN" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<select type="Language" name="Language (Gobboc)" />
 		</rules>
 	</element>
 	<element name="Gobboc (Wisdom)" type="Ability Score Improvement" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_ABILITY_SCORE_IMPROVEMENT_GOBBOC_WISDOM">
+		<supports>gobboc</supports>
 		<sheet display="false" />
 		<rules>
 			<stat name="wisdom" value="1" />
 		</rules>
 	</element>
 	<element name="Gobboc (Charisma)" type="Ability Score Improvement" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_ABILITY_SCORE_IMPROVEMENT_GOBBOC_CHARISMA">
+		<supports>gobboc</supports>
 		<sheet display="false" />
 		<rules>
 			<stat name="charisma" value="1" />
@@ -59,6 +66,30 @@
 		</description>
 		<sheet>
 			<description>You have the ability to communicate in a limited manner with feathered beasts and monstrosities. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them.</description>
+		</sheet>
+	</element>
+	<element name="Coward’s Creed" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_COWARDS_CREED">
+		<description>
+			<html>&lt;p&gt;After successfully hitting with a melee attack, you can take the Disengage action as a bonus action.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>After successfully hitting with a melee attack, you can take the Disengage action as a bonus action.</description>
+		</sheet>
+	</element>
+	<element name="Feathered" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_FEATHERED">
+		<description>
+			<html>&lt;p&gt;Your light bones and feathered form reduces the impact of gravity; you take only half damage from falling.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>Your light bones and feathered form reduces the impact of gravity; you take only half damage from falling.</description>
+		</sheet>
+	</element>
+	<element name="Headless Chicken" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_HEADLESS_CHICKEN">
+		<description>
+			<html>&lt;p&gt;When you are reduced to 0 hit points but not killed outright, you don’t immediately fall unconscious. Instead, you interrupt the current turn and can immediately take the Disengage action and move up to your speed. You fall unconscious in the space where you finish this movement.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>When you are reduced to 0 hit points but not killed outright, you don’t immediately fall unconscious. Instead, you interrupt the current turn and can immediately take the Disengage action and move up to your speed. You fall unconscious in the space where you finish this movement.</description>
 		</sheet>
 	</element>
 </elements>
