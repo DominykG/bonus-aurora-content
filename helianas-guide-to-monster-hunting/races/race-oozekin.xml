@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="Oozekin" type="Race" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACE_OOZEKIN">
+		<description>
+			<html>&lt;p class="flavor"&gt;Naturally curious, oozekin do not have a culture of their own, but tend to assimilate with whoever is ready to accept their slimy, invertebrate form. From the bodyguards of mighty, stone-willed nobles, to adopted playmates of excitable halflings, oozekin are found everywhere, though in small numbers. Taking on the values of those that surround them, oozekin are hard to pigeonhole and have but one thing in common: a delight in immersing their new-found consciousness in the habits and customs of other sapient creatures.&lt;/p&gt;
+&lt;h4&gt;BIOMANTIC ORIGINS&lt;/h4&gt;
+&lt;p&gt;Oozekin are the odd by-products of Dr. Stein’s biomancy experiments—biomantic oozes that gained consciousness and self-replicate through asexual reproduction. When the time is right, an oozekin produces a larval sludge, a juvenile, biomantically-altered ooze not dissimilar to those one might find in a dungeon. After this larva consumes enough sentient grey matter, it exhibits a sudden cognitive and physiological metamorphosis, rising as a humanoid-shaped oozekin.&lt;/p&gt;
+&lt;p class="indent"&gt;These unmoulded, newly-formed consciousnesses are extremely susceptible to the psyches of creatures near them both in space and time. An oozekin that develops in the former lair of a red dragon might take on its avaricious and arrogant personality traits, while one that forms near a sleeping adventurer might be filled with wanderlust and risk-taking qualities. Indeed, the grey matter that a biomantic ooze consumes can have a significant influence on the subsequent oozekin’s values, habits, and memories. Tales abound of oozey doppelgangers, facsimiles of fallen adventurers that believe themselves to be the deceased creature reborn.&lt;/p&gt;
+&lt;h4&gt;WILLING AND ABLE&lt;/h4&gt;
+&lt;p&gt;Relatively new to the world, oozekin are keen to prove themselves the equal of any other race. Though most oozekin exist within the framework of other, established civilisations, pods of oozekin settlements have arisen in corners of The Low. These conglomerations mix the various assimilated cultures and traditions each oozekin has experienced or formed with, often with unpredictable consequences. Luckily, oozekins’ propensity to get along with one another has resulted in the reconciliation of schisms between historically antagonistic races, such as gray dwarves and dark elves, even if only vicariously through their oozekin adoptees.&lt;/p&gt;
+&lt;p class="indent"&gt;Most oozekin are more than happy to fulfil their role as helpful and productive citizens, contributing to society in any way they can. Others, perhaps those that accidentally harmed friends with their acidic skin, go to obscene lengths to disguise their true form, covering themselves head to toe in scraps of clothing, never staying in one place too long. An especially curious and introspective few live to discover the reason for their existence. How come they have no parents? Where is their history? Why do they exist?&lt;/p&gt;
+&lt;h4&gt;OOZEKIN TRAITS&lt;/h4&gt;
+&lt;p&gt;As an oozekin, you have the following racial traits.&lt;/p&gt;
+&lt;span class="feature"&gt;Ability Score Increase.&lt;/span&gt;Your Constitution score increases by 2, and your Strength score increases by 1.&lt;br /&gt;
+&lt;span class="feature"&gt;Age.&lt;/span&gt;An oozekin’s age is nearly impossible to discern. However, the compounds that sustain them appear to deteriorate quickly after 70 years.&lt;br /&gt;
+&lt;span class="feature"&gt;Size.&lt;/span&gt;Your size can be Medium or Small. If you are Small, you grow to Medium size over &lt;b&gt;2d4&lt;/b&gt; days. When you are Medium, you can use an action to discard a piece of yourself to become Small.&lt;br /&gt;
+&lt;span class="feature"&gt;Speed.&lt;/span&gt;Your base walking speed is &lt;b&gt;30 feet&lt;/b&gt;.&lt;br /&gt;
+&lt;span class="feature"&gt;Darkvision.&lt;/span&gt;Accustomed to life in dark, wet caverns, you have superior vision in dark and dim conditions. You can see in dim light within &lt;b&gt;60 feet&lt;/b&gt; of you as if it were bright light, and in darkness as if it were dim light. You can’t discern colour in darkness, only shades of grey.&lt;br /&gt;
+&lt;span class="feature"&gt;Acidic Flesh.&lt;/span&gt;You have resistance to acid damage, and you know the &lt;i&gt;acid splash&lt;/i&gt; cantrip, which you can make unavoidable when cast at point blank range. If you cast the spell only targeting a creature you’re currently grappling or grappled by, the target automatically fails its saving throw. Constitution is your spellcasting ability for this spell.&lt;br /&gt;
+&lt;span class="feature"&gt;Languages.&lt;/span&gt;You can speak, read, and write Common and one other language of your choice.&lt;br /&gt;
+&lt;span class="feature"&gt;Reshapeable.&lt;/span&gt;As an action, you can alter your body to assume the form of a cube or a puddle for up to 1 hour. While in either of these forms, you can’t talk; manipulate objects; make attacks; or cast spells. The form you assume has the following effects:&lt;br /&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;Cube Form.&lt;/b&gt; Your walking speed is halved and your body becomes a 5-foot cube. You can safely store any items you are carrying, holding, or wearing in a vesicle within you body. Creatures directly behind you have three-quarters cover against attacks that originate on the opposite side of you. You also gain a new action option, the Engulf action:&lt;/li&gt;&lt;br /&gt;&lt;br /&gt;
+  &lt;p class="indent"&gt;&lt;b&gt;&lt;i&gt;Engulf.&lt;/i&gt;&lt;/b&gt; You move up to your speed and can move into the space of one creature of equal or smaller size than you, which must make a Dexterity saving throw (DC = 8 + your Strength modifier + your proficiency bonus). On a failure, if you aren’t already grappling a creature, the creature becomes &lt;b&gt;grappled&lt;/b&gt; by you. While grappled in this way, the creature is &lt;b&gt;restrained&lt;/b&gt; and takes acid damage at the start of each of its turns as if it had failed a saving throw against your &lt;i&gt;acid splash&lt;/i&gt; cantrip.&lt;/p&gt;
+  &lt;li&gt;&lt;b&gt;Puddle Form.&lt;/b&gt; Your walking speed is halved as you collapse into a 5-foot-diameter pool. You can’t hold or carry items and any objects you are holding, carrying, or wearing when you transform falls to the ground in your space. While in this form, attack rolls by creatures further than &lt;b&gt;5 feet&lt;/b&gt; away from you have &lt;b&gt;disadvantage&lt;/b&gt; to hit you, you nonmagically gain the benefits of the &lt;i&gt;spider climb&lt;/i&gt; spell, and you can travel through spaces as small as 1 inch wide without squeezing.&lt;/li&gt;
+&lt;/ul&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="constitution" value="2" />
+			<stat name="strength" value="1" />
+			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_OOZEKIN_SIZE" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_ACIDIC_FLESH" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<select type="Language" name="Language (Oozekin)" />
+			<grant type="Spell" id="ID_HGTMH_SPELL_OOZEKIN_RESHAPEABLE" />
+		</rules>
+	</element>
+	<element name="Size" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_OOZEKIN_SIZE">
+		<meta>
+			<parent>Oozekin</parent>
+		</meta>
+		<description>
+			<html>Your size can be Medium or Small. If you are Small, you grow to Medium size over &lt;b&gt;2d4&lt;/b&gt; days. When you are Medium, you can use an action to discard a piece of yourself to become Small.</html>
+		</description>
+		<sheet>
+			<description>If you are Small, you grow to Medium size over &lt;b&gt;2d4&lt;/b&gt; days. When you are Medium, you can use an action to discard a piece of yourself to become Small.</description>
+		</sheet>
+	</element>
+	<element name="Acidic Flesh" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_ACIDIC_FLESH">
+		<description>
+			<html>You have resistance to acid damage, and you know the &lt;i&gt;acid splash&lt;/i&gt; cantrip, which you can make unavoidable when cast at point blank range. If you cast the spell only targeting a creature you’re currently grappling or grappled by, the target automatically fails its saving throw. Constitution is your spellcasting ability for this spell.</html>
+		</description>
+		<sheet>
+			<description>If you cast the acid splash only targeting a creature you’re currently grappling or grappled by, the target automatically fails its saving throw. Constitution is your spellcasting ability for this spell.</description>
+		</sheet>
+		<rules>
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_ACID" />
+			<grant type="Spell" id="ID_PHB_SPELL_ACID_SPLASH" />
+		</rules>
+	</element>
+	<element name="Reshapeable" type="Spell" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_SPELL_OOZEKIN_RESHAPEABLE">
+		<meta>
+			<parent>Oozekin</parent>
+		</meta>
+		<description>
+			<html>As an action, you can alter your body to assume the form of a cube or a puddle for up to 1 hour. While in either of these forms, you can’t talk; manipulate objects; make attacks; or cast spells. The form you assume has the following effects:&lt;br /&gt;&lt;br /&gt;
+&lt;b&gt;Cube Form.&lt;/b&gt; Your walking speed is halved and your body becomes a 5-foot cube. You can safely store any items you are carrying, holding, or wearing in a vesicle within you body. Creatures directly behind you have three-quarters cover against attacks that originate on the opposite side of you. You also gain a new action option, the Engulf action:&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;Engulf.&lt;/b&gt; You move up to your speed and can move into the space of one creature of equal or smaller size than you, which must make a Dexterity saving throw (DC = 8 + your Strength modifier + your proficiency bonus). On a failure, if you aren’t already grappling a creature, the creature becomes &lt;b&gt;grappled&lt;/b&gt; by you. While grappled in this way, the creature is &lt;b&gt;restrained&lt;/b&gt; and takes acid damage at the start of each of its turns as if it had failed a saving throw against your &lt;i&gt;acid splash&lt;/i&gt; cantrip.&lt;br /&gt;&lt;br /&gt;
+  &lt;b&gt;Puddle Form.&lt;/b&gt; Your walking speed is halved as you collapse into a 5-foot-diameter pool. You can’t hold or carry items and any objects you are holding, carrying, or wearing when you transform falls to the ground in your space. While in this form, attack rolls by creatures further than &lt;b&gt;5 feet&lt;/b&gt; away from you have &lt;b&gt;disadvantage&lt;/b&gt; to hit you, you nonmagically gain the benefits of the &lt;i&gt;spider climb&lt;/i&gt; spell, and you can travel through spaces as small as 1 inch wide without squeezing.</html>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="time">1 action</set>
+			<set name="duration">1 hour</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+			<set name="school">Transmutation</set>
+		</setters>
+	</element>
+</elements>
