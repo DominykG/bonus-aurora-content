@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="Rakin" type="Race" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACE_RAKIN">
+		<description>
+			<html>&lt;p class="flavor"&gt;Yells and chuckles are common sounds around the home of any rakin thanks to their shared love language: pranks. From sewerside burrows to palatial penthouses, wattle-and-daub huts to intricate treetop villages, rakin can be found at all levels of society, a product of their ingeniousness and habit of getting into trouble. One is rarely bored around a rakin.&lt;/p&gt;
+&lt;h4&gt;DEIFIC ORIGINS&lt;/h4&gt;
+&lt;p&gt;The mistaken spawn of a passionate tryst between deities of trickery and nature, rakin hold a deep affinity for both domains. Since their creation, they have had little contact with either god, learning to rely on their own wits to survive.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;b&gt;Trickery.&lt;/b&gt; As rakin society progressed, their culture grew to value trickery and subterfuge. Good-natured pranks sprang from their paws as instinctively as breathing. Honed against the fearsome beasts of the forest, this innate talent to deceive helped the rakin bloom as a civilisation. Tales are still told of how Mack Gyver fought off a rampaging owlboar with nought but a goodberry, a silver needle, and a pig’s bladder.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;b&gt;Pranks.&lt;/b&gt; Rakin politics, religion, and interpersonal relationships revolve around the idea of practical jokes. An atmosphere of one-up-manship and lighthearted merriment suffuses all of their wheelings and dealings. Even when faced with the most horrid of circumstances, a rakin’s first instinct is to crack a joke.&lt;/p&gt;
+&lt;h4&gt;IDEOLOGICAL CHASM&lt;/h4&gt;
+&lt;p&gt;After centuries of living in chaotic mirth, an ideological battle split rakin culture in two when they first made contact with other humanoids. Many of the rakin were intrigued by cities—forests of stone and steel, organized yet unpredictable, and full of opportunity. The elders forbade them to interact, alleging such civilization to be directly counter to the chaos that nature intended, the principle upon which rakin culture was built.&lt;/p&gt;
+&lt;p class="indent"&gt;The debacle spiraled into a full-on feud between the opposing rakin factions, sundering the once united race. The urkin broke with tradition and followed their ambition into the cities, whilst the tanukin remained in their indigenous forests, adhering to their ancestral ways.&lt;/p&gt;
+&lt;h4&gt;RAKIN NAMES&lt;/h4&gt;
+&lt;p&gt;Rakin naming conventions differ greatly between the urkin and tanukin subraces, whose cultural structures irrevocably changed after the schism.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;b&gt;Urkin.&lt;/b&gt; Eager to fit in, urkin have adopted the first and last name format of other humanoid races. Typically, an urkin will name themselves, taking the name of a well known figure, and wringing from it the most humorous pun imaginable. Urkin pride themselves on having the cleverest name they know, and will go through dozens in their lifetime.&lt;/p&gt;
+&lt;p class="indent"&gt;&lt;b&gt;Tanukin.&lt;/b&gt; With deeper ties to their ancestry, tanukin stick to one name over the course of their lifetime. Tanukin regard family with uncharacteristic solemnity; their names are a portmanteau of their caregivers’. Because of this, gender plays little to no role in their naming conventions.&lt;/p&gt;
+&lt;h4&gt;RAKIN TRAITS&lt;/h4&gt;
+&lt;p&gt;Rakin share a number of traits in common with each other.&lt;/p&gt;
+&lt;span class="feature"&gt;Ability Score Increase.&lt;/span&gt;Your Dexterity score increases by 2.&lt;br /&gt;
+&lt;span class="feature"&gt;Age.&lt;/span&gt;Rakin age slightly quicker than humans, reaching adulthood by 14. They live to be around 70 years old.&lt;br /&gt;
+&lt;span class="feature"&gt;Size.&lt;/span&gt;Rakin are between 3 and a half to 4 feet tall. They have light gaits but sturdy frames, weighing between 50 and 90 pounds. Your size is Small.&lt;br /&gt;
+&lt;span class="feature"&gt;Speed.&lt;/span&gt;Your base walking speed is &lt;b&gt;30 feet&lt;/b&gt;.&lt;br /&gt;
+&lt;span class="feature"&gt;Darkvision.&lt;/span&gt;You can see in dim light within &lt;b&gt;60 feet&lt;/b&gt; of you as if it were bright light, and in darkness as if it were dim light. You can’t discern colour in darkness, only shades of grey.&lt;br /&gt;
+&lt;span class="feature"&gt;Deft Climber.&lt;/span&gt;You have a climbing speed equal to your walking speed.&lt;br /&gt;
+&lt;span class="feature"&gt;Languages.&lt;/span&gt;You can speak, read, and write Common and one other language of your choice.&lt;br /&gt;
+&lt;span class="feature"&gt;Subraces.&lt;/span&gt;The physical and cultural differences that arose after the rakin’s schism produced two subraces: the urkin and the tanukin. Choose one of these subraces.&lt;br /&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="dexterity" value="2" />
+			<grant type="Size" id="ID_SIZE_SMALL" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Vision" id="ID_VISION_DARKVISION" />
+			<stat name="innate speed:climb" value="30" bonus="base" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<select type="Language" name="Language (Rakin)" />
+			<select type="Sub Race" name="Rakin Subrace" supports="rakin" />
+		</rules>
+	</element>
+	<element name="Urkin" type="Sub Race" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_SUB_RACE_URKIN">
+		<supports>rakin</supports>
+		<description>
+			<html>&lt;p&gt;Urkin society values cunning, savvy, and–above all–the thrill of the heist. This leaves the urkin with a bit of a nasty reputation, a fact that utterly fails to curb their ambitions. Adaptable and resourceful, urkin excel as confidence tricksters and pickpockets.&lt;/p&gt;
+&lt;p&gt;
+&lt;span class="feature"&gt;Ability Score Increase.&lt;/span&gt;Your Intelligence or Charisma score increases by 1 (your choice).&lt;br /&gt;
+&lt;span class="feature"&gt;Streetwise.&lt;/span&gt;You gain proficiency in your choice of the Stealth or Sleight of Hand skills. Additionally, you know thieves’ cant.&lt;br /&gt;
+&lt;span class="feature"&gt;Nimble Dodge.&lt;/span&gt;When you are forced to make a &lt;b&gt;Dexterity&lt;/b&gt; saving throw against an effect you can see, you can use your reaction to gain advantage on the saving throw. Success or failure, immediately after the effect occurs, you can move up to your speed without provoking opportunity attacks. Once you use this trait, you must finish a short or long rest before you can use it again.&lt;br /&gt;
+&lt;/p&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Improvement (Urkin)" supports="ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_CHARISMA" />
+			<select type="Proficiency" name="Proficiency (Urkin)" supports="ID_PROFICIENCY_SKILL_STEALTH|ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
+			<grant type="Language" id="ID_WOTC_PHB_LANGUAGE_THIEVES_CANT" />
+		</rules>
+	</element>
+	<element name="Nimble Dodge" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_NIMBLE_DODGE">
+		<description>
+			<html>When you are forced to make a &lt;b&gt;Dexterity&lt;/b&gt; saving throw against an effect you can see, you can use your reaction to gain advantage on the saving throw. Success or failure, immediately after the effect occurs, you can move up to your speed without provoking opportunity attacks. Once you use this trait, you must finish a short or long rest before you can use it again.</html>
+		</description>
+		<sheet action="Reaction" usage="1/Short Rest">
+			<description>When you are forced to make a &lt;b&gt;Dexterity&lt;/b&gt; saving throw against an effect you can see, you can use your reaction to gain advantage on the saving throw. Success or failure, immediately after the effect occurs, you can move up to your speed without provoking opportunity attacks.</description>
+		</sheet>
+	</element>
+	<element name="Tanukin" type="Sub Race" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_SUB_RACE_TANUKIN">
+		<supports>rakin</supports>
+		<description>
+			<html>&lt;p&gt;Tanukin believe that civilization is a sacrilegious destruction of the beautiful chaos of nature. So rarely do tanukin venture into humanoid settlements that they are often mistaken for racoons, or worse, urkin. The times they do deign to enter the ‘stone forests’, it is to use their illusion magic to evoke the divine chaos and confusion that they associate with the natural world.&lt;/p&gt;
+&lt;p&gt;
+&lt;span class="feature"&gt;Ability Score Increase.&lt;/span&gt; Your Wisdom or Charisma score increases by 1 (your choice).&lt;br /&gt;
+&lt;span class="feature"&gt;Adept Trickster.&lt;/span&gt; You gain proficiency in your choice of the Deception or Persuasion skills.&lt;br /&gt;
+&lt;span class="feature"&gt;Wild Speech.&lt;/span&gt; You have the ability to communicate in a limited manner with beasts. They can understand the meaning of your words, though you have no special ability to understand them in return.&lt;br /&gt;
+&lt;span class="feature"&gt;Tanukin Magic.&lt;/span&gt; You know the minor illusion cantrip. When you reach 3rd level, you can cast the disguise self spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the alter self spell once with this trait and regain the ability to do so when you finish a long rest. Charisma or Wisdom is your spellcasting ability for these spells (your choice when you gain this trait).&lt;br /&gt;
+&lt;/p&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Ability Score Improvement" name="Ability Score Improvement (Tanukin)" supports="ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_CHARISMA" />
+			<select type="Proficiency" name="Proficiency (Tanukin)" supports="ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_PERSUASION" />
+			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_WILD_SPEECH" />
+			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_TANUKIN_MAGIC" />
+		</rules>
+	</element>
+	<element name="Wild Speech" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_WILD_SPEECH">
+		<description>
+			<html>You have the ability to communicate in a limited manner with beasts. They can understand the meaning of your words, though you have no special ability to understand them in return.</html>
+		</description>
+		<sheet>
+			<description>You have the ability to communicate in a limited manner with beasts. They can understand the meaning of your words, though you have no special ability to understand them in return.</description>
+		</sheet>
+	</element>
+	<element name="Tanukin Magic" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_TANUKIN_MAGIC">
+		<description>
+			<html>You know the minor illusion cantrip. When you reach 3rd level, you can cast the disguise self spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the alter self spell once with this trait and regain the ability to do so when you finish a long rest. Charisma or Wisdom is your spellcasting ability for these spells (your choice when you gain this trait).</html>
+		</description>
+		<sheet action="Action" usage="1/Long Rest">
+			<description>When you reach 3rd level, you can cast the disguise self spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the alter self spell once with this trait and regain the ability to do so when you finish a long rest. </description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_MINOR_ILLUSION" />
+			<grant type="Spell" id="ID_PHB_SPELL_DISGUISE_SELF" level="3" />
+			<grant type="Spell" id="ID_PHB_SPELL_ALTER_SELF" level="5" />
+		</rules>
+	</element>
+</elements>

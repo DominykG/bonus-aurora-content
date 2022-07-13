@@ -58,7 +58,7 @@
 		</meta>
 		<sheet display="false" />
 		<rules>
-			<stat name="innate speed:fly" value="15" bonus="base" />
+			<stat name="speed:fly" value="15" bonus="base" />
 		</rules>
 	</element>
 	<element name="Radiant Wing" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_RADIANT_WING">
