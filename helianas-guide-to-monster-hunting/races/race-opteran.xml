@@ -26,7 +26,7 @@
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Racial Trait" name="Metamorphosis" supports="Metamorphosis" />
+			<select type="Racial Trait" name="Metamorphosis" supports="Metamorphosis" level="1" />
 			<stat name="charisma" value="2" />
 			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_STRING_SHOT" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
@@ -35,7 +35,11 @@
 	</element>
 	<element name="Larval Form" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_LARVAL_FORM">
 		<supports>Metamorphosis</supports>
-		<requirements>[level:1]||[level:2]||[level:3]||[level:4]||[level:5]</requirements>
+		<requirements>![level:6]</requirements>
+		<description>
+			<html>Larval Form traits:&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;Many-Footed.&lt;/b&gt; Having many legs and a low centre of gravity gives you extraordinary balance. You have &lt;b&gt;advantage&lt;/b&gt; on ability checks made to maintain your balance, and on checks and saving throws made to prevent the prone condition.</html>
+		</description>
 		<sheet>
 			<description>Your size is small.</description>
 		</sheet>
@@ -72,6 +76,11 @@
 	<element name="Adult Form" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_ADULT_FORM">
 		<supports>Metamorphosis</supports>
 		<requirements>[level:5]</requirements>
+		<description>
+			<html>Adult Form traits:&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;Flight.&lt;/b&gt; As an adult opteran, you have a flying speed of &lt;b&gt;15 feet&lt;/b&gt;. To use this speed, you can’t be wearing medium or heavy armour.&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;Radiant Wing.&lt;/b&gt; Those wings would dazzle any performance. You have advantage on all &lt;b&gt;Charisma&lt;/b&gt; checks.</html>
+		</description>
 		<sheet>
 			<description>Your size is Medium.</description>
 		</sheet>

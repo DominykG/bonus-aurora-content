@@ -35,7 +35,7 @@
 			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_ACIDIC_FLESH" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
 			<select type="Language" name="Language (Oozekin)" />
-			<grant type="Spell" id="ID_HGTMH_SPELL_OOZEKIN_RESHAPEABLE" />
+			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_OOZEKIN_RESHAPEABLE" />
 		</rules>
 	</element>
 	<element name="Size" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_OOZEKIN_SIZE">
@@ -61,7 +61,29 @@
 			<grant type="Spell" id="ID_PHB_SPELL_ACID_SPLASH" />
 		</rules>
 	</element>
-	<element name="Reshapeable" type="Spell" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_SPELL_OOZEKIN_RESHAPEABLE">
+	<element name="* Reshapeable (Cube Form)" type="Spell" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_SPELL_OOZEKIN_RESHAPEABLE_CUBE_FORM">
+		<meta>
+			<parent>Oozekin</parent>
+		</meta>
+		<description>
+			<html>As an action, you can alter your body to assume the form of a cube or a puddle for up to 1 hour. While in either of these forms, you can’t talk; manipulate objects; make attacks; or cast spells. The form you assume has the following effects:&lt;br /&gt;&lt;br /&gt;
+&lt;b&gt;Cube Form.&lt;/b&gt; Your walking speed is halved and your body becomes a 5-foot cube. You can safely store any items you are carrying, holding, or wearing in a vesicle within you body. Creatures directly behind you have three-quarters cover against attacks that originate on the opposite side of you. You also gain a new action option, the Engulf action:&lt;br /&gt;
+  &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;Engulf.&lt;/b&gt; You move up to your speed and can move into the space of one creature of equal or smaller size than you, which must make a Dexterity saving throw (DC = 8 + your Strength modifier + your proficiency bonus). On a failure, if you aren’t already grappling a creature, the creature becomes &lt;b&gt;grappled&lt;/b&gt; by you. While grappled in this way, the creature is &lt;b&gt;restrained&lt;/b&gt; and takes acid damage at the start of each of its turns as if it had failed a saving throw against your &lt;i&gt;acid splash&lt;/i&gt; cantrip.&lt;br /&gt;&lt;br /&gt;</html>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="time">1 action</set>
+			<set name="duration">Up to 1 hour</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+			<set name="school">Transmutation</set>
+		</setters>
+	</element>
+	<element name="Reshapeable" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_OOZEKIN_RESHAPEABLE">
 		<meta>
 			<parent>Oozekin</parent>
 		</meta>
@@ -71,17 +93,33 @@
   &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;Engulf.&lt;/b&gt; You move up to your speed and can move into the space of one creature of equal or smaller size than you, which must make a Dexterity saving throw (DC = 8 + your Strength modifier + your proficiency bonus). On a failure, if you aren’t already grappling a creature, the creature becomes &lt;b&gt;grappled&lt;/b&gt; by you. While grappled in this way, the creature is &lt;b&gt;restrained&lt;/b&gt; and takes acid damage at the start of each of its turns as if it had failed a saving throw against your &lt;i&gt;acid splash&lt;/i&gt; cantrip.&lt;br /&gt;&lt;br /&gt;
   &lt;b&gt;Puddle Form.&lt;/b&gt; Your walking speed is halved as you collapse into a 5-foot-diameter pool. You can’t hold or carry items and any objects you are holding, carrying, or wearing when you transform falls to the ground in your space. While in this form, attack rolls by creatures further than &lt;b&gt;5 feet&lt;/b&gt; away from you have &lt;b&gt;disadvantage&lt;/b&gt; to hit you, you nonmagically gain the benefits of the &lt;i&gt;spider climb&lt;/i&gt; spell, and you can travel through spaces as small as 1 inch wide without squeezing.</html>
 		</description>
+		<sheet action="Action">
+			<description>As an action, you can alter your body to assume the form of a cube or a puddle for up to 1 hour. While in either of these forms, you can’t talk; manipulate objects; make attacks; or cast spells. (Details of each form could be viewed as spell cards, cantrips)</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_HGTMH_SPELL_OOZEKIN_RESHAPEABLE_CUBE_FORM" />
+			<grant type="Spell" id="ID_HGTMH_SPELL_OOZEKIN_RESHAPEABLE_PUDDLE_FORM" />
+		</rules>
+	</element>
+	<element name="* Reshapeable (Puddle Form)" type="Spell" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_SPELL_OOZEKIN_RESHAPEABLE_PUDDLE_FORM">
+		<meta>
+			<parent>Oozekin</parent>
+		</meta>
+		<description>
+			<html>&lt;b&gt;Puddle Form.&lt;/b&gt; Your walking speed is halved as you collapse into a 5-foot-diameter pool. You can’t hold or carry items and any objects you are holding, carrying, or wearing when you transform falls to the ground in your space. While in this form, attack rolls by creatures further than &lt;b&gt;5 feet&lt;/b&gt; away from you have &lt;b&gt;disadvantage&lt;/b&gt; to hit you, you nonmagically gain the benefits of the &lt;i&gt;spider climb&lt;/i&gt; spell, and you can travel through spaces as small as 1 inch wide without squeezing.</html>
+		</description>
 		<setters>
-			<set name="level">0</set>
+			<set name="level">1</set>
+			<set name="school">Transmutation</set>
 			<set name="time">1 action</set>
-			<set name="duration">1 hour</set>
+			<set name="duration">Up to 1 hour</set>
 			<set name="range">Self</set>
 			<set name="hasVerbalComponent">false</set>
 			<set name="hasSomaticComponent">false</set>
 			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
 			<set name="isConcentration">false</set>
 			<set name="isRitual">false</set>
-			<set name="school">Transmutation</set>
 		</setters>
 	</element>
 </elements>

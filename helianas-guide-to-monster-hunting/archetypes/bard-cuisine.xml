@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="College of Cuisine" type="Archetype" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_ARCHETYPE_BARD_COLLEGE_OF_CUISINE">
+		<meta>
+			<parent>Bard</parent>
+		</meta>
+		<supports>Bard College</supports>
+		<description>
+			<html>&lt;p&gt;Food: it fuels thought, builds bones, and delights the senses. But more than that, breaking bread with a foe can be the beginning of a lasting peace, sculptures of sugar glass can inspire architects to design soaring cities, and the fusion of disparate culinary traditions can tie cultures together. Though we see food every day, it is truly the epitome of inspiration.&lt;/p&gt;
+&lt;p class="indent"&gt;Bards from the College of Cuisine are as prized in the kitchens of nobles as in the mess halls of the rank and file. While peace treaties might be signed over hoisin-glazed duck with sides of spiced jackfruit and crispy shallots, it is the well-fed army that will win the war on a hearty oat and raisin porridge. Such bards never struggle to find employment; they travel where their work is appreciated, be their diners highborn or down-to-earth.&lt;/p&gt;
+&lt;div element="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_CULINARY_EXPLORATION" /&gt;
+&lt;div element="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_PETIT_FOURS" /&gt;
+&lt;div element="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_CULINARY_SPECIALISATION" /&gt;
+&lt;div element="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_EXECUTIVE_CHEF" /&gt;
+&lt;div element="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_SLOW_COOKING" /&gt;
+&lt;div element="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_FAST_FOOD" /&gt;
+&lt;div element="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_PATISSIER" /&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_CULINARY_EXPLORATION" level="3" />
+			<grant type="Archetype Feature" id="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_PETIT_FOURS" level="3" />
+			<grant type="Archetype Feature" id="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_CULINARY_SPECIALISATION" level="6" />
+			<grant type="Archetype Feature" id="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_EXECUTIVE_CHEF" level="14" />
+			<grant type="Archetype Feature" id="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_SLOW_COOKING" level="14" />
+			<grant type="Archetype Feature" id="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_FAST_FOOD" level="14" />
+			<grant type="Archetype Feature" id="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_PATISSIER" level="14" />
+			<stat name="cuisine:spellcasting:slots:1" value="2" level="1" />
+		</rules>
+	</element>
+	<element name="Culinary Exploration" type="Archetype Feature" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_CULINARY_EXPLORATION">
+		<meta>
+			<parent>College of Cuisine</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;Years spent adapting recipes allows you to try unheard-of combinations of ingredients.  After you reach level 3 you gain proficiency with cook’s utensils, which you can use as a spellcasting focus, and your proficiency bonus is doubled for any ability checks you make that uses these uten sils to prepare food. In addition, whenever you craft a food (see page 137), you can add one additional ingredient to the recipe, conferring the benefits of that ingredient to the dish on a successful Cooking check.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You can use cooking utensils as a spellcasting focus, and your proficiency bonus is doubled for any ability checks you make that uses these utensils to prepare food. In addition, whenever you craft a food (see page 137 of HGtMH), you can add one additional ingredient to the recipe, conferring the benefits of that ingredient to the dish on a successful Cooking check.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS" />
+		</rules>
+	</element>
+	<element name="Petit Fours" type="Archetype Feature" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_PETIT_FOURS">
+		<meta>
+			<parent>College of Cuisine</parent>
+		</meta>
+		<description>
+			<html>Also at level 3 you gain this ability.
+&lt;p&gt;During a short or long rest, you can create a number of magical treats equal to your Charisma modifier (minimum one). Choose one of the flavours from the list below with which to imbue these treats, which remain magical until you finish a short or long rest.&lt;/p&gt;
+&lt;p class="indent"&gt;A creature can use an action or bonus action to eat a treat, gaining a benefit based on the treat’s flavour which, unless otherwise stated, lasts until the end of its next turn.&lt;/p&gt;
+&lt;p class="indent"&gt;As a bonus action, you can expend one use of your Bardic Inspiration, teleporting any number of treats on your person next to creatures you can see within &lt;b&gt;60 feet&lt;/b&gt; of you, where they remain, hovering near the creature’s mouth. Such a creature can use its reaction to eat the treat, or it can do so on its next turn as a bonus action. Otherwise, the treat falls to the ground.&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;&lt;b&gt;Bitter.&lt;/b&gt; The creature gains resistance to poison damage and has advantage on saving throws made to resist the poisoned condition.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Salty.&lt;/b&gt; The creature gains advantage on Wisdom saving throws and is immune to the charmed condition.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Sour.&lt;/b&gt; The creature’s weapon attacks deal bonus acid damage equal to one roll of your Bardic Inspiration die.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Sweet.&lt;/b&gt; The creature gains temporary hit points equal to one roll of your Bardic Inspiration die plus your Charisma modifier (minimum 1) that last for 1 hour.&lt;/li&gt;
+	&lt;li&gt;&lt;b&gt;Umami.&lt;/b&gt; The creature gains a +2 bonus to its AC.&lt;/li&gt;
+&lt;/ul&gt;</html>
+		</description>
+		<sheet>
+			<description>Create magical treats and feed them to your companions! (For further details see spell cards, cantrips)</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_HGTMH_SPELL_COLLEGE_OF_CUISINE_PETIT_FOURS_CREATE_TREATS" />
+			<grant type="Spell" id="ID_HGTMH_SPELL_COLLEGE_OF_CUISINE_PETIT_FOURS_FEED" />
+		</rules>
+	</element>
+	<element name="Culinary Specialisation" type="Archetype Feature" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_CULINARY_SPECIALISATION">
+		<meta>
+			<parent>College of Cuisine</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;At level 6, you pursue a particular style of cuisine, choosing from the list below and gaining its feature.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Slow Cooking.&lt;/b&gt; You gain proficiency with medium armour, heavy armour, shields, and martial weapons. At the start of each of your turns, you gain temporary hit points equal to your proficiency bonus.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Fast Food.&lt;/b&gt; You gain proficiency with medium armour and you can attack twice, instead of once, whenever you take the Attack action on your turn.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Patissier.&lt;/b&gt; You learn two spells of your choice from any spell list. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip. These don’t count against the number of bard spells you know.&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;In addition, when you finish a short rest, you can expend one use of your Bardic Inspiration, rolling the die and recovering a number of levels of spell slots with a combined value equal to or less than the value rolled, and none of the spell slots can be 6th level or higher. Once you use this feature, you can’t do so again until you finish a long rest.&lt;/li&gt;
+&lt;/ul&gt;</html>
+		</description>
+		<sheet>
+			<description />
+		</sheet>
+		<rules>
+			<select type="Archetype Feature" name="Culinary Specialisation" supports="Culinary Specialisation" />
+		</rules>
+		<spellcasting name="Bard" ability="Charisma" allowReplace="true" extend="true" />
+	</element>
+	<element name="Executive Chef" type="Archetype Feature" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_EXECUTIVE_CHEF">
+		<meta>
+			<parent>College of Cuisine</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;Starting at level 14, your confidence and authority in the kitchen translates to battlefield command. When a creature that can hear you rolls one of your Bardic Inspiration dice or eats one of your Petit Fours, you can shout authoritative, verbal encouragement (no action required). The creature can immediately use its reaction to either make one weapon attack or move up to its speed without provoking opportunity attacks. A creature that eats a Petit Fours can attack or move as described as part of the same reaction, action, or bonus action used to eat the Petit Fours.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>When a creature that can hear you rolls one of your Bardic Inspiration dice or eats one of your Petit Fours, you can shout authoritative, verbal encouragement (no action required). The creature can immediately use its reaction to either make one weapon attack or move up to its speed without provoking opportunity attacks. A creature that eats a Petit Fours can attack or move as described as part of the same reaction, action, or bonus action used to eat the Petit Fours.</description>
+		</sheet>
+	</element>
+	<element name="*Petit Fours (Create treats)" type="Spell" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_SPELL_COLLEGE_OF_CUISINE_PETIT_FOURS_CREATE_TREATS">
+		<meta>
+			<parent>College of Cuisine</parent>
+		</meta>
+		<description>
+			<html>During a short or long rest, you can create a number of magical treats equal to your Charisma modifier (minimum one). Choose one of the flavours from the list below with which to imbue these treats, which remain magical until you finish a short or long rest.&lt;br /&gt;&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A creature can use an action or bonus action to eat a treat, gaining a benefit based on the treat’s flavour which, unless otherwise stated, lasts until the end of its next turn.&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;Bitter.&lt;/b&gt; The creature gains resistance to poison damage and has advantage on saving throws made to resist the poisoned condition.&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;Salty.&lt;/b&gt; The creature gains advantage on Wisdom saving throws and is immune to the charmed condition.&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;Sour.&lt;/b&gt; The creature’s weapon attacks deal bonus acid damage equal to one roll of your Bardic Inspiration die.&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;Sweet.&lt;/b&gt; The creature gains temporary hit points equal to one roll of your Bardic Inspiration die plus your Charisma modifier (minimum 1) that last for 1 hour.&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;Umami.&lt;/b&gt; The creature gains a +2 bonus to its AC.</html>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Conjuration</set>
+			<set name="time">A short or long rest.</set>
+			<set name="duration">Until you finish a short or long rest.</set>
+			<set name="range">Self</set>
+			<set name="hasVerbalComponent">false</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">false</set>
+			<set name="materialComponent" />
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="*Petit Fours (Feed)" type="Spell" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_SPELL_COLLEGE_OF_CUISINE_PETIT_FOURS_FEED">
+		<meta>
+			<parent>College of Cuisine</parent>
+		</meta>
+		<description>
+			<html>&lt;p&gt;As a bonus action, you can expend one use of your Bardic Inspiration, teleporting any number of treats on your person next to creatures you can see within 60 feet of you, where they remain, hovering near the creature’s mouth. Such a creature can use its reaction to eat the treat, or it can do so on its next turn as a bonus action. Otherwise, the treat falls to the ground.&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="level">0</set>
+			<set name="school">Conjuration</set>
+			<set name="time">1 bonus action</set>
+			<set name="duration">Special</set>
+			<set name="range">Sight (60-feet)</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">false</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">Magical treats</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+	<element name="Slow Cooking" type="Archetype Feature" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_SLOW_COOKING">
+		<meta>
+			<parent>College of Cuisine</parent>
+		</meta>
+		<supports>Culinary Specialisation</supports>
+		<description>
+			<html>&lt;p&gt;You gain proficiency with medium armour, heavy armour, shields, and martial weapons. At the start of each of your turns, you gain temporary hit points equal to your proficiency bonus.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>At the start of each of your turns, you gain temporary hit points equal to your proficiency bonus.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
+		</rules>
+	</element>
+	<element name="Fast Food" type="Archetype Feature" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_FAST_FOOD">
+		<meta>
+			<parent>College of Cuisine</parent>
+		</meta>
+		<supports>Culinary Specialisation</supports>
+		<description>
+			<html>&lt;p&gt;You gain proficiency with medium armour and you can attack twice, instead of once, whenever you take the Attack action on your turn.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
+		</sheet>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
+		</rules>
+	</element>
+	<element name="Patissier" type="Archetype Feature" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_PATISSIER">
+		<meta>
+			<parent>College of Cuisine</parent>
+		</meta>
+		<supports>Culinary Specialisation</supports>
+		<description>
+			<html>&lt;p&gt;You learn two spells of your choice from any spell list. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip. These don’t count against the number of bard spells you know.&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;In addition, when you finish a short rest, you can expend one use of your Bardic Inspiration, rolling the die and recovering a number of levels of spell slots with a combined value equal to or less than the value rolled, and none of the spell slots can be 6th level or higher. Once you use this feature, you can’t do so again until you finish a long rest.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>When you finish a short rest, you can expend one use of your Bardic Inspiration, rolling the die and recovering a number of levels of spell slots with a combined value equal to or less than the value rolled, and none of the spell slots can be 6th level or higher. Once you use this feature, you can’t do so again until you finish a long rest.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Patissier" supports="(0)||(1)||(2)||(3)" level="6" number="2" />
+		</rules>
+	</element>
+</elements>
