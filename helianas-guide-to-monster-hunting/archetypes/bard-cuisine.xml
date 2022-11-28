@@ -6,15 +6,12 @@
 		</meta>
 		<supports>Bard College</supports>
 		<description>
-			<html>&lt;p&gt;Food: it fuels thought, builds bones, and delights the senses. But more than that, breaking bread with a foe can be the beginning of a lasting peace, sculptures of sugar glass can inspire architects to design soaring cities, and the fusion of disparate culinary traditions can tie cultures together. Though we see food every day, it is truly the epitome of inspiration.&lt;/p&gt;
-&lt;p class="indent"&gt;Bards from the College of Cuisine are as prized in the kitchens of nobles as in the mess halls of the rank and file. While peace treaties might be signed over hoisin-glazed duck with sides of spiced jackfruit and crispy shallots, it is the well-fed army that will win the war on a hearty oat and raisin porridge. Such bards never struggle to find employment; they travel where their work is appreciated, be their diners highborn or down-to-earth.&lt;/p&gt;
-&lt;div element="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_CULINARY_EXPLORATION" /&gt;
-&lt;div element="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_PETIT_FOURS" /&gt;
-&lt;div element="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_CULINARY_SPECIALISATION" /&gt;
-&lt;div element="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_EXECUTIVE_CHEF" /&gt;
-&lt;div element="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_SLOW_COOKING" /&gt;
-&lt;div element="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_FAST_FOOD" /&gt;
-&lt;div element="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_PATISSIER" /&gt;</html>
+			<p>Food: it fuels thought, builds bones, and delights the senses. But more than that, breaking bread with a foe can be the beginning of a lasting peace, sculptures of sugar glass can inspire architects to design soaring cities, and the fusion of disparate culinary traditions can tie cultures together. Though we see food every day, it is truly the epitome of inspiration.</p>
+			<p class="indent">Bards from the College of Cuisine are as prized in the kitchens of nobles as in the mess halls of the rank and file. While peace treaties might be signed over hoisin-glazed duck with sides of spiced jackfruit and crispy shallots, it is the well-fed army that will win the war on a hearty oat and raisin porridge. Such bards never struggle to find employment; they travel where their work is appreciated, be their diners highborn or down-to-earth.</p>
+			<div element="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_CULINARY_EXPLORATION" />
+			<div element="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_PETIT_FOURS" />
+			<div element="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_CULINARY_SPECIALISATION" />
+			<div element="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_EXECUTIVE_CHEF" />
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -22,10 +19,6 @@
 			<grant type="Archetype Feature" id="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_PETIT_FOURS" level="3" />
 			<grant type="Archetype Feature" id="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_CULINARY_SPECIALISATION" level="6" />
 			<grant type="Archetype Feature" id="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_EXECUTIVE_CHEF" level="14" />
-			<grant type="Archetype Feature" id="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_SLOW_COOKING" level="14" />
-			<grant type="Archetype Feature" id="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_FAST_FOOD" level="14" />
-			<grant type="Archetype Feature" id="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_PATISSIER" level="14" />
-			<stat name="cuisine:spellcasting:slots:1" value="2" level="1" />
 		</rules>
 	</element>
 	<element name="Culinary Exploration" type="Archetype Feature" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_ARCHETYPE_FEATURE_COLLEGE_OF_CUISINE_CULINARY_EXPLORATION">
@@ -33,7 +26,8 @@
 			<parent>College of Cuisine</parent>
 		</meta>
 		<description>
-			<html>&lt;p&gt;Years spent adapting recipes allows you to try unheard-of combinations of ingredients.  After you reach level 3 you gain proficiency with cook’s utensils, which you can use as a spellcasting focus, and your proficiency bonus is doubled for any ability checks you make that uses these uten sils to prepare food. In addition, whenever you craft a food (see page 137), you can add one additional ingredient to the recipe, conferring the benefits of that ingredient to the dish on a successful Cooking check.&lt;/p&gt;</html>
+			<p>3rd-level College of Cuisine feature.</p>
+			<p>Years spent adapting recipes allows you to try unheard-of combinations of ingredients. You gain proficiency with cook’s utensils, which you can use as a spellcasting focus, and your proficiency bonus is doubled for any ability checks you make that uses these uten sils to prepare food. In addition, whenever you craft a food (see page 137), you can add one additional ingredient to the recipe, conferring the benefits of that ingredient to the dish on a successful Cooking check.</p>
 		</description>
 		<sheet>
 			<description>You can use cooking utensils as a spellcasting focus, and your proficiency bonus is doubled for any ability checks you make that uses these utensils to prepare food. In addition, whenever you craft a food (see page 137 of HGtMH), you can add one additional ingredient to the recipe, conferring the benefits of that ingredient to the dish on a successful Cooking check.</description>
@@ -47,17 +41,17 @@
 			<parent>College of Cuisine</parent>
 		</meta>
 		<description>
-			<html>Also at level 3 you gain this ability.
-&lt;p&gt;During a short or long rest, you can create a number of magical treats equal to your Charisma modifier (minimum one). Choose one of the flavours from the list below with which to imbue these treats, which remain magical until you finish a short or long rest.&lt;/p&gt;
-&lt;p class="indent"&gt;A creature can use an action or bonus action to eat a treat, gaining a benefit based on the treat’s flavour which, unless otherwise stated, lasts until the end of its next turn.&lt;/p&gt;
-&lt;p class="indent"&gt;As a bonus action, you can expend one use of your Bardic Inspiration, teleporting any number of treats on your person next to creatures you can see within &lt;b&gt;60 feet&lt;/b&gt; of you, where they remain, hovering near the creature’s mouth. Such a creature can use its reaction to eat the treat, or it can do so on its next turn as a bonus action. Otherwise, the treat falls to the ground.&lt;/p&gt;
-&lt;ul&gt;
-	&lt;li&gt;&lt;b&gt;Bitter.&lt;/b&gt; The creature gains resistance to poison damage and has advantage on saving throws made to resist the poisoned condition.&lt;/li&gt;
-	&lt;li&gt;&lt;b&gt;Salty.&lt;/b&gt; The creature gains advantage on Wisdom saving throws and is immune to the charmed condition.&lt;/li&gt;
-	&lt;li&gt;&lt;b&gt;Sour.&lt;/b&gt; The creature’s weapon attacks deal bonus acid damage equal to one roll of your Bardic Inspiration die.&lt;/li&gt;
-	&lt;li&gt;&lt;b&gt;Sweet.&lt;/b&gt; The creature gains temporary hit points equal to one roll of your Bardic Inspiration die plus your Charisma modifier (minimum 1) that last for 1 hour.&lt;/li&gt;
-	&lt;li&gt;&lt;b&gt;Umami.&lt;/b&gt; The creature gains a +2 bonus to its AC.&lt;/li&gt;
-&lt;/ul&gt;</html>
+			<p>3rd-level College of Cuisine feature.</p>
+			<p>During a short or long rest, you can create a number of magical treats equal to your Charisma modifier (minimum one). Choose one of the flavours from the list below with which to imbue these treats, which remain magical until you finish a short or long rest.</p>
+			<p class="indent">A creature can use an action or bonus action to eat a treat, gaining a benefit based on the treat’s flavour which, unless otherwise stated, lasts until the end of its next turn.</p>
+			<p class="indent">As a bonus action, you can expend one use of your Bardic Inspiration, teleporting any number of treats on your person next to creatures you can see within <b>60 feet</b> of you, where they remain, hovering near the creature’s mouth. Such a creature can use its reaction to eat the treat, or it can do so on its next turn as a bonus action. Otherwise, the treat falls to the ground.</p>
+			<ul>
+				<li><b>Bitter.</b> The creature gains resistance to poison damage and has advantage on saving throws made to resist the poisoned condition.</li>
+				<li><b>Salty.</b> The creature gains advantage on Wisdom saving throws and is immune to the charmed condition.</li>
+				<li><b>Sour.</b> The creature’s weapon attacks deal bonus acid damage equal to one roll of your Bardic Inspiration die.</li>
+				<li><b>Sweet.</b> The creature gains temporary hit points equal to one roll of your Bardic Inspiration die plus your Charisma modifier (minimum 1) that last for 1 hour.</li>
+				<li><b>Umami.</b> The creature gains a +2 bonus to its AC.</li>
+			</ul>
 		</description>
 		<sheet>
 			<description>Create magical treats and feed them to your companions! (For further details see spell cards, cantrips)</description>
@@ -72,13 +66,14 @@
 			<parent>College of Cuisine</parent>
 		</meta>
 		<description>
-			<html>&lt;p&gt;At level 6, you pursue a particular style of cuisine, choosing from the list below and gaining its feature.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;b&gt;Slow Cooking.&lt;/b&gt; You gain proficiency with medium armour, heavy armour, shields, and martial weapons. At the start of each of your turns, you gain temporary hit points equal to your proficiency bonus.&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Fast Food.&lt;/b&gt; You gain proficiency with medium armour and you can attack twice, instead of once, whenever you take the Attack action on your turn.&lt;/li&gt;
-&lt;li&gt;&lt;b&gt;Patissier.&lt;/b&gt; You learn two spells of your choice from any spell list. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip. These don’t count against the number of bard spells you know.&lt;br /&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;In addition, when you finish a short rest, you can expend one use of your Bardic Inspiration, rolling the die and recovering a number of levels of spell slots with a combined value equal to or less than the value rolled, and none of the spell slots can be 6th level or higher. Once you use this feature, you can’t do so again until you finish a long rest.&lt;/li&gt;
-&lt;/ul&gt;</html>
+			<p>6th-level College of Cuisine feature.</p>
+			<p>You pursue a particular style of cuisine, choosing from the list below and gaining its feature.</p>
+			<ul>
+			<li><b>Slow Cooking.</b> You gain proficiency with medium armour, heavy armour, shields, and martial weapons. At the start of each of your turns, you gain temporary hit points equal to your proficiency bonus.</li>
+			<li><b>Fast Food.</b> You gain proficiency with medium armour and you can attack twice, instead of once, whenever you take the Attack action on your turn.</li>
+			<li><b>Patissier.</b> You learn two spells of your choice from any spell list. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip. These don’t count against the number of bard spells you know.<br /><br />
+			<p>In addition, when you finish a short rest, you can expend one use of your Bardic Inspiration, rolling the die and recovering a number of levels of spell slots with a combined value equal to or less than the value rolled, and none of the spell slots can be 6th level or higher. Once you use this feature, you can’t do so again until you finish a long rest.</p></li>
+			</ul>
 		</description>
 		<sheet>
 			<description />
@@ -93,7 +88,8 @@
 			<parent>College of Cuisine</parent>
 		</meta>
 		<description>
-			<html>&lt;p&gt;Starting at level 14, your confidence and authority in the kitchen translates to battlefield command. When a creature that can hear you rolls one of your Bardic Inspiration dice or eats one of your Petit Fours, you can shout authoritative, verbal encouragement (no action required). The creature can immediately use its reaction to either make one weapon attack or move up to its speed without provoking opportunity attacks. A creature that eats a Petit Fours can attack or move as described as part of the same reaction, action, or bonus action used to eat the Petit Fours.&lt;/p&gt;</html>
+			<p>14th-level College of Cuisine feature.</p>
+			<p>Your confidence and authority in the kitchen translates to battlefield command. When a creature that can hear you rolls one of your Bardic Inspiration dice or eats one of your Petit Fours, you can shout authoritative, verbal encouragement (no action required). The creature can immediately use its reaction to either make one weapon attack or move up to its speed without provoking opportunity attacks. A creature that eats a Petit Fours can attack or move as described as part of the same reaction, action, or bonus action used to eat the Petit Fours.</p>
 		</description>
 		<sheet>
 			<description>When a creature that can hear you rolls one of your Bardic Inspiration dice or eats one of your Petit Fours, you can shout authoritative, verbal encouragement (no action required). The creature can immediately use its reaction to either make one weapon attack or move up to its speed without provoking opportunity attacks. A creature that eats a Petit Fours can attack or move as described as part of the same reaction, action, or bonus action used to eat the Petit Fours.</description>
@@ -104,13 +100,13 @@
 			<parent>College of Cuisine</parent>
 		</meta>
 		<description>
-			<html>During a short or long rest, you can create a number of magical treats equal to your Charisma modifier (minimum one). Choose one of the flavours from the list below with which to imbue these treats, which remain magical until you finish a short or long rest.&lt;br /&gt;&lt;br /&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A creature can use an action or bonus action to eat a treat, gaining a benefit based on the treat’s flavour which, unless otherwise stated, lasts until the end of its next turn.&lt;br /&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;Bitter.&lt;/b&gt; The creature gains resistance to poison damage and has advantage on saving throws made to resist the poisoned condition.&lt;br /&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;Salty.&lt;/b&gt; The creature gains advantage on Wisdom saving throws and is immune to the charmed condition.&lt;br /&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;Sour.&lt;/b&gt; The creature’s weapon attacks deal bonus acid damage equal to one roll of your Bardic Inspiration die.&lt;br /&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;Sweet.&lt;/b&gt; The creature gains temporary hit points equal to one roll of your Bardic Inspiration die plus your Charisma modifier (minimum 1) that last for 1 hour.&lt;br /&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;Umami.&lt;/b&gt; The creature gains a +2 bonus to its AC.</html>
+			During a short or long rest, you can create a number of magical treats equal to your Charisma modifier (minimum one). Choose one of the flavours from the list below with which to imbue these treats, which remain magical until you finish a short or long rest.<br /><br />
+			A creature can use an action or bonus action to eat a treat, gaining a benefit based on the treat’s flavour which, unless otherwise stated, lasts until the end of its next turn.<br />
+			<b>Bitter.</b> The creature gains resistance to poison damage and has advantage on saving throws made to resist the poisoned condition.<br />
+			<b>Salty.</b> The creature gains advantage on Wisdom saving throws and is immune to the charmed condition.<br />
+			<b>Sour.</b> The creature’s weapon attacks deal bonus acid damage equal to one roll of your Bardic Inspiration die.<br />
+			<b>Sweet.</b> The creature gains temporary hit points equal to one roll of your Bardic Inspiration die plus your Charisma modifier (minimum 1) that last for 1 hour.<br />
+			<b>Umami.</b> The creature gains a +2 bonus to its AC.
 		</description>
 		<setters>
 			<set name="level">0</set>
@@ -131,7 +127,7 @@
 			<parent>College of Cuisine</parent>
 		</meta>
 		<description>
-			<html>&lt;p&gt;As a bonus action, you can expend one use of your Bardic Inspiration, teleporting any number of treats on your person next to creatures you can see within 60 feet of you, where they remain, hovering near the creature’s mouth. Such a creature can use its reaction to eat the treat, or it can do so on its next turn as a bonus action. Otherwise, the treat falls to the ground.&lt;/p&gt;</html>
+			<p>As a bonus action, you can expend one use of your Bardic Inspiration, teleporting any number of treats on your person next to creatures you can see within 60 feet of you, where they remain, hovering near the creature’s mouth. Such a creature can use its reaction to eat the treat, or it can do so on its next turn as a bonus action. Otherwise, the treat falls to the ground.</p>
 		</description>
 		<setters>
 			<set name="level">0</set>
@@ -153,7 +149,7 @@
 		</meta>
 		<supports>Culinary Specialisation</supports>
 		<description>
-			<html>&lt;p&gt;You gain proficiency with medium armour, heavy armour, shields, and martial weapons. At the start of each of your turns, you gain temporary hit points equal to your proficiency bonus.&lt;/p&gt;</html>
+			<p>You gain proficiency with medium armour, heavy armour, shields, and martial weapons. At the start of each of your turns, you gain temporary hit points equal to your proficiency bonus.</p>
 		</description>
 		<sheet>
 			<description>At the start of each of your turns, you gain temporary hit points equal to your proficiency bonus.</description>
@@ -171,7 +167,7 @@
 		</meta>
 		<supports>Culinary Specialisation</supports>
 		<description>
-			<html>&lt;p&gt;You gain proficiency with medium armour and you can attack twice, instead of once, whenever you take the Attack action on your turn.&lt;/p&gt;</html>
+			<p>You gain proficiency with medium armour and you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
 		</description>
 		<sheet>
 			<description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
@@ -186,8 +182,8 @@
 		</meta>
 		<supports>Culinary Specialisation</supports>
 		<description>
-			<html>&lt;p&gt;You learn two spells of your choice from any spell list. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip. These don’t count against the number of bard spells you know.&lt;br /&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;In addition, when you finish a short rest, you can expend one use of your Bardic Inspiration, rolling the die and recovering a number of levels of spell slots with a combined value equal to or less than the value rolled, and none of the spell slots can be 6th level or higher. Once you use this feature, you can’t do so again until you finish a long rest.&lt;/p&gt;</html>
+			<p>You learn two spells of your choice from any spell list. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip. These don’t count against the number of bard spells you know.</p>
+			<p class="indent">In addition, when you finish a short rest, you can expend one use of your Bardic Inspiration, rolling the die and recovering a number of levels of spell slots with a combined value equal to or less than the value rolled, and none of the spell slots can be 6th level or higher. Once you use this feature, you can’t do so again until you finish a long rest.</p>
 		</description>
 		<sheet>
 			<description>When you finish a short rest, you can expend one use of your Bardic Inspiration, rolling the die and recovering a number of levels of spell slots with a combined value equal to or less than the value rolled, and none of the spell slots can be 6th level or higher. Once you use this feature, you can’t do so again until you finish a long rest.</description>
