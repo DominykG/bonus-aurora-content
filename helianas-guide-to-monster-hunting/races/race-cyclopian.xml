@@ -2,33 +2,33 @@
 <elements>
 	<element name="Cyclopian" type="Race" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACE_CYCLOPIAN">
 		<description>
-			<html>&lt;p class="flavor"&gt;The pursuit of knowledge, the acquisition of secrets, and the hoarding of trinkets with storied histories are common practices among any creature raised by cyclopians (sy-CLO-pee-ans). From dog tags to tapestries, musical manuscripts to carved tablets, magical memory orbs to worthless heirlooms, their ‘libraries’ (as cyclopians refer to their homes) are filled with knowledge. With their physical adaptation to climbing, cyclopian homes are often found high up in cliffsides, within abandoned wizards’ towers, or deep in The Low.&lt;/p&gt;
-&lt;h4&gt;MONOCULAR AND MYOPIC&lt;/h4&gt;
-&lt;p&gt;A cyclopian’s singular eye is the perfect metaphor for this race’s almost-myopic tendency to focus on one thing to the exclusion of all others. When a cyclopian finds a topic that interests them, little can stop their manic and feverish efforts to acquire any relevant documents, information, or answers. Indeed, the famed cyclopian researcher Roza “Thanks” Thanklinds is rumoured to have forgone sleep for more than two months while analysing the crystallised mut-x from the former laboratory of Dr. Frank. N. Stein. Of course, this feat was made all the easier thanks to cyclopians’ ability to metabolise knowledge into actual, physical, nutritional value.&lt;/p&gt;
-&lt;h4&gt;ARCANISTS ANALOGUE&lt;/h4&gt;
-&lt;p&gt;When a powerful and evil lich placed wards on his darkest research, he chose the humble cyclopian as the template for the transmutative traps he sequestered. Other wizards who studied this evil lich’s work too closely were transformed into monstrous cyclopian facsimiles by the hidden curses. These skulking creatures are often mistaken for cyclopians; both share a hulking monocular physiology and a hunger for knowledge. However, a brief observation can yield one significant difference: the skulking simulacra leave a trail of rot and necrosis wherever they travel while no true cyclopian would ever risk damaging a book in this way.&lt;/p&gt;
-&lt;h4&gt;PILGRIMAGE OF HUGE DISCOVERY&lt;/h4&gt;
-&lt;p&gt;Cyclopians of a certain age often embark on a &lt;i&gt;Pilgrimage of Huge Discovery&lt;/i&gt;, or PHD. During this time, they venture out into the world, seeking to bring new and significant knowledge back to their library. For some individuals, the natural compulsion to explore is all the impetus they need to leave the comfort of their home. On the other hand, more reticent cyclopians might have to be forced out by their family, fulfilling this rite of passage based on a sense of duty. Cyclopians who fixate on the acquisition of artifacts, rather than the joy of studying them, are regarded as rare and valuable assets to any family; cyclopian adventurers are always warmly welcomed back to their library.&lt;/p&gt;
-&lt;h4&gt;SHARING IS CARING&lt;/h4&gt;
-&lt;p&gt;Cyclopians have an unusual lifecycle. Though they can reproduce sexually, cyclopians are also capabale of a form of asexual budding. When a cyclopian is beyond inundated by the volume of knowledge awaiting their analysis (such as after it gains entry into an abandoned, book-filled wizard’s tower), it can spontaneously and unexpectedly undergo an entire body mitosis. This produces a similar, though genetically distinct, individual—an assistant with whom the research can be more manageably catalogued.&lt;/p&gt;
-&lt;h4&gt;CYCLOPIAN TRAITS&lt;/h4&gt;
-&lt;p&gt;As a cyclopian, you have the following racial traits.&lt;/p&gt;
-&lt;span class="feature"&gt;Ability Score Increase.&lt;/span&gt;Your Dexterity score increases by 2, and either your Intelligence score or Wisdom score increases by 1 (your choice).&lt;br /&gt;
-&lt;span class="feature"&gt;Age.&lt;/span&gt;Cyclopians reach maturity in their early teens and typically live as long as humans.&lt;br /&gt;
-&lt;span class="feature"&gt;Size.&lt;/span&gt;With their crouched and hulking posture, Cyclopians typically appear smaller than they are. At full stretch, a cyclopian stands between 5 and 6 feet tall. Your size is Medium.&lt;br /&gt;
-&lt;span class="feature"&gt;Speed.&lt;/span&gt;Your base walking speed is 30 feet.&lt;br /&gt;
-&lt;span class="feature"&gt;Darkvision.&lt;/span&gt;Accustomed to life in dimly-lit libraries, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern colour in darkness, only shades of grey.&lt;br /&gt;
-&lt;span class="feature"&gt;Knowledge Seeker.&lt;/span&gt;Learning is an almost irresistible compulsion amongst cyclopians. You have proficiency in your choice of one of the following skills: Arcana, History, Investigation, Medicine, and Religion.&lt;br /&gt;
-&lt;span class="feature"&gt;Savant of Secrets&lt;/span&gt;You can tap into your ancestral ability to spot the telltale signs of hidden traps, passages, and secrets. As an action, you can enter a cyclotrance for &lt;b&gt;1 minute&lt;/b&gt;. For the duration, you have &lt;b&gt;advantage&lt;/b&gt; on Perception, Investigation, or Insight checks. Once you activate this trait, you can’t do so again until you finish a long rest.&lt;br /&gt;
-&lt;span class="feature"&gt;Shadow Watcher.&lt;/span&gt;You are proficient in moving and observing from the shadows. You have proficiency in your choice of one of the following skills: Insight, Perception, and Stealth.&lt;br /&gt;
-&lt;span class="feature"&gt;Thought for Food.&lt;/span&gt;Information is nourishing for  cyclopians, in the truest sense of the word. Each day that you discover significant new information (GM’s discretion), you need only half as much food and water as normal and you have &lt;b&gt;advantage&lt;/b&gt; on Constitution saving throws made to avoid exhaustion. These benefits last until you finish a long rest.&lt;br /&gt;
-&lt;span class="feature"&gt;Top Shelf.&lt;/span&gt;Generations spent climbing to the top shelves of tall libraries has led to a selective pressure in the ability to climb within cyclopians. You have a climbing speed of &lt;b&gt;20 feet.&lt;/b&gt;&lt;br /&gt;
-&lt;span class="feature"&gt;Languages.&lt;/span&gt;You can speak, read, write Common and Undercommon&lt;br /&gt;</html>
+			<p class="flavor">The pursuit of knowledge, the acquisition of secrets, and the hoarding of trinkets with storied histories are common practices among any creature raised by cyclopians (sy-CLO-pee-ans). From dog tags to tapestries, musical manuscripts to carved tablets, magical memory orbs to worthless heirlooms, their ‘libraries’ (as cyclopians refer to their homes) are filled with knowledge. With their physical adaptation to climbing, cyclopian homes are often found high up in cliffsides, within abandoned wizards’ towers, or deep in The Low.</p>
+			<h4>MONOCULAR AND MYOPIC</h4>
+			<p>A cyclopian’s singular eye is the perfect metaphor for this race’s almost-myopic tendency to focus on one thing to the exclusion of all others. When a cyclopian finds a topic that interests them, little can stop their manic and feverish efforts to acquire any relevant documents, information, or answers. Indeed, the famed cyclopian researcher Roza “Thanks” Thanklinds is rumoured to have forgone sleep for more than two months while analysing the crystallised mut-x from the former laboratory of Dr. Frank. N. Stein. Of course, this feat was made all the easier thanks to cyclopians’ ability to metabolise knowledge into actual, physical, nutritional value.</p>
+			<h4>ARCANISTS ANALOGUE</h4>
+			<p>When a powerful and evil lich placed wards on his darkest research, he chose the humble cyclopian as the template for the transmutative traps he sequestered. Other wizards who studied this evil lich’s work too closely were transformed into monstrous cyclopian facsimiles by the hidden curses. These skulking creatures are often mistaken for cyclopians; both share a hulking monocular physiology and a hunger for knowledge. However, a brief observation can yield one significant difference: the skulking simulacra leave a trail of rot and necrosis wherever they travel while no true cyclopian would ever risk damaging a book in this way.</p>
+			<h4>PILGRIMAGE OF HUGE DISCOVERY</h4>
+			<p>Cyclopians of a certain age often embark on a <i>Pilgrimage of Huge Discovery</i>, or PHD. During this time, they venture out into the world, seeking to bring new and significant knowledge back to their library. For some individuals, the natural compulsion to explore is all the impetus they need to leave the comfort of their home. On the other hand, more reticent cyclopians might have to be forced out by their family, fulfilling this rite of passage based on a sense of duty. Cyclopians who fixate on the acquisition of artifacts, rather than the joy of studying them, are regarded as rare and valuable assets to any family; cyclopian adventurers are always warmly welcomed back to their library.</p>
+			<h4>SHARING IS CARING</h4>
+			<p>Cyclopians have an unusual lifecycle. Though they can reproduce sexually, cyclopians are also capabale of a form of asexual budding. When a cyclopian is beyond inundated by the volume of knowledge awaiting their analysis (such as after it gains entry into an abandoned, book-filled wizard’s tower), it can spontaneously and unexpectedly undergo an entire body mitosis. This produces a similar, though genetically distinct, individual—an assistant with whom the research can be more manageably catalogued.</p>
+			<h4>CYCLOPIAN TRAITS</h4>
+			<p>As a cyclopian, you have the following racial traits.</p>
+			<span class="feature">Ability Score Increase.</span>Your Intelligence score increases by 2, and either your Dexterity score or Wisdom score increases by 1 (your choice).<br />
+			<span class="feature">Age.</span>Cyclopians reach maturity in their early teens and typically live as long as humans.<br />
+			<span class="feature">Size.</span>With their crouched and hulking posture, Cyclopians typically appear smaller than they are. At full stretch, a cyclopian stands between 5 and 6 feet tall. Your size is Medium.<br />
+			<span class="feature">Speed.</span>Your base walking speed is <b>30 feet</b>.<br />
+			<span class="feature">Darkvision.</span>Accustomed to life in dimly-lit libraries, you have superior vision in dark and dim conditions. You can see in dim light within <b>60 feet</b> of you as if it were bright light, and in darkness as if it were dim light. You can’t discern colour in darkness, only shades of grey.<br />
+			<span class="feature">Knowledge Seeker.</span>Learning is an almost irresistible compulsion amongst cyclopians. You have proficiency in your choice of one of the following skills: Arcana, History, Insight, Investigation, Medicine, Perception, Religion, and Stealth.<br />
+			<span class="feature">Savant of Secrets</span>You can tap into your ancestral ability to spot the telltale signs of hidden traps, passages, and secrets. As an action, you can enter a cyclotrance for <b>1 minute</b>. For the duration, you have <b>advantage</b> on Perception, Investigation, and Insight checks. Once you activate this trait, you can’t do so again until you finish a long rest.<br />
+			<span class="feature">Shadow Watcher.</span>You are proficient in moving and observing from the shadows. You have proficiency in your choice of one of the following skills: Insight, Perception, and Stealth.<br />
+			<span class="feature">Thought for Food.</span>Information is nourishing for  cyclopians, in the truest sense of the word. Each day that you discover significant new information (GM’s discretion), you need only half as much food and water as normal and you have <b>advantage</b> on Constitution saving throws made to avoid exhaustion. These benefits last until you finish a long rest.<br />
+			<span class="feature">Top Shelf.</span>Generations spent climbing to the top shelves of tall libraries has led to a selective pressure in the ability to climb within cyclopians. You have a climbing speed of <b>20 feet.</b><br />
+			<span class="feature">Languages.</span>You can speak, read, write Common, Undercommon, and one other language of your choice.
 		</description>
 		<sheet display="false" />
 		<rules>
-			<stat name="dexterity" value="2" />
-			<select type="Ability Score Improvement" name="Ability Score Improvement (Cyclopian)" supports="ID_PHB_FEAT_ASI_INTELLIGENCE|ID_PHB_FEAT_ASI_WISDOM" />
+			<stat name="intelligence" value="2" />
+			<select type="Ability Score Improvement" name="Ability Score Improvement (Cyclopian)" supports="ID_PHB_FEAT_ASI_DEXTERITY|ID_PHB_FEAT_ASI_WISDOM" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
 			<stat name="innate speed" value="30" bonus="base" />
@@ -39,28 +39,29 @@
 			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_TOP_SHELF" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
 			<grant type="Language" id="ID_LANGUAGE_UNDERCOMMON" />
+			<select type="Language" name="Language (Cyclopian)" />
 		</rules>
 	</element>
 	<element name="Knowledge Seeker" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_KNOWLEDGE_SEEKER">
 		<description>
-			<html>&lt;p&gt;Learning is an almost irresistible compulsion amongst cyclopians. You have proficiency in your choice of one of the following skills: Arcana, History, Investigation, Medicine, and Religion.&lt;/p&gt;</html>
+			<p>Learning is an almost irresistible compulsion amongst cyclopians. You have proficiency in your choice of one of the following skills: Arcana, History, Insight, Investigation, Medicine, Perception, Religion, and Stealth.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
-			<select type="Proficiency" name="Skill Proficiency, Cyclopian" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_RELIGION" />
+			<select type="Proficiency" name="Skill Proficiency, Cyclopian" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_RELIGION|ID_PROFICIENCY_SKILL_STEALTH" />
 		</rules>
 	</element>
 	<element name="Savant of Secrets" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_SAVANT_OF_SECRETS">
 		<description>
-			<html>&lt;p&gt;You can tap into your ancestral ability to spot the telltale signs of hidden traps, passages, and secrets. As an action, you can enter a cyclotrance for &lt;b&gt;1 minute&lt;/b&gt;. For the duration, you have &lt;b&gt;advantage&lt;/b&gt; on Perception, Investigation, or Insight checks. Once you activate this trait, you can’t do so again until you finish a long rest.&lt;/p&gt;</html>
+			<p>You can tap into your ancestral ability to spot the telltale signs of hidden traps, passages, and secrets. As an action, you can enter a cyclotrance for <b>1 minute</b>. For the duration, you have <b>advantage</b> on Perception, Investigation, and Insight checks. Once you activate this trait, you can’t do so again until you finish a long rest.</p>
 		</description>
-		<sheet>
-			<description>You can tap into your ancestral ability to spot the telltale signs of hidden traps, passages, and secrets. As an action, you can enter a cyclotrance for 1 minute. For the duration, you have advantage on Perception, Investigation, or Insight checks. Once you activate this trait, you can’t do so again until you finish a long rest.</description>
+		<sheet usage="Action">
+			<description>You can enter a cyclotrance for 1 minute. For the duration, you have advantage on Perception, Investigation, and Insight checks. Once you activate this trait, you can’t do so again until you finish a long rest.</description>
 		</sheet>
 	</element>
 	<element name="Shadow Watcher" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_SHADOW_WATCHER">
 		<description>
-			<html>&lt;p&gt;You are proficient in moving and observing from the shadows. You have proficiency in your choice of one of the following skills: Insight, Perception, and Stealth.&lt;/p&gt;</html>
+			<p>You are proficient in moving and observing from the shadows. You have proficiency in your choice of one of the following skills: Insight, Perception, and Stealth.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -69,7 +70,7 @@
 	</element>
 	<element name="Thought for Food" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_THOUGHT_FOR_FOOD">
 		<description>
-			<html>&lt;p&gt;Information is nourishing for cyclopians, in the truest sense of the word. Each day that you discover significant new information (GM’s discretion), you need only half as much food and water as normal and you have &lt;b&gt;advantage&lt;/b&gt; on Constitution saving throws made to avoid exhaustion. These benefits last until you finish a long rest.&lt;/p&gt;</html>
+			<p>Information is nourishing for cyclopians, in the truest sense of the word. Each day that you discover significant new information (GM’s discretion), you need only half as much food and water as normal and you have <b>advantage</b> on Constitution saving throws made to avoid exhaustion. These benefits last until you finish a long rest.</p>
 		</description>
 		<sheet>
 			<description>Information is nourishing for cyclopians, in the truest sense of the word. Each day that you discover significant new information (GM’s discretion), you need only half as much food and water as normal and you have advantage on Constitution saving throws made to avoid exhaustion. These benefits last until you finish a long rest.</description>
@@ -77,7 +78,7 @@
 	</element>
 	<element name="Top Shelf" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_TOP_SHELF">
 		<description>
-			<html>&lt;p&gt;Generations spent climbing to the top shelves of tall libraries has led to a selective pressure in the ability to climb within cyclopians. You have a climbing speed of 20 feet.&lt;/p&gt;</html>
+			<p>Generations spent climbing to the top shelves of tall libraries has led to a selective pressure in the ability to climb within cyclopians. You have a climbing speed of 20 feet.</p>
 		</description>
 		<sheet display="false" />
 		<rules>

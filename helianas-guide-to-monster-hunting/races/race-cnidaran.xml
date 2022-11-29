@@ -2,63 +2,27 @@
 <elements>
 	<element name="Cnidaran" type="Race" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACE_CNIDARAN">
 		<description>
-			<html>&lt;p class="flavor"&gt;From nomadic, floating cities whose coral exoskeletons stretch down into the dark ocean depths, to mile-long reefs and small atols, cnidaran (NI-daran) settlements can be found wherever salt meets water. Their unique, bipartite lifecycle sets them apart from most other humanoids and fosters a zealously loyalty between cnidaran and home.&lt;/p&gt;
-&lt;h4&gt;DISPERSE AND DEPLOY&lt;/h4&gt;
-&lt;p&gt;Cnidarans have two distinct phases to their lifecycle: the medusozoa and the polyp. An adventuring cnidaran—one that can speak, has a vaguely humanoid shape, and can manipulate tools—is a medusozoa. These individuals are responsible for interacting with the outside world (in other words, anything beyond their home reef).&lt;/p&gt;
-&lt;p class="indent"&gt;When medusozoa mate, an event that can involve dozens of individuals, the thousands of larvae that are conceived settle on the nearest substrate, often the cnidarans’ own coral home. Once rooted, the larvae develop into polyps with two tasks. The first is to grow a single new medusozoa over a single moon’s cycle, an instinct-driven youngster less than an inch long, and birth it into the waters surrounding its home. The second is to secrete a calcareous exoskeleton, fusing their body with the reef and growing the cnidarans’ coral home.&lt;/p&gt;
-&lt;p class="indent"&gt;Life for a young medusozoa is tenuous; it
-must fend for itself, drifting in open waters and
-feeding on plankton and other medusozoa until
-it reaches at least a foot in length, usually by the
-end of its third year. During this juvenile stage, a
-time known as the &lt;i&gt;uko’ulush&lt;/i&gt; (the ‘wild time’), a
-medusozoa is largely ignored by other cnidarans
-who believe that &lt;i&gt;“trial by ocean makes the hardest
-pearls”&lt;/i&gt;. Once a cnidaran completes this juvenile
-stage, it is brought into the reef, a utilitarian and
-communal space where the customs, culture, and
-values of that reef are passed on, the &lt;i&gt;uko’malang&lt;/i&gt;
-(the ‘time of waiting’).&lt;/p&gt;
-&lt;h4&gt;COMMUNE AND COMMUNITY&lt;/h4&gt;
-&lt;p&gt;Cnidarans live communally.
-With the practices of mass mating and
-random dispersal, no single medusozoa
-knows which individuals are their parents. In fact, the entire concept of ‘parentage’,
-‘hereditary titles’, and ‘inheritance’ is foreign to
-most cnidarans.&lt;/p&gt;
-&lt;p class="indent"&gt;When a cnidaran medusozoa reaches maturity, it
-is given the choice to leave the reef with the blessing of the whole community, a once-in-a-lifetime
-event known as the &lt;i&gt;uko’fa&lt;/i&gt; (the ‘time of exploration’). Individuals that start on the &lt;i&gt;uko’fa&lt;/i&gt; do so for
-a multitude of reasons. Some seek to bring back
-treasures from the world beyond and enhance their
-own community. Others feel a need to disperse,
-finding other reefs to join or even forming new reefs
-with like-minded medusozoa met on their travels.
-A very few become enraptured by wanderlust and
-spend the rest of their days among winding ocean
-currents, delving into damp dungeons, and cavorting in ports with other seadogs&lt;/p&gt;
-&lt;h4&gt;NO PLACE LIKE HOME&lt;/h4&gt;
-&lt;p&gt;Cnidaran settlements are alive. Made of the bodies of millions of calcified polyps—cnidaran ancestors—a reef is more than just a home, it is the
-collective memory of a thousand generations, a
-traceable web of genealogical history, and an esteemed and holy sanctuary. Intentionally damaging
-a reef carries grave sanctions, from death, to exile,
-to being perceived as a declaration of war. It isn’t
-unusual for trade unions to pay handsome reparations if a ship damages a cnidaran reef when blown
-off course by wild winds. To do otherwise might
-result in ships foundering even in fair and pleasant
-conditions, such is the whim of an enraged cnidaran
-reef.&lt;/p&gt;
-&lt;h4&gt;CNIDARAN TRAITS&lt;/h4&gt;
-&lt;p&gt;As a cnidaran, you have the following racial traits.&lt;/p&gt;
-&lt;p&gt;
-&lt;span class="feature"&gt;Ability Score Increase.&lt;/span&gt;Your Constitution score increases by 1.&lt;br /&gt;
-&lt;span class="feature"&gt;Age.&lt;/span&gt;A cnidaran medusozoa reaches maturity at around 20 years of age and can live up to 200 years.&lt;br /&gt;
-&lt;span class="feature"&gt;Size.&lt;/span&gt;A cnidaran stands between 5 and 7 feet tall. Your size is Medium.&lt;br /&gt;
-&lt;span class="feature"&gt;Speed.&lt;/span&gt;Your base walking speed is 30 feet andyou have a swimming speed equal to your walkingspeed.&lt;br /&gt;
-&lt;span class="feature"&gt;Languages.&lt;/span&gt;You can speak, read, and write Common and one other language of your choice.&lt;br /&gt;
-&lt;span class="feature"&gt;Amphibious.&lt;/span&gt;You can breathe air and water.&lt;br /&gt;
-&lt;span class="feature"&gt;Subrace.&lt;/span&gt;When a polyp produces a medusozoa, it can birth one of two morphs: a nematocyst or a shimmerskin. The former is adapted for confrontation, combat, and conflict, and carries with it an innately toxic weapon. The latter relies on diplomacy, subterfuge, and enchantment to charm antagonists and avoid conflict. Together, these two morphs are capable of pursuing two very different strategies in interspecies interactions. Choose one of these subraces.&lt;br /&gt;
-&lt;/p&gt;</html>
+			<p class="flavor">From nomadic, floating cities whose coral exoskeletons stretch down into the dark ocean depths, to mile-long reefs and small atols, cnidaran (NI-daran) settlements can be found wherever salt meets water. Their unique, bipartite lifecycle sets them apart from most other humanoids and fosters a zealously loyalty between cnidaran and home.</p>
+			<h4>DISPERSE AND DEPLOY</h4>
+			<p>Cnidarans have two distinct phases to their lifecycle: the medusozoa and the polyp. An adventuring cnidaran—one that can speak, has a vaguely humanoid shape, and can manipulate tools—is a medusozoa. These individuals are responsible for interacting with the outside world (in other words, anything beyond their home reef).</p>
+			<p class="indent">When medusozoa mate, an event that can involve dozens of individuals, the thousands of larvae that are conceived settle on the nearest substrate, often the cnidarans’ own coral home. Once rooted, the larvae develop into polyps with two tasks. The first is to grow a single new medusozoa over a single moon’s cycle, an instinct-driven youngster less than an inch long, and birth it into the waters surrounding its home. The second is to secrete a calcareous exoskeleton, fusing their body with the reef and growing the cnidarans’ coral home.</p>
+			<p class="indent">Life for a young medusozoa is tenuous; it must fend for itself, drifting in open waters and feeding on plankton and other medusozoa until it reaches at least a foot in length, usually by the end of its third year. During this juvenile stage, a time known as the <i>uko’ulush</i> (the ‘wild time’), a medusozoa is largely ignored by other cnidarans who believe that <i>“trial by ocean makes the hardest pearls”</i>. Once a cnidaran completes this juvenile stage, it is brought into the reef, a utilitarian and communal space where the customs, culture, and values of that reef are passed on, the <i>uko’malang</i> (the ‘time of waiting’).</p>
+			<h4>COMMUNE AND COMMUNITY</h4>
+			<p>Cnidarans live communally. With the practices of mass mating and random dispersal, no single medusozoa knows which individuals are their parents. In fact, the entire concept of ‘parentage’, ‘hereditary titles’, and ‘inheritance’ is foreign to most cnidarans.</p>
+			<p class="indent">When a cnidaran medusozoa reaches maturity, it is given the choice to leave the reef with the blessing of the whole community, a once-in-a-lifetime event known as the <i>uko’fa</i> (the ‘time of exploration’). Individuals that start on the <i>uko’fa</i> do so for a multitude of reasons. Some seek to bring back treasures from the world beyond and enhance their own community. Others feel a need to disperse, finding other reefs to join or even forming new reefs with like-minded medusozoa met on their travels. A very few become enraptured by wanderlust and spend the rest of their days among winding ocean currents, delving into damp dungeons, and cavorting in ports with other seadogs</p>
+			<h4>NO PLACE LIKE HOME</h4>
+			<p>Cnidaran settlements are alive. Made of the bodies of millions of calcified polyps—cnidaran ancestors—a reef is more than just a home, it is the collective memory of a thousand generations, a traceable web of genealogical history, and an esteemed and holy sanctuary. Intentionally damaging a reef carries grave sanctions, from death, to exile, to being perceived as a declaration of war. It isn’t unusual for trade unions to pay handsome reparations if a ship damages a cnidaran reef when blown off course by wild winds. To do otherwise might result in ships foundering even in fair and pleasant conditions, such is the whim of an enraged cnidaran reef.</p>
+			<h4>CNIDARAN TRAITS</h4>
+			<p>As a cnidaran, you have the following racial traits.</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Constitution score increases by 1.<br />
+				<span class="feature">Age.</span>A cnidaran medusozoa reaches maturity at around 20 years of age and can live up to 200 years.<br />
+				<span class="feature">Size.</span>A cnidaran stands between 5 and 7 feet tall. Your size is Medium.<br />
+				<span class="feature">Speed.</span>Your base walking speed is 30 feet andyou have a swimming speed equal to your walkingspeed.<br />
+				<span class="feature">Languages.</span>You can speak, read, and write Common and one other language of your choice.<br />
+				<span class="feature">Amphibious.</span>You can breathe air and water.<br />
+				<span class="feature">Subrace.</span>When a polyp produces a medusozoa, it can birth one of two morphs: a nematocyst or a shimmerskin. The former is adapted for confrontation, combat, and conflict, and carries with it an innately toxic weapon. The latter relies on diplomacy, subterfuge, and enchantment to charm antagonists and avoid conflict. Together, these two morphs are capable of pursuing two very different strategies in interspecies interactions. Choose one of these subraces.<br />
+			</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -74,7 +38,7 @@ reef.&lt;/p&gt;
 	</element>
 	<element name="Amphibious" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_AMPHIBIOUS">
 		<description>
-			<html>&lt;p&gt;You can breathe air and water.&lt;/p&gt;</html>
+			<p>You can breathe air and water.</p>
 		</description>
 		<sheet>
 			<description>You can breathe air and water.</description>
@@ -82,7 +46,7 @@ reef.&lt;/p&gt;
 	</element>
 	<element name="Cnidaran Subrace" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_CNIDARAN_SUBRACE">
 		<description>
-			<html>&lt;html&gt;When a polyp produces a medusozoa, it can birth one of two morphs: a nematocyst or a shimmerskin. The former is adapted for confrontation, combat, and conflict, and carries with it an innately toxic weapon. The latter relies on diplomacy, subterfuge, and enchantment to charm antagonists and avoid conflict. Together, these two morphs are capable of pursuing two very different strategies in interspecies interactions. Choose one of these subraces.&lt;/html&gt;</html>
+			When a polyp produces a medusozoa, it can birth one of two morphs: a nematocyst or a shimmerskin. The former is adapted for confrontation, combat, and conflict, and carries with it an innately toxic weapon. The latter relies on diplomacy, subterfuge, and enchantment to charm antagonists and avoid conflict. Together, these two morphs are capable of pursuing two very different strategies in interspecies interactions. Choose one of these subraces.
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -92,26 +56,26 @@ reef.&lt;/p&gt;
 	<element name="Nematocyst" type="Sub Race" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_SUB_RACE_NEMATOCYST">
 		<supports>cnidaran</supports>
 		<description>
-			<html>&lt;p&gt;An adaptation for confrontation, combat, and conflict. It carries with it an innately toxic weapon.&lt;/p&gt;
-&lt;p&gt;
-&lt;span class="feature"&gt;Ability Score Increase.&lt;/span&gt;Your Dexterity and Constitution scores both increase by 1. &lt;br /&gt;
-&lt;span class="feature"&gt;Nematocyst.&lt;/span&gt; You have a long, barbed appendage, a natural weapon which you can use to make unarmed strikes. If you hit with this finesse weapon, you can deal piercing damage equal to 1d4 + your Strength or Dexterity modifier (your choice), instead of the bludgeoning damage normal for an unarmed strike. 
-&lt;br /&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;As a bonus action when you hit a creature with your nematocyst on your turn, you can inject it with a potent neurotoxin. If the creature isn’t an undead or construct, it must succeed on a &lt;b&gt;Constitution saving throw&lt;/b&gt; (DC equals 8 + your Constitution modifier + your proficiency bonus) or be &lt;b&gt;paralysed&lt;/b&gt; until the end of its next turn. After you use this bonus action, you can’t do so again until you finish a long rest.&lt;br /&gt;
-&lt;span class="feature"&gt;Toxic Adaptation.&lt;/span&gt;You have advantage on saving
-throws against being poisoned, and you have resistance to poison damage. 
-&lt;/p&gt;</html>
+			<p>Named after their whip-like appendage which can secrete a potent neurotoxin, such individuals form the warriors of a cnidaran reef.</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Dexterity and Constitution scores both increase by 1.<br />
+				<span class="feature">Nematocyst.</span>You have a long, barbed appendage, a natural weapon which you can use to make unarmed strikes. If you hit with this finesse weapon, you can deal piercing damage equal to <b>1d4</b> + your Strength or Dexterity modifier (your choice), instead of the bludgeoning damage normal for an unarmed strike.<br />
+				<span class="feature">Neurotoxin.</span>As a bonus action, you can secrete a toxin and apply it to one weapon or piece of ammunition, which lasts for <b>1 hour</b>. The first time you hit a creature with this weapon or ammunition, the creature must succeed on a <b>Constitution saving throw</b> (DC equals 8 + your Constitution modifier + your proficiency bonus) or be <b>paralysed</b> until the start of its next turn. Alternatively, you can use a bonus action to inject the toxin when you hit a creature with your nematocyst. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.<br />
+				<span class="feature">Toxic Adaptation.</span>You have advantage on saving throws against being poisoned, and you have resistance to poison damage.
+			</p>
 		</description>
 		<sheet display="false" />
 		<rules>
 			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_TOXIC_ADAPTATION" />
 			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_NEMATOCYST" />
+			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_NEUROTOXIN" />
 			<stat name="constitution" value="1" />
 			<stat name="dexterity" value="1" />
 		</rules>
 	</element>
 	<element name="Toxic Adaptation" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_TOXIC_ADAPTATION">
 		<description>
-			<html>&lt;p&gt;You have advantage on saving throws against being poisoned, and you have resistance to poison damage. &lt;/p&gt;</html>
+			<p>You have advantage on saving throws against being poisoned, and you have resistance to poison damage. </p>
 		</description>
 		<sheet>
 			<description>You have advantage on saving throws against being poisoned, and you have resistance to poison damage. </description>
@@ -122,34 +86,30 @@ throws against being poisoned, and you have resistance to poison damage.
 	</element>
 	<element name="Nematocyst" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_NEMATOCYST">
 		<description>
-			<html>&lt;p&gt;You have a long, barbed appendage, a natural weapon which you can use to make
-unarmed strikes. If you hit with this finesse weapon, you can deal piercing damage equal to 1d4 +
-your Strength or Dexterity modifier (your choice),
-instead of the bludgeoning damage normal for an
-unarmed strike.&lt;/p&gt;
-&lt;p class="indent"&gt;As a bonus action when you hit a creature with
-your nematocyst on your turn, you can inject it
-with a potent neurotoxin. If the creature isn’t an
-undead or construct, it must succeed on a &lt;b&gt;Constitution saving throw&lt;/b&gt; (DC equals 8 + your Constitution modifier + your proficiency bonus) or be
-&lt;b&gt;paralysed&lt;/b&gt; until the end of its next turn. After you
-use this bonus action, you can’t do so again until
-you finish a long rest.&lt;/p&gt;</html>
+			<p>You have a long, barbed appendage, a natural weapon which you can use to make unarmed strikes. If you hit with this finesse weapon, you can deal piercing damage equal to <b>1d4</b> + your Strength or Dexterity modifier (your choice), instead of the bludgeoning damage normal for an unarmed strike.</p>
 		</description>
 		<sheet>
-			<description>You have a long, barbed appendage, a natural weapon which you can use to make unarmed strikes. If you hit with this finesse weapon, you can deal piercing damage equal to 1d4 + your Strength or Dexterity modifier (your choice), instead of the bludgeoning damage normal for an unarmed strike.
-    As a bonus action when you hit a creature with your nematocyst on your turn, you can inject it with a potent neurotoxin. If the creature isn’t an undead or construct, it must succeed on a Constitution saving throw (DC equals 8 + your Constitution modifier + your proficiency bonus) or be paralysed until the end of its next turn. After you use this bonus action, you can’t do so again until you finish a long rest.</description>
+			<description>You have a long, barbed appendage, a natural weapon which you can use to make unarmed strikes. If you hit with this finesse weapon, you can deal piercing damage equal to 1d4 + your Strength or Dexterity modifier (your choice), instead of the bludgeoning damage normal for an unarmed strike.</description>
+		</sheet>
+	</element>
+	<element name="Neurotoxin" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_NEUROTOXIN">
+		<description>
+			<p class="indent">As a bonus action, you can secrete a toxin and apply it to one weapon or piece of ammunition, which lasts for <b>1 hour</b>. The first time you hit a creature with this weapon or ammunition, the creature must succeed on a <b>Constitution saving throw</b> (DC equals 8 + your Constitution modifier + your proficiency bonus) or be <b>paralysed</b> until the start of its next turn. Alternatively, you can use a bonus action to inject the toxin when you hit a creature with your nematocyst. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet usage="{{proficiency}}/Long Rest">
+			<description>As a bonus action, you can secrete a toxin and apply it to one weapon or piece of ammunition, which lasts for 1 hour. The first time you hit a creature with this weapon or ammunition, the creature must succeed on a Constitution saving throw (DC equals 8 + your Constitution modifier + your proficiency bonus) or be paralysed until the start of its next turn. Alternatively, you can use a bonus action to inject the toxin when you hit a creature with your nematocyst. You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</description>
 		</sheet>
 	</element>
 	<element name="Shimmerskin" type="Sub Race" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_SUB_RACE_SHIMMERSKIN">
 		<supports>cnidaran</supports>
 		<description>
-			<html>&lt;p&gt;And adaptation that relies on diplomacy, subterfuge, and enchantment to charm antagonists and avoid conflict.&lt;/p&gt;
-&lt;p&gt;
-&lt;span class="feature"&gt;Ability Score Increase.&lt;/span&gt;Your Charisma score increases by 2.&lt;br /&gt;
-&lt;span class="feature"&gt;Shimmerskin.&lt;/span&gt;As a bonus action, you can cause your skin to shimmer in a pleasing array of colours for &lt;b&gt;10 minutes&lt;/b&gt;. For the duration, you have &lt;b&gt;advantage&lt;/b&gt; on all Charisma checks. Once you use this trait, you can’t do so again until you finish a long rest.&lt;br /&gt;
-&lt;span class="feature"&gt;Hypnotic Phosphoresence.&lt;/span&gt;You know the &lt;i&gt;minor illusion&lt;/i&gt; cantrip. Starting at 3rd level, you can cast the &lt;i&gt;charm person&lt;/i&gt; spell once with this trait, and you regain the ability to do so when you finish a long rest. Starting at 5th level, you can cast the &lt;i&gt;suggestion&lt;/i&gt; spell once with this trait, and you regain the ability to do so when you finish a long rest.
-&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Charisma is your spellcasting ability for these spells. When you cast them with this trait, they don’t require components.
-&lt;/p&gt;</html>
+			<p>And adaptation that relies on diplomacy, subterfuge, and enchantment to charm antagonists and avoid conflict.</p>
+			<p>
+				<span class="feature">Ability Score Increase.</span>Your Charisma score increases by 2.<br />
+				<span class="feature">Shimmerskin.</span>As a bonus action, you can cause your skin to shimmer in a pleasing array of colours for <b>10 minutes</b>. For the duration, you have <b>advantage</b> on all Charisma checks. Once you use this trait, you can’t do so again until you finish a long rest.<br />
+				<span class="feature">Hypnotic Phosphoresence.</span>You know the <i>minor illusion</i> cantrip. Starting at 3rd level, you can cast the <i>charm person</i> spell once with this trait, and you regain the ability to do so when you finish a long rest. Starting at 5th level, you can cast the <i>suggestion</i> spell once with this trait, and you regain the ability to do so when you finish a long rest.<br /><br />
+				<p class="indent">Charisma is your spellcasting ability for these spells. When you cast them with this trait, they don’t require components.</p>
+			</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -160,20 +120,20 @@ you finish a long rest.&lt;/p&gt;</html>
 	</element>
 	<element name="Shimmerskin" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_SHIMMERSKIN">
 		<description>
-			<html>&lt;p&gt;As a bonus action, you can cause your skin to shimmer in a pleasing array of colours for &lt;b&gt;10 minutes.&lt;/b&gt; For the duration, you have &lt;b&gt;advantage&lt;/b&gt; on all Charisma checks. Once you use this trait, you can’t do so again until you finish a long rest.&lt;/p&gt;</html>
+			<p>As a bonus action, you can cause your skin to shimmer in a pleasing array of colours for <b>10 minutes.</b> For the duration, you have <b>advantage</b> on all Charisma checks. Once you use this trait, you can’t do so again until you finish a long rest.</p>
 		</description>
-		<sheet>
-			<description>As a bonus action, you can cause your skin to shimmer in a pleasing array of colours for 10 minutes. For the duration, you have advantage on all Charisma checks. Once you use this trait, you can’t do so again until you finish a long rest.</description>
+		<sheet usage="Bonus Action">
+			<description>You can cause your skin to shimmer in a pleasing array of colours for 10 minutes. For the duration, you have advantage on all Charisma checks. Once you use this trait, you can’t do so again until you finish a long rest.</description>
 		</sheet>
 	</element>
 	<element name="Hypnotic Phosphoresence" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_HYPNOTIC_PHOSPHORESENCE">
 		<description>
-			<html>&lt;p&gt;You know the &lt;i&gt;minor illusion&lt;/i&gt; cantrip. Starting at 3rd level, you can cast the &lt;i&gt;charm person&lt;/i&gt; spell once with this trait, and you regain the ability to do so when you finish a long rest. Starting at 5th level, you can cast the &lt;i&gt;suggestion&lt;/i&gt; spell once with this trait, and you regain the ability to do so when you finish a long rest.&lt;/p&gt;
-&lt;p class="indent"&gt;Charisma is your spellcasting ability for these spells. When you cast them with this trait, they don’t require components.&lt;/p&gt;</html>
+			<p>You know the <i>minor illusion</i> cantrip. Starting at 3rd level, you can cast the <i>charm person</i> spell once with this trait, and you regain the ability to do so when you finish a long rest. Starting at 5th level, you can cast the <i>suggestion</i> spell once with this trait, and you regain the ability to do so when you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level.</p>
+			<p class="indent">Charisma is your spellcasting ability for these spells. When you cast them with this trait, they don’t require material or somatic components.</p>
 		</description>
 		<sheet>
-			<description>You know the minor illusion cantrip. Starting at 3rd level, you can cast the charm person spell once with this trait, and you regain the ability to do so when you finish a long rest. Starting at 5th level, you can cast the suggestion spell once with this trait, and you regain the ability to do so when you finish a long rest.
-    Charisma is your spellcasting ability for these spells. When you cast them with this trait, they don’t require components.</description>
+			<description>You know the minor illusion cantrip. Starting at 3rd level, you can cast the charm person spell once with this trait, and you regain the ability to do so when you finish a long rest. Starting at 5th level, you can cast the suggestion spell once with this trait, and you regain the ability to do so when you finish a long rest. You can also cast these spells using any spell slots you have of the appropriate level.
+    Charisma is your spellcasting ability for these spells. When you cast them with this trait, they don’t require material or somatic components.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_PHB_SPELL_MINOR_ILLUSION" />

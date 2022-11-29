@@ -2,37 +2,37 @@
 <elements>
 	<element name="Mycelian" type="Race" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACE_MYCELIAN">
 		<description>
-			<html>&lt;p class="flavor"&gt;Reusing and recycling are key tenets in the life of any mycelian. Nothing is waste; rotten food can fatten a pig, a ruined shirt is a bandage waiting to happen, and corpses are new homes waiting for a little bit of reinvigoration. Marginalised and persecuted by most societies, mycelians’ propensity to recycle the recently deceased often brings them into conflict with other humanoids. That being said, graverobbers and less scrupulous grey market traders have been known to make a pretty penny out of selling ageing mycelians their next vessels.&lt;/p&gt;
-&lt;h4&gt;REUSE AND RECYCLE&lt;/h4&gt;
-&lt;p&gt;Mycelians reanimate the bodies of the recently deceased. Understandably, many more ‘civilised’ races disagree with this practice — it’s difficult to meet your uncle again a few hours after interring him. Moreover, mycelians don’t have the same regenerative abilities as the body’s original inhabitant; wounds are patched over with a web of hyphae, the skin takes on a pale pallor, and the body wears out fairly quickly, lasting six to seven years.&lt;/p&gt;
-&lt;p class="indent"&gt;Much like hermit crabs wear shells, mycelians inoculate corpses with microscopic spores, before growing a web of hyphae through the body. Nerves are co-opted, muscles are repaired, and fungal organs replace the internal viscera of the host. The process is entirely biological, but less tolerant denizens of the world often believe these reanimated bodies to be the work of necromancers, treating mycelians as infectious, living dead.&lt;/p&gt;
-&lt;p class="indent"&gt;The key to distinguishing a mycelian from a zombie, of course, is the smell. Mycelians carry a hearty, musky aroma like that of a vivacious forest floor. Undead, on the other hand, carry the putrid-sweet scent of decay. After several unfortunate interactions with necromancer-hunters, the Sisters of Mercy began employing dogs, with their keen sense of smell, to help differentiate between innocent mycelians and undead artifice.&lt;/p&gt;
-&lt;h4&gt;ANCESTORS AND AGING&lt;/h4&gt;
-&lt;p&gt;With each new host, a mycelian’s psyche changes a little, moulded by the brain, body, and abilities of the host it co-opts. In moving from one host to another, a mycelian also leaves behind some of its own memories, forever lost to the decay of time. Despite being potentially thousands of years old, the longest-living communities of mycelians often have memories stretching back only a few decades. For this reason, mycelians conduct a ritual shortly before death, where they recant a rhythmic history of their exploits in this host, adding it to the oral history of their community. These oral histories can be days long, and minor word changes (or ‘linguistic decay’ as scholars refer to it) have resulted in tales becoming more and more outlandish the further back in time they occurred.&lt;/p&gt;
-&lt;h4&gt;LEGEND OF THE MOTHERSHROOM&lt;/h4&gt;
-&lt;p&gt;Every mycelian oral history has one thing in common: its beginning. These stories all start with the ‘Mothershroom’, a behemoth fungal organism and progenitor to all mycelians. In some stories, the Mothershroom takes the form of a giant, multi-coloured tree. In others, it is a miles-wide web of interconnecting, pulsing hyphae that thrum with thought and feeling. Despite their best efforts, no mycelian, explorer, or scholar has ever found the mothershroom. Any knowledge of its location—if it even exists—has been lost to the grinding wheel of time.&lt;/p&gt;
-&lt;p class="indent"&gt;Many mycelians have embarked on quests to find their ancient ancestor; for some such adventurers, the desire to find this holy figure is the only memory they retain between bodies. Some mycelians can be found wandering the wilds after being exiled from whatever conurbation they were reborn in, while other, more hedonistic individuals explore the world with the sole goal of seeking the ultimate vessel in which to experience it.&lt;/p&gt;
-&lt;h4&gt;MYCELIAN TRAITS&lt;/h4&gt;
-&lt;p&gt;As a mycelian, you have the following racial traits.&lt;/p&gt;
-&lt;span class="feature"&gt;Ability Score Increase.&lt;/span&gt;Your Constitution score increases by 2, and one other ability score of your choice increases by 1 (which is typically indicative of your host corpse).&lt;br /&gt;
-&lt;span class="feature"&gt;Age.&lt;/span&gt;In the right conditions, a corpse inoculated with mycelial spores can rise as a newly-formed, adult mycelian in under a month. Mycelians tend to wear out a host in less than 7 years and periodically redeploy their personal spores to animate a new, fresher corpse. Theoretically, a mycelian can live on indefinitely, their minds and personalities changing with each rebirth.&lt;br /&gt;
-&lt;span class="feature"&gt;Size.&lt;/span&gt;Mycelians run the full gamut of humanoid races, from 2-foot-tall gnomes to 8-foot-tall golynns. Your height, weight, and size is determined by the race to which your host corpse belonged in life. It is typically Small or Medium.&lt;br /&gt;
-&lt;span class="feature"&gt;Speed.&lt;/span&gt;Your base walking speed is dictated by the race to which your host corpse belonged to in life. It is typically 25 or 30 feet.&lt;br /&gt;
-&lt;span class="feature"&gt;Spore Spray.&lt;/span&gt;As a reaction when a creature within &lt;b&gt;10 feet&lt;/b&gt; of you hits you with a melee attack, you can attempt to poison it with a burst of spores. The target must succeed on a &lt;b&gt;Constitution saving throw&lt;/b&gt; (DC = 8 + your Constitution modifier + your proficiency bonus) or take &lt;b&gt;2d8 poison damage&lt;/b&gt; and become poisoned until the end of its next turn. You have a number of uses of this trait equal to your proficiency bonus and regain all expended uses when you finish a long rest.&lt;br /&gt;
-&lt;span class="feature"&gt;Insporeation.&lt;/span&gt;When you die within &lt;b&gt;100 feet&lt;/b&gt; of a humanoid corpse that has been dead no longer than 24 hours, and that hasn’t been subjected to magic that accelerates decay or prevents decay (such as the &lt;i&gt;gentle repose&lt;/i&gt; spell), you can use your dying breath to eject spores to inhabit that corpse. Roll percentile dice. If you roll a number equal to or higher than the distance between your body and the corpse in feet, your spores take hold. For example, a target 30 feet away requires a roll of 30 or higher to succeed.&lt;br /&gt; 
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;On a success, the new body rises again in 2d10 days. You gain the benefits of a long rest and lose your previous Symbiotic Assimilation adaptations and gain new ones according to the race of the target corpse. On a failure, you die as normal.&lt;br /&gt;
-&lt;span class="feature"&gt;Languages.&lt;/span&gt;You can speak, read, and write Common and one other language of your choice.&lt;br /&gt;
-&lt;span class="feature"&gt;Symbiotic Assimilation.&lt;/span&gt;Your unique lifecycle allows you to co-opt some of the adaptations of your host corpse. Choose two of the following adaptations; the race to which your host corpse belonged must have had this racial trait in order for you to choose it (GM’s discretion).&lt;br /&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Damage Resistance (Multiple).&lt;/b&gt; You have resistance to one damage type determined by your host body’s race.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Darkvision (Multiple).&lt;/b&gt; The darkened chambers of the Low are your home. You have superior vision in dark and dim conditions. You can see in dim light within &lt;b&gt;60 feet&lt;/b&gt; of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Dwarven Resilience (Dwarf).&lt;/b&gt; You have &lt;b&gt;advantage&lt;/b&gt; on saving throws against being poison, and you have resistance to poison damage.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Halfling Nimbleness (Halfling).&lt;/b&gt; You can move through the space of any creature that is of a size larger than yours.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Muscle Memory (Any).&lt;/b&gt; You gain proficiency in one skill of your choice. You can take this option multiple times.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Natural Weapon (Multiple).&lt;/b&gt; You have a physical characteristic, such as horns, claws, or teeth, that acts as a natural melee weapon which you can use to make unarmed strikes. If you hit with it, you deal bludgeoning, piercing, or slashing damage (depending on the body part) equal to your Strength modifier plus a damage die determined by your host body’s race, instead of the bludgeoning damage normal for an unarmed strike.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Powerful Build (Multiple).&lt;/b&gt; You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Relentless Endurance (Half-Orc).&lt;/b&gt; When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this trait again until you finish a long rest.&lt;/li&gt;
-&lt;/ul&gt;</html>
+			<p class="flavor">Reusing and recycling are key tenets in the life of any mycelian. Nothing is waste; rotten food can fatten a pig, a ruined shirt is a bandage waiting to happen, and corpses are new homes waiting for a little bit of reinvigoration. Marginalised and persecuted by most societies, mycelians’ propensity to recycle the recently deceased often brings them into conflict with other humanoids. That being said, graverobbers and less scrupulous grey market traders have been known to make a pretty penny out of selling ageing mycelians their next vessels.</p>
+			<h4>REUSE AND RECYCLE</h4>
+			<p>Mycelians reanimate the bodies of the recently deceased. Understandably, many more ‘civilised’ races disagree with this practice — it’s difficult to meet your uncle again a few hours after interring him. Moreover, mycelians don’t have the same regenerative abilities as the body’s original inhabitant; wounds are patched over with a web of hyphae, the skin takes on a pale pallor, and the body wears out fairly quickly, lasting six to seven years.</p>
+			<p class="indent">Much like hermit crabs wear shells, mycelians inoculate corpses with microscopic spores, before growing a web of hyphae through the body. Nerves are co-opted, muscles are repaired, and fungal organs replace the internal viscera of the host. The process is entirely biological, but less tolerant denizens of the world often believe these reanimated bodies to be the work of necromancers, treating mycelians as infectious, living dead.</p>
+			<p class="indent">The key to distinguishing a mycelian from a zombie, of course, is the smell. Mycelians carry a hearty, musky aroma like that of a vivacious forest floor. Undead, on the other hand, carry the putrid-sweet scent of decay. After several unfortunate interactions with necromancer-hunters, the Sisters of Mercy began employing dogs, with their keen sense of smell, to help differentiate between innocent mycelians and undead artifice.</p>
+			<h4>ANCESTORS AND AGING</h4>
+			<p>With each new host, a mycelian’s psyche changes a little, moulded by the brain, body, and abilities of the host it co-opts. In moving from one host to another, a mycelian also leaves behind some of its own memories, forever lost to the decay of time. Despite being potentially thousands of years old, the longest-living communities of mycelians often have memories stretching back only a few decades. For this reason, mycelians conduct a ritual shortly before death, where they recant a rhythmic history of their exploits in this host, adding it to the oral history of their community. These oral histories can be days long, and minor word changes (or ‘linguistic decay’ as scholars refer to it) have resulted in tales becoming more and more outlandish the further back in time they occurred.</p>
+			<h4>LEGEND OF THE MOTHERSHROOM</h4>
+			<p>Every mycelian oral history has one thing in common: its beginning. These stories all start with the ‘Mothershroom’, a behemoth fungal organism and progenitor to all mycelians. In some stories, the Mothershroom takes the form of a giant, multi-coloured tree. In others, it is a miles-wide web of interconnecting, pulsing hyphae that thrum with thought and feeling. Despite their best efforts, no mycelian, explorer, or scholar has ever found the mothershroom. Any knowledge of its location—if it even exists—has been lost to the grinding wheel of time.</p>
+			<p class="indent">Many mycelians have embarked on quests to find their ancient ancestor; for some such adventurers, the desire to find this holy figure is the only memory they retain between bodies. Some mycelians can be found wandering the wilds after being exiled from whatever conurbation they were reborn in, while other, more hedonistic individuals explore the world with the sole goal of seeking the ultimate vessel in which to experience it.</p>
+			<h4>MYCELIAN TRAITS</h4>
+			<p>As a mycelian, you have the following racial traits.</p>
+			<span class="feature">Ability Score Increase.</span>Your Constitution score increases by 2, and one other ability score of your choice increases by 1 (which is typically indicative of your host corpse).<br />
+			<span class="feature">Age.</span>In the right conditions, a corpse inoculated with mycelial spores can rise as a newly-formed, adult mycelian in under a month. Mycelians tend to wear out a host in less than 7 years and periodically redeploy their personal spores to animate a new, fresher corpse. Theoretically, a mycelian can live on indefinitely, their minds and personalities changing with each rebirth.<br />
+			<span class="feature">Size.</span>Mycelians run the full gamut of humanoid races, from 2-foot-tall gnomes to 8-foot-tall golynns. Your height, weight, and size is determined by the race to which your host corpse belonged in life. It is typically Small or Medium.<br />
+			<span class="feature">Speed.</span>Your base walking speed is dictated by the race to which your host corpse belonged to in life. It is typically 25 or 30 feet.<br />
+			<span class="feature">Spore Spray.</span>As a reaction when a creature within <b>10 feet</b> of you hits you with a melee attack, you can attempt to poison it with a burst of spores. The target must succeed on a <b>Constitution saving throw</b> (DC = 8 + your Constitution modifier + your proficiency bonus) or take <b>2d8 poison damage</b> and become poisoned until the end of its next turn. You have a number of uses of this trait equal to your proficiency bonus and regain all expended uses when you finish a long rest.<br />
+			<span class="feature">Insporeation.</span>When you die within <b>100 feet</b> of a humanoid corpse that has been dead no longer than 24 hours, and that hasn’t been subjected to magic that accelerates decay or prevents decay (such as the <i>gentle repose</i> spell), you can use your dying breath to eject spores to inhabit that corpse. Roll percentile dice. If you roll a number equal to or higher than the distance between your body and the corpse in feet, your spores take hold. For example, a target 30 feet away requires a roll of 30 or higher to succeed.<br /><br /> 
+			<p class="indent">On a success, the new body rises again in 2d10 days. You gain the benefits of a long rest and lose your previous Symbiotic Assimilation adaptations and gain new ones according to the race of the target corpse. On a failure, you die as normal.</p>
+			<span class="feature">Languages.</span>You can speak, read, and write Common and one other language of your choice.<br />
+			<span class="feature">Symbiotic Assimilation.</span>Your unique lifecycle allows you to co-opt some of the adaptations of your host corpse. Choose two of the following adaptations; the race to which your host corpse belonged must have had this racial trait in order for you to choose it (GM’s discretion).<br />
+			<ul>
+				<li><b>Damage Resistance (Multiple).</b> You have resistance to one damage type determined by your host body’s race.</li>
+				<li><b>Darkvision (Multiple).</b> The darkened chambers of the Low are your home. You have superior vision in dark and dim conditions. You can see in dim light within <b>60 feet</b> of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</li>
+				<li><b>Dwarven Resilience (Dwarf).</b> You have <b>advantage</b> on saving throws against being poison, and you have resistance to poison damage.</li>
+				<li><b>Halfling Nimbleness (Halfling).</b> You can move through the space of any creature that is of a size larger than yours.</li>
+				<li><b>Muscle Memory (Any).</b> You gain proficiency in one skill of your choice. You can take this option multiple times.</li>
+				<li><b>Natural Weapon (Multiple).</b> You have a physical characteristic, such as horns, claws, or teeth, that acts as a natural melee weapon which you can use to make unarmed strikes. If you hit with it, you deal bludgeoning, piercing, or slashing damage (depending on the body part) equal to your Strength modifier plus a damage die determined by your host body’s race, instead of the bludgeoning damage normal for an unarmed strike.</li>
+				<li><b>Powerful Build (Multiple).</b> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</li>
+				<li><b>Relentless Endurance (Half-Orc).</b> When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this trait again until you finish a long rest.</li>
+			</ul>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -48,16 +48,16 @@
 	</element>
 	<element name="Spore Spray" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_SPORE_SPRAY">
 		<description>
-			<html>As a reaction when a creature within &lt;b&gt;10 feet&lt;/b&gt; of you hits you with a melee attack, you can attempt to poison it with a burst of spores. The target must succeed on a &lt;b&gt;Constitution saving throw&lt;/b&gt; (DC = 8 + your Constitution modifier + your proficiency bonus) or take &lt;b&gt;2d8 poison damage&lt;/b&gt; and become poisoned until the end of its next turn. You have a number of uses of this trait equal to your proficiency bonus and regain all expended uses when you finish a long rest.</html>
+			<p>As a reaction when a creature within <b>10 feet</b> of you hits you with a melee attack, you can attempt to poison it with a burst of spores. The target must succeed on a <b>Constitution saving throw</b> (DC = 8 + your Constitution modifier + your proficiency bonus) or take <b>2d8 poison damage</b> and become poisoned until the end of its next turn. You have a number of uses of this trait equal to your proficiency bonus and regain all expended uses when you finish a long rest.</p>
 		</description>
 		<sheet>
-			<description>As a reaction when a creature within &lt;b&gt;10 feet&lt;/b&gt; of you hits you with a melee attack, you can attempt to poison it with a burst of spores. The target must succeed on a &lt;b&gt;Constitution saving throw&lt;/b&gt; (DC = 8 + your Constitution modifier + your proficiency bonus) or take &lt;b&gt;2d8 poison damage&lt;/b&gt; and become poisoned until the end of its next turn. You have a number of uses of this trait equal to your proficiency bonus and regain all expended uses when you finish a long rest.</description>
+			<description>As a reaction when a creature within <b>10 feet</b> of you hits you with a melee attack, you can attempt to poison it with a burst of spores. The target must succeed on a <b>Constitution saving throw</b> (DC = 8 + your Constitution modifier + your proficiency bonus) or take <b>2d8 poison damage</b> and become poisoned until the end of its next turn. You have a number of uses of this trait equal to your proficiency bonus and regain all expended uses when you finish a long rest.</description>
 		</sheet>
 	</element>
 	<element name="Insporeation" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_INSPOREATION">
 		<description>
-			<html>When you die within &lt;b&gt;100 feet&lt;/b&gt; of a humanoid corpse that has been dead no longer than 24 hours, and that hasn’t been subjected to magic that accelerates decay or prevents decay (such as the &lt;i&gt;gentle repose&lt;/i&gt; spell), you can use your dying breath to eject spores to inhabit that corpse. Roll percentile dice. If you roll a number equal to or higher than the distance between your body and the corpse in feet, your spores take hold. For example, a target 30 feet away requires a roll of 30 or higher to succeed.&lt;br /&gt; 
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;On a success, the new body rises again in 2d10 days. You gain the benefits of a long rest and lose your previous Symbiotic Assimilation adaptations and gain new ones according to the race of the target corpse. On a failure, you die as normal.</html>
+			<p>When you die within <b>100 feet</b> of a humanoid corpse that has been dead no longer than 24 hours, and that hasn’t been subjected to magic that accelerates decay or prevents decay (such as the <i>gentle repose</i> spell), you can use your dying breath to eject spores to inhabit that corpse. Roll percentile dice. If you roll a number equal to or higher than the distance between your body and the corpse in feet, your spores take hold. For example, a target 30 feet away requires a roll of 30 or higher to succeed.</p><br /> 
+			<p class="indent">On a success, the new body rises again in 2d10 days. You gain the benefits of a long rest and lose your previous Symbiotic Assimilation adaptations and gain new ones according to the race of the target corpse. On a failure, you die as normal.</p>
 		</description>
 		<sheet>
 			<description>When you die within 100 feet of a humanoid corpse that has been dead no longer than 24 hours you can use your dying breath to eject spores to inhabit that corpse. Roll percentile dice. If you roll a number equal to or higher than the distance between your body and the corpse in feet, your spores take hold. On a success, the new body rises again in 2d10 days.</description>
@@ -65,17 +65,17 @@
 	</element>
 	<element name="Symbiotic Assimilation" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_SYMBIOTIC_ASSIMILATION">
 		<description>
-			<html>Your unique lifecycle allows you to co-opt some of the adaptations of your host corpse. Choose two of the following adaptations; the race to which your host corpse belonged must have had this racial trait in order for you to choose it (GM’s discretion).
-&lt;ul&gt;
-  &lt;li&gt;&lt;b&gt;Damage Resistance (Multiple).&lt;/b&gt; You have resistance to one damage type determined by your host body’s race.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Darkvision (Multiple).&lt;/b&gt; The darkened chambers of the Low are your home. You have superior vision in dark and dim conditions. You can see in dim light within &lt;b&gt;60 feet&lt;/b&gt; of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Dwarven Resilience (Dwarf).&lt;/b&gt; You have &lt;b&gt;advantage&lt;/b&gt; on saving throws against being poison, and you have resistance to poison damage.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Halfling Nimbleness (Halfling).&lt;/b&gt; You can move through the space of any creature that is of a size larger than yours.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Muscle Memory (Any).&lt;/b&gt; You gain proficiency in one skill of your choice. You can take this option multiple times.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Natural Weapon (Multiple).&lt;/b&gt; You have a physical characteristic, such as horns, claws, or teeth, that acts as a natural melee weapon which you can use to make unarmed strikes. If you hit with it, you deal bludgeoning, piercing, or slashing damage (depending on the body part) equal to your Strength modifier plus a damage die determined by your host body’s race, instead of the bludgeoning damage normal for an unarmed strike.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Powerful Build (Multiple).&lt;/b&gt; You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;Relentless Endurance (Half-Orc).&lt;/b&gt; When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this trait again until you finish a long rest.&lt;/li&gt;
-&lt;/ul&gt;</html>
+			<p>Your unique lifecycle allows you to co-opt some of the adaptations of your host corpse. Choose two of the following adaptations; the race to which your host corpse belonged must have had this racial trait in order for you to choose it (GM’s discretion).</p>
+			<ul>
+				<li><b>Damage Resistance (Multiple).</b> You have resistance to one damage type determined by your host body’s race.</li>
+				<li><b>Darkvision (Multiple).</b> The darkened chambers of the Low are your home. You have superior vision in dark and dim conditions. You can see in dim light within <b>60 feet</b> of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</li>
+				<li><b>Dwarven Resilience (Dwarf).</b> You have <b>advantage</b> on saving throws against being poison, and you have resistance to poison damage.</li>
+				<li><b>Halfling Nimbleness (Halfling).</b> You can move through the space of any creature that is of a size larger than yours.</li>
+				<li><b>Muscle Memory (Any).</b> You gain proficiency in one skill of your choice. You can take this option multiple times.</li>
+				<li><b>Natural Weapon (Multiple).</b> You have a physical characteristic, such as horns, claws, or teeth, that acts as a natural melee weapon which you can use to make unarmed strikes. If you hit with it, you deal bludgeoning, piercing, or slashing damage (depending on the body part) equal to your Strength modifier plus a damage die determined by your host body’s race, instead of the bludgeoning damage normal for an unarmed strike.</li>
+				<li><b>Powerful Build (Multiple).</b> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</li>
+				<li><b>Relentless Endurance (Half-Orc).</b> When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this trait again until you finish a long rest.</li>
+			</ul>
 		</description>
 		<sheet>
 			<description>Your unique lifecycle allows you to co-opt some of the adaptations of your host corpse.</description>
@@ -91,7 +91,7 @@
 		</meta>
 		<supports>Symbiotic Assimilation</supports>
 		<description>
-			<html>You have resistance to one damage type determined by your host body’s race.</html>
+			<p>You have resistance to one damage type determined by your host body’s race.</p>
 		</description>
 		<sheet>
 			<description>You have resistance to one damage type determined by your host body’s race.</description>
@@ -103,7 +103,7 @@
 		</meta>
 		<supports>Symbiotic Assimilation</supports>
 		<description>
-			<html>The darkened chambers of the Low are your home. You have superior vision in dark and dim conditions. You can see in dim light within &lt;b&gt;60 feet&lt;/b&gt; of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</html>
+			<p>The darkened chambers of the Low are your home. You have superior vision in dark and dim conditions. You can see in dim light within <b>60 feet</b> of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -116,10 +116,10 @@
 		</meta>
 		<supports>Symbiotic Assimilation</supports>
 		<description>
-			<html>You have &lt;b&gt;advantage&lt;/b&gt; on saving throws against being poison, and you have resistance to poison damage.</html>
+			<p>You have <b>advantage</b> on saving throws against being poison, and you have resistance to poison damage.</p>
 		</description>
 		<sheet>
-			<description>You have &lt;b&gt;advantage&lt;/b&gt; on saving throws against being poison.</description>
+			<description>You have <b>advantage</b> on saving throws against being poison.</description>
 		</sheet>
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_POISON" />
@@ -131,7 +131,7 @@
 		</meta>
 		<supports>Symbiotic Assimilation</supports>
 		<description>
-			<html>You can move through the space of any creature that is of a size larger than yours.</html>
+			<p>You can move through the space of any creature that is of a size larger than yours.</p>
 		</description>
 		<sheet>
 			<description>You can move through the space of any creature that is of a size larger than yours.</description>
@@ -143,7 +143,7 @@
 		</meta>
 		<supports>Symbiotic Assimilation</supports>
 		<description>
-			<html>You gain proficiency in one skill of your choice. You can take this option multiple times.</html>
+			<p>You gain proficiency in one skill of your choice. You can take this option multiple times.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -156,7 +156,7 @@
 		</meta>
 		<supports>Symbiotic Assimilation</supports>
 		<description>
-			<html>You have a physical characteristic, such as horns, claws, or teeth, that acts as a natural melee weapon which you can use to make unarmed strikes. If you hit with it, you deal bludgeoning, piercing, or slashing damage (depending on the body part) equal to your Strength modifier plus a damage die determined by your host body’s race, instead of the bludgeoning damage normal for an unarmed strike.</html>
+			<p>You have a physical characteristic, such as horns, claws, or teeth, that acts as a natural melee weapon which you can use to make unarmed strikes. If you hit with it, you deal bludgeoning, piercing, or slashing damage (depending on the body part) equal to your Strength modifier plus a damage die determined by your host body’s race, instead of the bludgeoning damage normal for an unarmed strike.</p>
 		</description>
 		<sheet>
 			<description>You have a natural weapon based on your host race.</description>
@@ -168,7 +168,7 @@
 		</meta>
 		<supports>Symbiotic Assimilation</supports>
 		<description>
-			<html>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</html>
+			<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
 		</description>
 		<sheet>
 			<description>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
@@ -180,7 +180,7 @@
 		</meta>
 		<supports>Symbiotic Assimilation</supports>
 		<description>
-			<html>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this trait again until you finish a long rest.</html>
+			<p>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this trait again until you finish a long rest.</p>
 		</description>
 		<sheet>
 			<description>When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this trait again until you finish a long rest.</description>

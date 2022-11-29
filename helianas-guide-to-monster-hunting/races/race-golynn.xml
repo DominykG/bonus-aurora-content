@@ -2,27 +2,27 @@
 <elements>
 	<element name="Golynn" type="Race" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACE_GOLYNN">
 		<description>
-			<html>&lt;p class="flavor"&gt;The rich scent of freshly-turned earth may be a sure indicator that a group of nomadic golynn is in the area. Vivacious wanderers, golynn are creatures of nature and have little use for the trappings of modern society. Their shovel-like hands, scaly exterior, and insect-devouring constitution ensures their survival wherever the earth is soft and the soil is fertile.&lt;/p&gt;
-&lt;h4&gt;HEARTBEAT AND HEARTH&lt;/h4&gt;
-&lt;p&gt;Golynn adore rhythm. They find joy in the thrum of a lightning-rail, the clip-clop of a riding goat’s hooves, and the heartbeats of their kith and kin. From these everyday occurrences, golynn make wonderfully complex polyrhythms, music whose restorative vibrations can reinvigorate the melancholy and afraid. Indeed, the lead percussionist for the legendary opteran band, Wings of a Butterfly, was Hopo Aman, a golynn maestro of the dwarven tablah.&lt;/p&gt;
-&lt;p class="indent"&gt;Golynn legend tells of a single, pulsing rhythm that drives all life on the world, the &lt;i&gt;golo’apa&lt;/i&gt;, or ‘Heartbeat of the World’. Many golynn’s nomadic existence is a singular quest to explore all the nooks and crannies of the world, searching for this rhythm. In their never-ending pilgrimage, golynn leave a plethora of hidden burrows—warm, safe spaces whose locations are passed on by word of mouth.&lt;/p&gt;
-&lt;h4&gt;DIG A HOLE LOTTA’ TROUBLE&lt;/h4&gt;
-&lt;p&gt;This constant burrowing can sometimes bring golynn into conflict with the &lt;i&gt;uto monké&lt;/i&gt;, or ‘those that live under the sky’. Golynn have ruined many a quality murderbowl pitch and have even inadvertently undermined castles while searching for the rhythmic clanking of a prisoner’s chains. Conversely, some farmers, recognising their natural aptitude for digging, engage passing golynn as farmhands whenever possible, promising them all the grubs they can eat in exchange for a day’s work.&lt;/p&gt;
-&lt;h4&gt;HAPPENSTANCE&lt;/h4&gt;
-&lt;p&gt;Not all golynn are raised by their own kin. Rumours of the magical healing properties of golynn scales still abound, leading unsavoury and desperate individuals to hunt them for these entirely-mundane components. Fortunately, orphaned golynn have been taken in by all manner of parents, from halflings, dwarves, and gnomes, to lotol and kobolds who regard them as huge, scaled, dragon-kin.&lt;/p&gt;
-&lt;p class="indent"&gt;With their fondness for exploration, golynn make natural adventurers. A burrowing golynn might accidentally fall into an underground sepulchre, find a long-buried artifact, or stumble upon the machinations of an evil necromancer bent on raising an army of the undead.&lt;/p&gt;
-&lt;h4&gt;GOLYNN TRAITS&lt;/h4&gt;
-&lt;p&gt;As a golynn, you have the following racial traits&lt;/p&gt;
-&lt;span class="feature"&gt;Ability Score Increase.&lt;/span&gt;Your Constitution score increases by 2, and your Strength score increases by 1.&lt;br /&gt;
-&lt;span class="feature"&gt;Age.&lt;/span&gt;Golynn grow rapidly and reach maturity at 10 years of age. On average they live about 150 years.&lt;br /&gt;
-&lt;span class="feature"&gt;Size.&lt;/span&gt;Golynn stand between 7 and 8 feet tall and average between 300 and 400 lbs. Your size is Medium.&lt;br /&gt;
-&lt;span class="feature"&gt;Speed.&lt;/span&gt;Your base walking speed is &lt;b&gt;30 feet&lt;/b&gt;.&lt;br /&gt;
-&lt;span class="feature"&gt;Tremorsense.&lt;/span&gt;Knowing where the next meal — like a juicy, giant earthworm—can be found underground requires a specific adaptation. You have tremorsense out to a range of &lt;b&gt;5 feet&lt;/b&gt;. As an action, you can hone your senses, increasing the range of this sense out to &lt;b&gt;20 feet&lt;/b&gt; until the end of your next turn.&lt;br /&gt;
-&lt;span class="feature"&gt;Drill Dervish.&lt;/span&gt;While burrowing underground, you can shift the ground under a creature’s feet, potentially causing it to fall over. If you burrow directly under a Large or smaller creature that is standing on the ground, the creature must succeed on a Strength saving throw or be knocked &lt;b&gt;prone&lt;/b&gt;. The DC for this saving throw equals 8 + your Strength modifier + your proficiency bonus.&lt;br /&gt;
-&lt;span class="feature"&gt;Natural Armour.&lt;/span&gt;Your body is covered in thick, keratinous scales. When you aren’t wearing armour, your AC is 13 + your Dexterity modifier. You can use your natural armour to determine your AC if the armour you wear would leave you with a lower AC. A shield’s benefits apply as normal while you use your natural armour.&lt;br /&gt;
-&lt;span class="feature"&gt;Powerful Build.&lt;/span&gt;You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.&lt;br /&gt;
-&lt;span class="feature"&gt;Shovel Talons.&lt;/span&gt;Your wide, powerful claws are perfect for creating tunnels and burrows. You have a burrowing speed of &lt;b&gt;10 feet&lt;/b&gt;, but can only use it to tunnel through soft earth.&lt;br /&gt;
-&lt;span class="feature"&gt;Languages.&lt;/span&gt;You can speak, read, and write Common and one other language of your choice.&lt;br /&gt;</html>
+			<p class="flavor">The rich scent of freshly-turned earth may be a sure indicator that a group of nomadic golynn is in the area. Vivacious wanderers, golynn are creatures of nature and have little use for the trappings of modern society. Their shovel-like hands, scaly exterior, and insect-devouring constitution ensures their survival wherever the earth is soft and the soil is fertile.</p>
+			<h4>HEARTBEAT AND HEARTH</h4>
+			<p>Golynn adore rhythm. They find joy in the thrum of a lightning-rail, the clip-clop of a riding goat’s hooves, and the heartbeats of their kith and kin. From these everyday occurrences, golynn make wonderfully complex polyrhythms, music whose restorative vibrations can reinvigorate the melancholy and afraid. Indeed, the lead percussionist for the legendary opteran band, Wings of a Butterfly, was Hopo Aman, a golynn maestro of the dwarven tablah.</p>
+			<p class="indent">Golynn legend tells of a single, pulsing rhythm that drives all life on the world, the <i>golo’apa</i>, or ‘Heartbeat of the World’. Many golynn’s nomadic existence is a singular quest to explore all the nooks and crannies of the world, searching for this rhythm. In their never-ending pilgrimage, golynn leave a plethora of hidden burrows—warm, safe spaces whose locations are passed on by word of mouth.</p>
+			<h4>DIG A HOLE LOTTA’ TROUBLE</h4>
+			<p>This constant burrowing can sometimes bring golynn into conflict with the <i>uto monké</i>, or ‘those that live under the sky’. Golynn have ruined many a quality murderbowl pitch and have even inadvertently undermined castles while searching for the rhythmic clanking of a prisoner’s chains. Conversely, some farmers, recognising their natural aptitude for digging, engage passing golynn as farmhands whenever possible, promising them all the grubs they can eat in exchange for a day’s work.</p>
+			<h4>HAPPENSTANCE</h4>
+			<p>Not all golynn are raised by their own kin. Rumours of the magical healing properties of golynn scales still abound, leading unsavoury and desperate individuals to hunt them for these entirely-mundane components. Fortunately, orphaned golynn have been taken in by all manner of parents, from halflings, dwarves, and gnomes, to lotol and kobolds who regard them as huge, scaled, dragon-kin.</p>
+			<p class="indent">With their fondness for exploration, golynn make natural adventurers. A burrowing golynn might accidentally fall into an underground sepulchre, find a long-buried artifact, or stumble upon the machinations of an evil necromancer bent on raising an army of the undead.</p>
+			<h4>GOLYNN TRAITS</h4>
+			<p>As a golynn, you have the following racial traits</p>
+			<span class="feature">Ability Score Increase.</span>Your Constitution score increases by 2, and your Strength score increases by 1.<br />
+			<span class="feature">Age.</span>Golynn grow rapidly and reach maturity at 10 years of age. On average they live about 150 years.<br />
+			<span class="feature">Size.</span>Golynn stand between 7 and 8 feet tall and average between 300 and 400 lbs. Your size is Medium.<br />
+			<span class="feature">Speed.</span>Your base walking speed is <b>30 feet</b>.<br />
+			<span class="feature">Tremorsense.</span>Knowing where the next meal — like a juicy, giant earthworm—can be found underground requires a specific adaptation. You have tremorsense out to a range of <b>5 feet</b>. As an action, you can hone your senses, increasing the range of this sense out to <b>20 feet</b> until the end of your next turn.<br />
+			<span class="feature">Drill Dervish.</span>While burrowing underground, you can shift the ground under a creature’s feet, potentially causing it to fall over. If you burrow directly under a Large or smaller creature that is standing on the ground, the creature must succeed on a Strength saving throw or be knocked <b>prone</b>. The DC for this saving throw equals 8 + your Strength modifier + your proficiency bonus.<br />
+			<span class="feature">Natural Armour.</span>Your body is covered in thick, keratinous scales. When you aren’t wearing armour, your AC is 13 + your Dexterity modifier. You can use your natural armour to determine your AC if the armour you wear would leave you with a lower AC. A shield’s benefits apply as normal while you use your natural armour.<br />
+			<span class="feature">Powerful Build.</span>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.<br />
+			<span class="feature">Shovel Talons.</span>Your wide, powerful claws are perfect for creating tunnels and burrows. You have a burrowing speed of <b>10 feet</b>, but can only use it to tunnel through soft earth.<br />
+			<span class="feature">Languages.</span>You can speak, read, and write Common and one other language of your choice.<br />
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -41,18 +41,18 @@
 	</element>
 	<element name="Tremorsense" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_TREMORSENSE">
 		<description>
-			<html>&lt;p&gt;Knowing where the next meal — like a juicy, giant earthworm—can be found underground requires a specific adaptation. You have tremorsense out to a range of &lt;b&gt;5 feet&lt;/b&gt;. As an action, you can hone your senses, increasing the range of this sense out to &lt;b&gt;20 feet&lt;/b&gt; until the end of your next turn.&lt;/p&gt;</html>
+			<p>Knowing where the next meal — like a juicy, giant earthworm—can be found underground requires a specific adaptation. You have tremorsense out to a range of <b>5 feet</b>. As an action, you can hone your senses, increasing the range of this sense out to <b>20 feet</b> until the end of your next turn.</p>
 		</description>
 		<sheet>
-			<description>You have tremorsense out to a range of &lt;b&gt;5 feet&lt;/b&gt;. As an action, you can hone your senses, increasing the range of this sense out to &lt;b&gt;20 feet&lt;/b&gt; until the end of your next turn.</description>
+			<description>You have tremorsense out to a range of <b>5 feet</b>. As an action, you can hone your senses, increasing the range of this sense out to <b>20 feet</b> until the end of your next turn.</description>
 		</sheet>
 	</element>
 	<element name="Drill Dervish" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_DRILL_DERVISH">
 		<description>
-			<html>&lt;p&gt;While burrowing underground, you can shift the ground under a creature’s feet, potentially causing it to fall over. If you burrow directly under a Large or smaller creature that is standing on the ground, the creature must succeed on a Strength saving throw or be knocked &lt;b&gt;prone&lt;/b&gt;. The DC for this saving throw equals 8 + your Strength modifier + your proficiency bonus.&lt;/p&gt;</html>
+			<p>While burrowing underground, you can shift the ground under a creature’s feet, potentially causing it to fall over. If you burrow directly under a Large or smaller creature that is standing on the ground, the creature must succeed on a Strength saving throw or be knocked <b>prone</b>. The DC for this saving throw equals 8 + your Strength modifier + your proficiency bonus.</p>
 		</description>
 		<sheet>
-			<description>If you burrow directly under a Large or smaller creature that is standing on the ground, the creature must succeed on a Strength saving throw or be knocked &lt;b&gt;prone&lt;/b&gt;. The DC for this saving throw equals 8 + your Strength modifier + your proficiency bonus.</description>
+			<description>If you burrow directly under a Large or smaller creature that is standing on the ground, the creature must succeed on a Strength saving throw or be knocked <b>prone</b>. The DC for this saving throw equals 8 + your Strength modifier + your proficiency bonus.</description>
 		</sheet>
 	</element>
 	<element name="Natural Armour" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_GOLYNN_NATURAL_ARMOUR">
@@ -60,7 +60,7 @@
 			<parent>Golynn</parent>
 		</meta>
 		<description>
-			<html>&lt;p&gt;Your body is covered in thick, keratinous scales. When you aren’t wearing armour, your AC is 13 + your Dexterity modifier. You can use your natural armour to determine your AC if the armour you wear would leave you with a lower AC. A shield’s benefits apply as normal while you use your natural armour.&lt;/p&gt;</html>
+			<p>Your body is covered in thick, keratinous scales. When you aren’t wearing armour, your AC is 13 + your Dexterity modifier. You can use your natural armour to determine your AC if the armour you wear would leave you with a lower AC. A shield’s benefits apply as normal while you use your natural armour.</p>
 		</description>
 		<sheet>
 			<description>When you aren’t wearing armour, your AC is 13 + your Dexterity modifier. You can use your natural armour to determine your AC if the armour you wear would leave you with a lower AC. A shield’s benefits apply as normal while you use your natural armour.</description>
@@ -76,7 +76,7 @@
 			<parent>Golynn</parent>
 		</meta>
 		<description>
-			<html>&lt;p&gt;You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.&lt;/p&gt;</html>
+			<p>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
 		</description>
 		<sheet>
 			<description>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
@@ -84,7 +84,7 @@
 	</element>
 	<element name="Shovel Talons" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_SHOVEL_TALONS">
 		<description>
-			<html>&lt;p&gt;Your wide, powerful claws are perfect for creating tunnels and burrows. You have a burrowing speed of 10 feet, but can only use it to tunnel through soft earth.&lt;/p&gt;</html>
+			<p>Your wide, powerful claws are perfect for creating tunnels and burrows. You have a burrowing speed of 10 feet, but can only use it to tunnel through soft earth.</p>
 		</description>
 		<sheet>
 			<description>You have a burrowing speed of 10 feet, but can only use it to tunnel through soft earth.</description>

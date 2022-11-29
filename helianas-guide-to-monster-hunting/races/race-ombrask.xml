@@ -2,26 +2,26 @@
 <elements>
 	<element name="Ombrask" type="Race" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACE_OMBRASK">
 		<description>
-			<html>&lt;p class="flavor"&gt;Those who wander the Shadow Plane are doomed to twisted fates and mired minds. These fading, lost souls begin to manifest monstrous forms, although some especially resilient individuals manage to pull themselves from this dark path before their essence is wiped clean. Known as ombrasks, these translucent creatures hail from a variety of heritages; from elf to dwarf, dragonborn to lotol, and rakin to goblin. All struggle to recall even the simplest memory, such as their former name, and all have a ghostly, colourless appearance.&lt;/p&gt;
-&lt;h4&gt;SHADOW MEMORIES&lt;/h4&gt;
-&lt;p&gt;One of the first things an ombrask forgets is its voice. Though it knows and can understand the meaning of words, its cadence, pitch, and patterns of speech fade from lack of use; the dreary, joyless experience of the Shadow Planes leaves little to talk about. However, ombrasks become especially sensitive to the psychic burst of emotion that accompanies death, the freeing of a soul from its shadow-numbed body. Ombrasks can latch onto the shreds of this psyche and adopt its speech patterns, learning to mimic them perfectly.&lt;/p&gt;
-&lt;p class="indent"&gt;Next lost is the ability to feel, love, and smile; any emotion associated with joy or excitement is nullified. With prolonged distance from the Shadow Plane, or exposure to realms of strong emotion, such as the Fey Planes or Springarden, these sensations can make a slow return for a lucky few. What is never lost is the memory of mundane tasks, such as plowing, chopping wood, or polishing armour. Muscle memory is scarred into the minds of ombrasks, making them particularly deft at tiny, detailed work.&lt;/p&gt;
-&lt;h4&gt;ALMOST UNSEEN&lt;/h4&gt;
-&lt;p&gt;If an ombrask doesn’t find a way to exit the Shadow Plane, or isn’t summoned by some novice wizard, it can fade entirely, becoming an invisible, skulking creature bent only on survival. In fact, there is strong evidence to suggest that the creature summoned by the &lt;i&gt;unseen servant&lt;/i&gt; spell is one of these invisible creatures, temporarily pulled from the Shadow Plane. The fate of those too far gone is enough to stop most explorers from staying long in that dull and lifeless expanse.&lt;/p&gt;
-&lt;h4&gt;MOMENTO&lt;/h4&gt;
-&lt;p&gt;A sense of adventure, a magical mishap, or a cruel curse, there are a multitude of reasons why a native of the Material Plane might find itself shunned to the Shadow Planes. Discovering who they used to be is a motivator for many ombrasks. Do they have parents? Cultural traditions? What is their history? On the other hand, some ombrasks, perhaps those with a foreboding sense of their past misdeeds, choose to ignore what might have come before, and focus on living life anew. That is, if their previous life doesn’t come calling…&lt;/p&gt;
-&lt;h4&gt;OMBRASK TRAITS&lt;/h4&gt;
-&lt;p&gt;As a ombrask, you have the following racial traits.&lt;/p&gt;
-&lt;span class="feature"&gt;Ability Score Increase.&lt;/span&gt;Your Dexterity score increases by 2, and one other ability score based on your former race increases by 1 (except for Dexterity).&lt;br /&gt;
-&lt;span class="feature"&gt;Age.&lt;/span&gt;Ombrasks live as long as the race from which they originated.&lt;br /&gt;
-&lt;span class="feature"&gt;Speed.&lt;/span&gt;Your base walking speed is &lt;b&gt;30 feet.&lt;/b&gt;&lt;br /&gt;
-&lt;span class="feature"&gt;Darkvision.&lt;/span&gt;Accustomed to life on the Shadow Plane, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern colour in darkness, only shades of grey.&lt;br /&gt;
-&lt;span class="feature"&gt;Fade Away.&lt;/span&gt;When you reach 5th level, you can cast the &lt;i&gt;invisibility&lt;/i&gt; spell on yourself once with this trait, requiring no material components, and you regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for this spell.&lt;br /&gt;
-&lt;span class="feature"&gt;Lightbender.&lt;/span&gt;Light naturally sculpts around your skin. You have &lt;b&gt;advantage&lt;/b&gt; on saving throws against being blinded, and you have &lt;b&gt;resistance&lt;/b&gt; to radiant damage.&lt;br /&gt;
-&lt;span class="feature"&gt;Trackless.&lt;/span&gt;The Shadow Plane is a dangerous place and ombrasks quickly learn to move in the shadows, leaving scarce tracks in their wake. You have proficiency in the Stealth skill.&lt;br /&gt;
-&lt;span class="feature"&gt;Voice Thief.&lt;/span&gt;While an ombrask can potentially understand any number of languages, it is a naturally mute creature. When you slay a creature within &lt;b&gt;30 feet&lt;/b&gt; of you that could speak , you can use your reaction to absorb a piece of its psyche. After you have used this reaction, you can’t do so again until you finish a long rest.&lt;br /&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;After you have absorbed a psyche, you can perfectly mimic the creature’s voice, cadence, and speech patterns indefinitely. You can hold a number of pieces of psyche (and mimic a number of voices) equal to your proficiency bonus. If absorbing a new piece of psyche would put you over this limit, you must choose one psyche to be replaced.&lt;br /&gt;
-&lt;span class="feature"&gt;Languages.&lt;/span&gt;You can read and write Common and Undercommon, but can speak only using your Voice Thief feature.&lt;br /&gt;</html>
+			<p class="flavor">Those who wander the Shadow Plane are doomed to twisted fates and mired minds. These fading, lost souls begin to manifest monstrous forms, although some especially resilient individuals manage to pull themselves from this dark path before their essence is wiped clean. Known as ombrasks, these translucent creatures hail from a variety of heritages; from elf to dwarf, dragonborn to lotol, and rakin to goblin. All struggle to recall even the simplest memory, such as their former name, and all have a ghostly, colourless appearance.</p>
+			<h4>SHADOW MEMORIES</h4>
+			<p>One of the first things an ombrask forgets is its voice. Though it knows and can understand the meaning of words, its cadence, pitch, and patterns of speech fade from lack of use; the dreary, joyless experience of the Shadow Planes leaves little to talk about. However, ombrasks become especially sensitive to the psychic burst of emotion that accompanies death, the freeing of a soul from its shadow-numbed body. Ombrasks can latch onto the shreds of this psyche and adopt its speech patterns, learning to mimic them perfectly.</p>
+			<p class="indent">Next lost is the ability to feel, love, and smile; any emotion associated with joy or excitement is nullified. With prolonged distance from the Shadow Plane, or exposure to realms of strong emotion, such as the Fey Planes or Springarden, these sensations can make a slow return for a lucky few. What is never lost is the memory of mundane tasks, such as plowing, chopping wood, or polishing armour. Muscle memory is scarred into the minds of ombrasks, making them particularly deft at tiny, detailed work.</p>
+			<h4>ALMOST UNSEEN</h4>
+			<p>If an ombrask doesn’t find a way to exit the Shadow Plane, or isn’t summoned by some novice wizard, it can fade entirely, becoming an invisible, skulking creature bent only on survival. In fact, there is strong evidence to suggest that the creature summoned by the <i>unseen servant</i> spell is one of these invisible creatures, temporarily pulled from the Shadow Plane. The fate of those too far gone is enough to stop most explorers from staying long in that dull and lifeless expanse.</p>
+			<h4>MOMENTO</h4>
+			<p>A sense of adventure, a magical mishap, or a cruel curse, there are a multitude of reasons why a native of the Material Plane might find itself shunned to the Shadow Planes. Discovering who they used to be is a motivator for many ombrasks. Do they have parents? Cultural traditions? What is their history? On the other hand, some ombrasks, perhaps those with a foreboding sense of their past misdeeds, choose to ignore what might have come before, and focus on living life anew. That is, if their previous life doesn’t come calling…</p>
+			<h4>OMBRASK TRAITS</h4>
+			<p>As a ombrask, you have the following racial traits.</p>
+			<span class="feature">Ability Score Increase.</span>Your Dexterity score increases by 2, and one other ability score based on your former race increases by 1 (except for Dexterity).<br />
+			<span class="feature">Age.</span>Ombrasks live as long as the race from which they originated.<br />
+			<span class="feature">Speed.</span>Your base walking speed is <b>30 feet.</b><br />
+			<span class="feature">Darkvision.</span>Accustomed to life on the Shadow Plane, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern colour in darkness, only shades of grey.<br />
+			<span class="feature">Fade Away.</span>When you reach 5th level, you can cast the <i>invisibility</i> spell on yourself once with this trait, requiring no material components, and you regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for this spell.<br />
+			<span class="feature">Lightbender.</span>Light naturally sculpts around your skin. You have <b>advantage</b> on saving throws against being blinded, and you have <b>resistance</b> to radiant damage.<br />
+			<span class="feature">Trackless.</span>The Shadow Plane is a dangerous place and ombrasks quickly learn to move in the shadows, leaving scarce tracks in their wake. You have proficiency in the Stealth skill.<br />
+			<span class="feature">Voice Thief.</span>While an ombrask can potentially understand any number of languages, it is a naturally mute creature. When you slay a creature within <b>30 feet</b> of you that could speak , you can use your reaction to absorb a piece of its psyche. After you have used this reaction, you can’t do so again until you finish a long rest.<br /><br />
+			<p class="indent">After you have absorbed a psyche, you can perfectly mimic the creature’s voice, cadence, and speech patterns indefinitely. You can hold a number of pieces of psyche (and mimic a number of voices) equal to your proficiency bonus. If absorbing a new piece of psyche would put you over this limit, you must choose one psyche to be replaced.</p>
+			<span class="feature">Languages.</span>You can read and write Common and Undercommon, but can speak only using your Voice Thief feature.<br />
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -37,10 +37,10 @@
 	</element>
 	<element name="Fade Away" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_FADE_AWAY">
 		<description>
-			<html>When you reach 5th level, you can cast the &lt;i&gt;invisibility&lt;/i&gt; spell on yourself once with this trait, requiring no material components, and you regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for this spell.</html>
+			<p>When you reach 5th level, you can cast the <i>invisibility</i> spell on yourself once with this trait, requiring no material components, and you regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for this spell.</p>
 		</description>
 		<sheet action="Action" usage="1/Long Rest">
-			<description level="5">You can cast the &lt;i&gt;invisibility&lt;/i&gt; spell on yourself once with this trait, requiring no material components, and you regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for this spell.</description>
+			<description level="5">You can cast the <i>invisibility</i> spell on yourself once with this trait, requiring no material components, and you regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for this spell.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY" level="5" />
@@ -48,10 +48,10 @@
 	</element>
 	<element name="Lightbender" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_LIGHTBENDER">
 		<description>
-			<html>Light naturally sculpts around your skin. You have &lt;b&gt;advantage&lt;/b&gt; on saving throws against being blinded, and you have &lt;b&gt;resistance&lt;/b&gt; to radiant damage.</html>
+			<p>Light naturally sculpts around your skin. You have <b>advantage</b> on saving throws against being blinded, and you have <b>resistance</b> to radiant damage.</p>
 		</description>
 		<sheet>
-			<description>You have &lt;b&gt;advantage&lt;/b&gt; on saving throws against being blinded.</description>
+			<description>You have <b>advantage</b> on saving throws against being blinded.</description>
 		</sheet>
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_RADIANT" />
@@ -59,7 +59,7 @@
 	</element>
 	<element name="Trackless" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_TRACKLESS">
 		<description>
-			<html>The Shadow Plane is a dangerous place and ombrasks quickly learn to move in the shadows, leaving scarce tracks in their wake. You have proficiency in the Stealth skill.</html>
+			<p>The Shadow Plane is a dangerous place and ombrasks quickly learn to move in the shadows, leaving scarce tracks in their wake. You have proficiency in the Stealth skill.</p>
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -68,11 +68,11 @@
 	</element>
 	<element name="Voice Thief" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_VOICE_THIEF">
 		<description>
-			<html>While an ombrask can potentially understand any number of languages, it is a naturally mute creature. When you slay a creature within &lt;b&gt;30 feet&lt;/b&gt; of you that could speak , you can use your reaction to absorb a piece of its psyche. After you have used this reaction, you can’t do so again until you finish a long rest.&lt;br /&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;After you have absorbed a psyche, you can perfectly mimic the creature’s voice, cadence, and speech patterns indefinitely. You can hold a number of pieces of psyche (and mimic a number of voices) equal to your proficiency bonus. If absorbing a new piece of psyche would put you over this limit, you must choose one psyche to be replaced.</html>
+			<p>While an ombrask can potentially understand any number of languages, it is a naturally mute creature. When you slay a creature within <b>30 feet</b> of you that could speak , you can use your reaction to absorb a piece of its psyche. After you have used this reaction, you can’t do so again until you finish a long rest.</p><br />
+			<p class="indent">After you have absorbed a psyche, you can perfectly mimic the creature’s voice, cadence, and speech patterns indefinitely. You can hold a number of pieces of psyche (and mimic a number of voices) equal to your proficiency bonus. If absorbing a new piece of psyche would put you over this limit, you must choose one psyche to be replaced.</p>
 		</description>
 		<sheet action="Reaction" usage="1/Long Rest">
-			<description>When you slay a creature within &lt;b&gt;30 feet&lt;/b&gt; of you that could speak , you can use your reaction to absorb a piece of its psyche. After you have used this reaction, you can’t do so again until you finish a long rest.
+			<description>When you slay a creature within <b>30 feet</b> of you that could speak , you can use your reaction to absorb a piece of its psyche. After you have used this reaction, you can’t do so again until you finish a long rest.
     After you have absorbed a psyche, you can perfectly mimic the creature’s voice, cadence, and speech patterns indefinitely. You can hold a number of pieces of psyche (and mimic a number of voices) equal to your proficiency bonus. If absorbing a new piece of psyche would put you over this limit, you must choose one psyche to be replaced.</description>
 		</sheet>
 	</element>
@@ -81,7 +81,7 @@
 			<parent>Ombrask</parent>
 		</meta>
 		<description>
-			<html>You can read and write Common and Undercommon, but can speak only using your Voice Thief feature.</html>
+			<p>You can read and write Common and Undercommon, but can speak only using your Voice Thief feature.</p>
 		</description>
 		<sheet>
 			<description>You can speak only using your Voice Thief feature.</description>
