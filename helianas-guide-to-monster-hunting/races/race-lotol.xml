@@ -18,7 +18,7 @@
 			<span class="feature">Size.</span>Lotol never stop growing; the larger the lotol, the older it probably is! Lotol typically range from 4 feet to 5 feet tall. Your size is Medium.<br />
 			<span class="feature">Speed.</span>Your base walking speed is <b>30 feet.</b><br />
 			<span class="feature">Oblivious.</span>You have <b>advantage</b> on Wisdom saving throws.<br />
-			<span class="feature">Slippery Skin.</span>You have <b>advantage</b> on ability checks and saving throws made to prevent or end the <b>grappled</b> and/or <b>restrained</b> conditions on yourself.<br />
+			<span class="feature">Slippery Skin.</span>You have <b>advantage</b> on ability checks and saving throws made to prevent or end the <b>grappled</b> or <b>restrained</b> conditions on yourself.<br />
 			<span class="feature">Languages.</span>You can speak, read, and write Common and one other language of your choice.<br />
 			<span class="feature">Adaptive Polymorphism.</span>Each lotol’s lineage is unique, and certain traits follow clans or families, or mutate by chance in individuals. Choose two of the following adaptations. When you gain a level, you can choose to replace one of these adaptations with another over the course of your next long rest:<br />
 			<ul>
@@ -26,7 +26,7 @@
 				<li><b>Gecko Cling.</b> You gain a climbing speed of <b>20 feet</b> and you have <b>advantage</b> on ability checks and saving throws made to maintain grapples and prevent yourself being disarmed of an object you are holding.</li>
 				<li><b>Darkvision.</b> Accustomed to life in the murky underbrush, you have superior vision in dark and dim conditions. You can see in dim light within <b>60 feet</b> of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</li>
 				<li><b>Prehensile Tongue.</b>Your long, extendable tongue can be used to grab Tiny objects out of arm’s reach. As a bonus action, you can use your tongue to grab a Tiny object within <b>20 feet</b> of you. If the object weighs less than 10 pounds, isn’t being worn or carried, and isn’t fixed to any surface, you pull the object back to you.</li>
-				<li><b>Shocking Skin.</b>You learn the <i>shocking grasp</i> cantrip. Constitution is your spellcasting ability for this spell. When a creature within <b>5 feet</b> of you hits you with a melee attack, you can use a reaction to cast the <i>shocking grasp</i> cantrip, targeting the attacker. After you cast the spell in this way, you can’t do so again until you finish a short or long rest.</li>
+				<li><b>Shocking Skin.</b>You learn the <i>shocking grasp</i> cantrip. Constitution is your spellcasting ability for this spell. When a creature within <b>5 feet</b> of you hits you with a melee attack, you can use a reaction to cast the <i>shocking grasp</i> cantrip, targeting the attacker. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</li>
 			</ul>
 		</description>
 		<sheet display="false" />
@@ -52,10 +52,10 @@
 	</element>
 	<element name="Slippery Skin" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_SLIPPERY_SKIN">
 		<description>
-			<p>You have <b>advantage</b> on ability checks and saving throws made to prevent or end the <b>grappled</b> and/or <b>restrained</b> conditions on yourself.</p>
+			<p>You have <b>advantage</b> on ability checks and saving throws made to prevent or end the <b>grappled</b> or <b>restrained</b> conditions on yourself.</p>
 		</description>
 		<sheet>
-			<description>You have <b>advantage</b> on ability checks and saving throws made to prevent or end the <b>grappled</b> and/or <b>restrained</b> conditions on yourself.</description>
+			<description>You have <b>advantage</b> on ability checks and saving throws made to prevent or end the <b>grappled</b> or <b>restrained</b> conditions on yourself.</description>
 		</sheet>
 	</element>
 	<element name="Adaptive Polymorphism" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_ADAPTIVE_POLYMORPHISM">
@@ -131,10 +131,10 @@
 		</meta>
 		<supports>Adaptive Polymorphism</supports>
 		<description>
-			<p>You learn the <i>shocking grasp</i> cantrip. Constitution is your spellcasting ability for this spell. When a creature within <b>5 feet</b> of you hits you with a melee attack, you can use a reaction to cast the <i>shocking grasp</i> cantrip, targeting the attacker. After you cast the spell in this way, you can’t do so again until you finish a short or long rest.</p>
+			<p>You learn the <i>shocking grasp</i> cantrip. Constitution is your spellcasting ability for this spell. When a creature within <b>5 feet</b> of you hits you with a melee attack, you can use a reaction to cast the <i>shocking grasp</i> cantrip, targeting the attacker. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.</p>
 		</description>
 		<sheet>
-			<description>When a creature within <b>5 feet</b> of you hits you with a melee attack, you can use a reaction to cast the <i>shocking grasp</i> cantrip, targeting the attacker.  After you cast the spell in this way, you can’t do so again until you finish a short or long rest. Constitution is your spellcasting ability for this spell.</description>
+			<description>When a creature within <b>5 feet</b> of you hits you with a melee attack, you can use a reaction to cast the <i>shocking grasp</i> cantrip, targeting the attacker. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. Constitution is your spellcasting ability for this spell.</description>
 		</sheet>
 	</element>
 </elements>

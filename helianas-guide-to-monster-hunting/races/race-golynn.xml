@@ -3,7 +3,7 @@
 	<element name="Golynn" type="Race" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACE_GOLYNN">
 		<description>
 			<p class="flavor">The rich scent of freshly-turned earth may be a sure indicator that a group of nomadic golynn is in the area. Vivacious wanderers, golynn are creatures of nature and have little use for the trappings of modern society. Their shovel-like hands, scaly exterior, and insect-devouring constitution ensures their survival wherever the earth is soft and the soil is fertile.</p>
-			<h4>HEARTBEAT AND HEARTH</h4>
+			<h4>HEARTH AND HEARTBEAT</h4>
 			<p>Golynn adore rhythm. They find joy in the thrum of a lightning-rail, the clip-clop of a riding goat’s hooves, and the heartbeats of their kith and kin. From these everyday occurrences, golynn make wonderfully complex polyrhythms, music whose restorative vibrations can reinvigorate the melancholy and afraid. Indeed, the lead percussionist for the legendary opteran band, Wings of a Butterfly, was Hopo Aman, a golynn maestro of the dwarven tablah.</p>
 			<p class="indent">Golynn legend tells of a single, pulsing rhythm that drives all life on the world, the <i>golo’apa</i>, or ‘Heartbeat of the World’. Many golynn’s nomadic existence is a singular quest to explore all the nooks and crannies of the world, searching for this rhythm. In their never-ending pilgrimage, golynn leave a plethora of hidden burrows—warm, safe spaces whose locations are passed on by word of mouth.</p>
 			<h4>DIG A HOLE LOTTA’ TROUBLE</h4>
@@ -21,8 +21,8 @@
 			<span class="feature">Drill Dervish.</span>While burrowing underground, you can shift the ground under a creature’s feet, potentially causing it to fall over. If you burrow directly under a Large or smaller creature that is standing on the ground, the creature must succeed on a Strength saving throw or be knocked <b>prone</b>. The DC for this saving throw equals 8 + your Strength modifier + your proficiency bonus.<br />
 			<span class="feature">Natural Armour.</span>Your body is covered in thick, keratinous scales. When you aren’t wearing armour, your AC is 13 + your Dexterity modifier. You can use your natural armour to determine your AC if the armour you wear would leave you with a lower AC. A shield’s benefits apply as normal while you use your natural armour.<br />
 			<span class="feature">Powerful Build.</span>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.<br />
-			<span class="feature">Shovel Talons.</span>Your wide, powerful claws are perfect for creating tunnels and burrows. You have a burrowing speed of <b>10 feet</b>, but can only use it to tunnel through soft earth.<br />
-			<span class="feature">Languages.</span>You can speak, read, and write Common and one other language of your choice.<br />
+			<span class="feature">Shovel Talons.</span>Your wide, powerful claws are perfect for creating tunnels and burrows. You have a burrowing speed of <b>15 feet</b>, but can only use it to tunnel through soft earth, or loose rock.<br />
+			<span class="feature">Languages.</span>You can speak, read, and write Common and one other language of your choice.
 		</description>
 		<sheet display="false" />
 		<rules>
@@ -34,7 +34,7 @@
 			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_DRILL_DERVISH" />
 			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_GOLYNN_NATURAL_ARMOUR" />
 			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_GOLYNN_POWERFUL_BUILD" />
-			<grant type="Condition" id="ID_HGTMH_RACIAL_TRAIT_SHOVEL_TALONS" />
+			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_SHOVEL_TALONS" />
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
 			<select type="Language" name="Language (Golynn)" />
 		</rules>
@@ -81,13 +81,16 @@
 		<sheet>
 			<description>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
 		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+		</rules>
 	</element>
 	<element name="Shovel Talons" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_SHOVEL_TALONS">
 		<description>
-			<p>Your wide, powerful claws are perfect for creating tunnels and burrows. You have a burrowing speed of 10 feet, but can only use it to tunnel through soft earth.</p>
+			<p>Your wide, powerful claws are perfect for creating tunnels and burrows. You have a burrowing speed of 15 feet, but can only use it to tunnel through soft earth, or loose stone.</p>
 		</description>
 		<sheet>
-			<description>You have a burrowing speed of 10 feet, but can only use it to tunnel through soft earth.</description>
+			<description>You have a burrowing speed of 15 feet, but can only use it to tunnel through soft earth, or loose rock.</description>
 		</sheet>
 	</element>
 </elements>

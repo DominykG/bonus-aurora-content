@@ -16,7 +16,7 @@
 			<span class="feature">Age.</span>Ombrasks live as long as the race from which they originated.<br />
 			<span class="feature">Speed.</span>Your base walking speed is <b>30 feet.</b><br />
 			<span class="feature">Darkvision.</span>Accustomed to life on the Shadow Plane, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern colour in darkness, only shades of grey.<br />
-			<span class="feature">Fade Away.</span>When you reach 5th level, you can cast the <i>invisibility</i> spell on yourself once with this trait, requiring no material components, and you regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for this spell.<br />
+			<span class="feature">Fade Away.</span>When you reach 5th level, you can cast the <i>invisibility</i> spell on yourself once with this trait, requiring no material components, and you regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for this spell. You can also cast this spell using any spell slots you have of the appropriate level.<br />
 			<span class="feature">Lightbender.</span>Light naturally sculpts around your skin. You have <b>advantage</b> on saving throws against being blinded, and you have <b>resistance</b> to radiant damage.<br />
 			<span class="feature">Trackless.</span>The Shadow Plane is a dangerous place and ombrasks quickly learn to move in the shadows, leaving scarce tracks in their wake. You have proficiency in the Stealth skill.<br />
 			<span class="feature">Voice Thief.</span>While an ombrask can potentially understand any number of languages, it is a naturally mute creature. When you slay a creature within <b>30 feet</b> of you that could speak , you can use your reaction to absorb a piece of its psyche. After you have used this reaction, you can’t do so again until you finish a long rest.<br /><br />
@@ -30,6 +30,7 @@
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Vision" id="ID_VISION_DARKVISION" />
 			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_FADE_AWAY" level="5" />
+			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_LIGHTBENDER" />
 			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_TRACKLESS" />
 			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_VOICE_THIEF" />
 			<grant type="Racial Trait" id="ID_HGTMH_RACIAL_TRAIT_OMBRASK_LANGUAGES" />
@@ -37,10 +38,10 @@
 	</element>
 	<element name="Fade Away" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_FADE_AWAY">
 		<description>
-			<p>When you reach 5th level, you can cast the <i>invisibility</i> spell on yourself once with this trait, requiring no material components, and you regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for this spell.</p>
+			<p>When you reach 5th level, you can cast the <i>invisibility</i> spell on yourself once with this trait, requiring no material components, and you regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for this spell. You can also cast this spell using any spell slots you have of the appropriate level.</p>
 		</description>
 		<sheet action="Action" usage="1/Long Rest">
-			<description level="5">You can cast the <i>invisibility</i> spell on yourself once with this trait, requiring no material components, and you regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for this spell.</description>
+			<description level="5">You can cast the <i>invisibility</i> spell on yourself once with this trait, requiring no material components, and you regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for this spell. You can also cast this spell using any spell slots you have of the appropriate level.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_PHB_SPELL_INVISIBILITY" level="5" />

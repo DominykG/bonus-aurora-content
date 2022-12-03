@@ -16,11 +16,12 @@
 			<p>As a mycelian, you have the following racial traits.</p>
 			<span class="feature">Ability Score Increase.</span>Your Constitution score increases by 2, and one other ability score of your choice increases by 1 (which is typically indicative of your host corpse).<br />
 			<span class="feature">Age.</span>In the right conditions, a corpse inoculated with mycelial spores can rise as a newly-formed, adult mycelian in under a month. Mycelians tend to wear out a host in less than 7 years and periodically redeploy their personal spores to animate a new, fresher corpse. Theoretically, a mycelian can live on indefinitely, their minds and personalities changing with each rebirth.<br />
+			<span class="feature">Creature Type.</span>You are a humanoid. You are also considered a plant for any prerequisite or effect that requires you to be a plant.<br />
 			<span class="feature">Size.</span>Mycelians run the full gamut of humanoid races, from 2-foot-tall gnomes to 8-foot-tall golynns. Your height, weight, and size is determined by the race to which your host corpse belonged in life. It is typically Small or Medium.<br />
 			<span class="feature">Speed.</span>Your base walking speed is dictated by the race to which your host corpse belonged to in life. It is typically 25 or 30 feet.<br />
-			<span class="feature">Spore Spray.</span>As a reaction when a creature within <b>10 feet</b> of you hits you with a melee attack, you can attempt to poison it with a burst of spores. The target must succeed on a <b>Constitution saving throw</b> (DC = 8 + your Constitution modifier + your proficiency bonus) or take <b>2d8 poison damage</b> and become poisoned until the end of its next turn. You have a number of uses of this trait equal to your proficiency bonus and regain all expended uses when you finish a long rest.<br />
+			<span class="feature">Spore Spray.</span>As a reaction when a creature within <b>10 feet</b> of you hits you with a melee attack, you can attempt to poison it with a burst of spores. The target must succeed on a <b>Constitution saving throw</b> (DC = 8 + your Constitution modifier + your proficiency bonus) or take <b>1d8 poison damage</b> and become poisoned until the end of its next turn. You have a number of uses of this trait equal to your proficiency bonus and regain all expended uses when you finish a long rest. This damage increases to <b>2d8</b> at 5th level.<br />
 			<span class="feature">Insporeation.</span>When you die within <b>100 feet</b> of a humanoid corpse that has been dead no longer than 24 hours, and that hasn’t been subjected to magic that accelerates decay or prevents decay (such as the <i>gentle repose</i> spell), you can use your dying breath to eject spores to inhabit that corpse. Roll percentile dice. If you roll a number equal to or higher than the distance between your body and the corpse in feet, your spores take hold. For example, a target 30 feet away requires a roll of 30 or higher to succeed.<br /><br /> 
-			<p class="indent">On a success, the new body rises again in 2d10 days. You gain the benefits of a long rest and lose your previous Symbiotic Assimilation adaptations and gain new ones according to the race of the target corpse. On a failure, you die as normal.</p>
+			<p class="indent">On a success, the new body rises again in <b>2d6</b> days. You gain the benefits of a long rest and lose your previous Symbiotic Assimilation adaptations and gain new ones according to the race of the target corpse. On a failure, you die as normal.</p>
 			<span class="feature">Languages.</span>You can speak, read, and write Common and one other language of your choice.<br />
 			<span class="feature">Symbiotic Assimilation.</span>Your unique lifecycle allows you to co-opt some of the adaptations of your host corpse. Choose two of the following adaptations; the race to which your host corpse belonged must have had this racial trait in order for you to choose it (GM’s discretion).<br />
 			<ul>
@@ -48,19 +49,19 @@
 	</element>
 	<element name="Spore Spray" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_SPORE_SPRAY">
 		<description>
-			<p>As a reaction when a creature within <b>10 feet</b> of you hits you with a melee attack, you can attempt to poison it with a burst of spores. The target must succeed on a <b>Constitution saving throw</b> (DC = 8 + your Constitution modifier + your proficiency bonus) or take <b>2d8 poison damage</b> and become poisoned until the end of its next turn. You have a number of uses of this trait equal to your proficiency bonus and regain all expended uses when you finish a long rest.</p>
+			<p>As a reaction when a creature within <b>10 feet</b> of you hits you with a melee attack, you can attempt to poison it with a burst of spores. The target must succeed on a <b>Constitution saving throw</b> (DC = 8 + your Constitution modifier + your proficiency bonus) or take <b>1d8 poison damage</b> and become poisoned until the end of its next turn. You have a number of uses of this trait equal to your proficiency bonus and regain all expended uses when you finish a long rest. This damage increases to <b>2d8</b> at 5th level.</p>
 		</description>
 		<sheet>
-			<description>As a reaction when a creature within <b>10 feet</b> of you hits you with a melee attack, you can attempt to poison it with a burst of spores. The target must succeed on a <b>Constitution saving throw</b> (DC = 8 + your Constitution modifier + your proficiency bonus) or take <b>2d8 poison damage</b> and become poisoned until the end of its next turn. You have a number of uses of this trait equal to your proficiency bonus and regain all expended uses when you finish a long rest.</description>
+			<description>As a reaction when a creature within 10 feet of you hits you with a melee attack, you can attempt to poison it with a burst of spores. The target must succeed on a Constitution saving throw (DC = 8 + your Constitution modifier + your proficiency bonus) or take 1d8 poison damage and become poisoned until the end of its next turn. You have a number of uses of this trait equal to your proficiency bonus and regain all expended uses when you finish a long rest. This damage increases to 2d8 at 5th level.</description>
 		</sheet>
 	</element>
 	<element name="Insporeation" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_INSPOREATION">
 		<description>
 			<p>When you die within <b>100 feet</b> of a humanoid corpse that has been dead no longer than 24 hours, and that hasn’t been subjected to magic that accelerates decay or prevents decay (such as the <i>gentle repose</i> spell), you can use your dying breath to eject spores to inhabit that corpse. Roll percentile dice. If you roll a number equal to or higher than the distance between your body and the corpse in feet, your spores take hold. For example, a target 30 feet away requires a roll of 30 or higher to succeed.</p><br /> 
-			<p class="indent">On a success, the new body rises again in 2d10 days. You gain the benefits of a long rest and lose your previous Symbiotic Assimilation adaptations and gain new ones according to the race of the target corpse. On a failure, you die as normal.</p>
+			<p class="indent">On a success, the new body rises again in <b>2d6</b> days. You gain the benefits of a long rest and lose your previous Symbiotic Assimilation adaptations and gain new ones according to the race of the target corpse. On a failure, you die as normal.</p>
 		</description>
 		<sheet>
-			<description>When you die within 100 feet of a humanoid corpse that has been dead no longer than 24 hours you can use your dying breath to eject spores to inhabit that corpse. Roll percentile dice. If you roll a number equal to or higher than the distance between your body and the corpse in feet, your spores take hold. On a success, the new body rises again in 2d10 days.</description>
+			<description>When you die within 100 feet of a humanoid corpse that has been dead no longer than 24 hours you can use your dying breath to eject spores to inhabit that corpse. Roll percentile dice. If you roll a number equal to or higher than the distance between your body and the corpse in feet, your spores take hold. On a success, the new body rises again in 2d6 days.</description>
 		</sheet>
 	</element>
 	<element name="Symbiotic Assimilation" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_SYMBIOTIC_ASSIMILATION">
@@ -173,6 +174,9 @@
 		<sheet>
 			<description>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
 		</sheet>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANTS_WEIGHT_CAPACITY_COUNTS_AS_LARGER" />
+		</rules>
 	</element>
 	<element name="Relentless Endurance" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_MYCELIAN_RELENTLESS_ENDURANCE">
 		<meta>

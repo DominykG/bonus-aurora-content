@@ -20,7 +20,7 @@
 			<span class="feature">Metamorphosis.</span>At 1st level, you are a larval opteran: you’re Small, you have a 25-foot walking speed, and you have the Many-Footed trait. When you reach 5th level, you can choose to undergo a metamorphosis over the course of 24 hours. After this period elapses, you emerge as an adult opteran: you are Medium, you have a walking speed of 30 feet, you lose the Many-Footed trait, and you gain the Flight and Radiant Wing traits. You can delay this change until you reach 6th level, at which point it happens spontaneously.<br />
 			<ul>
 				<li><b>Many-Footed (Larval Form Only).</b> Having many legs and a low centre of gravity gives you extraordinary balance. You have <b>advantage</b> on ability checks made to maintain your balance, and on checks and saving throws made to prevent the prone condition.</li>
-				<li><b>Flight (Adult Form Only).</b> As an adult opteran, you have a flying speed of <b>15 feet</b>. To use this speed, you can’t be wearing medium or heavy armour.</li>
+				<li><b>Flight (Adult Form Only).</b> As an adult opteran, you have a flying speed of <b>20 feet</b>. To use this speed, you can’t be wearing medium or heavy armour.</li>
 				<li><b>Radiant Wing (Adult Form Only).</b> Those wings would dazzle any performance. You have advantage on all <b>Charisma</b> checks.</li>
 			</ul>
 		</description>
@@ -78,7 +78,7 @@
 		<requirements>[level:5]</requirements>
 		<description>
 			<p>Adult Form traits:</p><br />
-			<p class="indent"><b>Flight.</b> As an adult opteran, you have a flying speed of <b>15 feet</b>. To use this speed, you can’t be wearing medium or heavy armour.</p><br />
+			<p class="indent"><b>Flight.</b> As an adult opteran, you have a flying speed of <b>20 feet</b>. To use this speed, you can’t be wearing medium or heavy armour.</p><br />
 			<p class="indent"><b>Radiant Wing.</b> Those wings would dazzle any performance. You have advantage on all <b>Charisma</b> checks.</p>
 		</description>
 		<sheet>

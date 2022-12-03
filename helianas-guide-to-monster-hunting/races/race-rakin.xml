@@ -72,7 +72,7 @@
 			<span class="feature">Ability Score Increase.</span> Your Wisdom or Charisma score increases by 1 (your choice).<br />
 			<span class="feature">Adept Trickster.</span> You gain proficiency in your choice of the Deception or Persuasion skills.<br />
 			<span class="feature">Wild Speech.</span> You have the ability to communicate in a limited manner with beasts. They can understand the meaning of your words, though you have no special ability to understand them in return.<br />
-			<span class="feature">Tanukin Magic.</span> You know the minor illusion cantrip. When you reach 3rd level, you can cast the disguise self spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the alter self spell once with this trait and regain the ability to do so when you finish a long rest. Charisma or Wisdom is your spellcasting ability for these spells (your choice when you gain this trait).<br />
+			<span class="feature">Tanukin Magic.</span> You know the minor <i>illusion cantrip</i>. When you reach 3rd level, you can cast the <i>disguise self</i> spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the <i>alter self</i> spell once with this trait and regain the ability to do so when you finish a long rest. Charisma or Wisdom is your spellcasting ability for these spells (your choice when you gain this trait). You can also cast either of these spells using any spell slots you have of the appropriate level.<br />
 			</p>
 		</description>
 		<sheet display="false" />
@@ -93,10 +93,10 @@
 	</element>
 	<element name="Tanukin Magic" type="Racial Trait" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_RACIAL_TRAIT_TANUKIN_MAGIC">
 		<description>
-			<p>You know the minor illusion cantrip. When you reach 3rd level, you can cast the disguise self spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the alter self spell once with this trait and regain the ability to do so when you finish a long rest. Charisma or Wisdom is your spellcasting ability for these spells (your choice when you gain this trait).</p>
+			<p>You know the minor <i>illusion cantrip</i>. When you reach 3rd level, you can cast the <i>disguise self</i> spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the <i>alter self</i> spell once with this trait and regain the ability to do so when you finish a long rest. Charisma or Wisdom is your spellcasting ability for these spells (your choice when you gain this trait). You can also cast either of these spells using any spell slots you have of the appropriate level.</p>
 		</description>
 		<sheet action="Action" usage="1/Long Rest">
-			<description>When you reach 3rd level, you can cast the disguise self spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the alter self spell once with this trait and regain the ability to do so when you finish a long rest. </description>
+			<description>When you reach 3rd level, you can cast the disguise self spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the alter self spell once with this trait and regain the ability to do so when you finish a long rest. You can also cast either of these spells using any spell slots you have of the appropriate level.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_PHB_SPELL_MINOR_ILLUSION" />
