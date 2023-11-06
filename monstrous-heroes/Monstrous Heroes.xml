@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="Monstrous Heroes" type="Source" source="Core" id="ID_SOURCE_MONSTROUS_HEROES">
+		<setters>
+			<set name="abbreviation">MOHE</set>
+			<set name="author">Esper</set>
+			<set name="third-party">true</set>
+			<set name="url">https://www.patreon.com/EsperTheBard</set>
+		</setters>
+	</element>
+</elements>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="Vampire" type="Race" source="Monstrous Heroes" id="ID_MOHE_RACE_VAMPIRE">
+		<description>
+			<html>&lt;h4&gt;HUNGER AND DESIRE&lt;/h4&gt;
+&lt;p&gt;Of all the many traits associated with vampires, what defines them the most are their ravenous urges. Behind everything they do is a hunger they cannot escape. Even one who pursues interests such as collecting fine art and amassing a library of books is ultimately beholden to the bloodlust that underpins his every endeavor. Some vampires seek friendship or romance, but such relationships will never be as they are for mortals; rather, they are shadows, dark tendrils that end up serving the goal of feeding upon the living. Other vampires reject any affectations of a normal life, embracing the foulest depths of their nature.&lt;/p&gt;
+&lt;h4&gt;THE NIGHT THAT NEVER ENDS&lt;/h4&gt;
+&lt;p&gt;New vampires are created by a sire, sometimes called a vampire lord, which is a vampire that has reached a particularly high level of power. If a sire slays a humanoid with its blood-draining bite, and the victim is buried in the ground, the person rises as a vampire spawn the following nightfall. The spawn represents a lowly form of vampire, dangerous in its own way, but nothing compared to the sire and unlikely to ever strengthen in any substantial way.&lt;/p&gt;&lt;br /&gt;
+&lt;p class="indent"&gt;A different type of a vampire (the one presented here in Monstrous Heroes) is created through a dark ritual. This process involves a sire draining a person’s blood to the very brink of death, then opening one of its own veins and feeding the subject. The ritual subject is placed in a tomb or coffin, then rises again at sunset the next evening. This new vampire begins weaker than a spawn, but its potential is vast. Whether or not the subject willingly took part in the ritual, they are forevermore a creature of the night, for not only does the sun bring incapacitating fatigue, but its rays are pure destruction.&lt;/p&gt;
+&lt;h4&gt;VAMPIRE TRAITS&lt;/h4&gt;
+&lt;p&gt;As a vampire, you have the following racial traits.&lt;/p&gt;
+&lt;span class="feature"&gt;Ability Score Increase.&lt;/span&gt;Your ability scores each increase by 1.&lt;br /&gt;
+&lt;span class="feature"&gt;Age.&lt;/span&gt;Vampires do not age and are immortal unless killed. A vampire that has gone an extended period of time without feeding will appear haggard or cadaverous, but once it has sated itself on blood, its usual countenance returns.&lt;br /&gt;
+&lt;span class="feature"&gt;Typical Alignments.&lt;/span&gt; Neutral evil, lawful evil, chaotic evil. While vampires are a diverse group in some ways, at their core, they are undead killers who drain the life from people in order to sustain their unnatural existence. Rarely does a vampire retain even a shred of compassion or goodwill from its prior life. A good-aligned vampire is considered an impossibility, and those who manage neutrality instead of evil do so through cold reasoning and philosophical determination (along with concerted efforts to find solutions to the need for feeding upon the living).&lt;br /&gt;
+&lt;span class="feature"&gt;Creature Type.&lt;/span&gt;Your creature type is &lt;b&gt;undead&lt;/b&gt;. 
+&lt;ul&gt;
+&lt;li&gt;You retain none of the racial traits of your original race.&lt;/li&gt;
+&lt;li&gt;You do not require air, food or water to survive.&lt;/li&gt;
+&lt;li&gt;When lying motionless, you appear as a corpse.&lt;/li&gt;
+&lt;li&gt;Spells and abilities that state effects or conditions specifically regarding Undead of a specific CR have no effect on you.&lt;/li&gt;
+&lt;li&gt;If a spell or ability other than your own would cause you to gain Hit Points, you gain that many temporary Hit Points instead.&lt;/li&gt;
+&lt;li&gt;If you are reduced to 0 hit points and fall unconscious as a result, any healing you receive will stabilize you and leave you on 1 hit point.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;span class="feature"&gt;Size.&lt;/span&gt;Your size is Medium or Small, and your height and weight are that of your original humanoid form.&lt;br /&gt;
+&lt;span class="feature"&gt;Speed.&lt;/span&gt;Your base walking speed is &lt;b&gt;30 feet&lt;/b&gt;.&lt;br /&gt;
+&lt;span class="feature"&gt;Darkvision.&lt;/span&gt;You have superior vision in dark and dim conditions. You can see in dim light within &lt;b&gt;120 feet&lt;/b&gt; of you as if it were bright light, and in darkness as if it were dim light. You cannot discern color in darkness, only shades of gray.&lt;br /&gt;
+&lt;span class="feature"&gt;Necrotic Resistance.&lt;/span&gt;You have resistance to necrotic damage.&lt;br /&gt;
+&lt;span class="feature"&gt;Languages.&lt;/span&gt;You can speak, read, write Common, and one other language of your choice.&lt;br /&gt;
+&lt;span class="feature"&gt;Vampirism.&lt;/span&gt; Being a vampire involves a number of characteristics, as detailed below:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Feeding.&lt;/b&gt; You must feed every 7 days. On your turn, as an action, you can make an unarmed bite attack against an &lt;b&gt;unconscious&lt;/b&gt;, &lt;b&gt;restrained&lt;/b&gt; or &lt;b&gt;charmed&lt;/b&gt; humanoid. If you do so, the target is drained for 1 pint of blood and bears a bite mark on the location you bit them. This attack does not wake sleeping creatures or end the effect of spells and abilities. A creature bitten this way gains a level of &lt;b&gt;exhaustion&lt;/b&gt;. A vampire that does not feed within the required time goes into an unconscious feeding frenzy, under the GM's control. The next time they sleep or enter a trance they attack all nearby living creatures and attempt to feed on them. A vampire remains in this state until they have drained a creature completely (killing them), at which point the vampire falls unconscious for 4 hours.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Forbiddance.&lt;/b&gt; You cannot enter a residence without permission from a person who lives there. This applies only to houses, castles, temples, and other such formal residences where people live. It does not apply to dungeons, caves, secret hideouts, and the like.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Stake to the Heart.&lt;/b&gt; If a piercing weapon made of wood is driven into your heart while you are incapacitated in your resting place, you are paralyzed until the stake is removed.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Sunlight Hypersensitivity.&lt;/b&gt; You take 20 radiant damage when you start your turn in sunlight. While in sunlight, you have disadvantage on attack rolls and ability checks.&lt;/li&gt;&lt;br /&gt;
+&lt;/ul&gt;
+&lt;span class="feature"&gt;Natural Weapons.&lt;/span&gt; You have two natural weapons that you are proficient with. One is a bite, and the other can be either claws or a slam (choose one):
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Bite.&lt;/b&gt; Your sharp canine fangs are a natural weapon with the &lt;i&gt;finesse&lt;/i&gt; property.&lt;br /&gt;
+You can only use your bite to attack a target that is willing or that is grappled by you, incapacitated, or restrained.&lt;br /&gt;
+On a hit, your bite attack deals piercing damage equal to &lt;b&gt;1d6 + your Strength or Dexterity modifier&lt;/b&gt; plus &lt;b&gt;1d6 necrotic damage&lt;/b&gt;. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and &lt;b&gt;you regain hit points equal to that amount&lt;/b&gt;.&lt;br /&gt;
+The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.&lt;br /&gt; 
+You do not deal necrotic damage if the target is a construct or undead, if the target does not have blood, or if the target’s heart has stopped beating.&lt;br /&gt; 
+When you hit a creature grappled by you with your bite attack, you can choose to latch on. As long as the creature remains grappled by you, you can automatically deal bite’s necrotic damage to it as an action. If you want to make another bite attack, you must end the latch-on (no action required).&lt;br /&gt;
+At 6th-level vampire, your bite’s necrotic damage increases to &lt;b&gt;2d6&lt;/b&gt;, and at 11th-level vampire, it increases to &lt;b&gt;3d6&lt;/b&gt;. &lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Claws.&lt;/b&gt; Your sharp nails are a natural weapon with the finesse property. On a hit, your claw attack deals slashing damage equal to &lt;b&gt;1d8 + your Strength or Dexterity modifier&lt;/b&gt;, or instead of dealing damage, you can &lt;b&gt;grapple&lt;/b&gt; the target.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Slam.&lt;/b&gt; Strikes from your limbs are a natural weapon with the finesse property. On a hit, your slam attack deals bludgeoning damage equal to &lt;b&gt;1d8 + your Strength or Dexterity modifier&lt;/b&gt;, or instead of dealing damage, you can &lt;b&gt;grapple&lt;lb&gt; the target.&lt;/li&gt;
+&lt;/ul&gt;</html>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="strength" value="1" />
+			<stat name="dexterity" value="1" />
+			<stat name="constitution" value="1" />
+			<stat name="intelligence" value="1" />
+			<stat name="wisdom" value="1" />
+			<stat name="charisma" value="1" />
+			<stat name="innate speed" value="30" bonus="base" />
+			<grant type="Racial Trait" id="ID_VISION_SUPERIORDARKVISION" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Racial Trait" id="ID_MOHE_RACIAL_TRAIT_VAMPIRISM" />
+			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
+			<grant type="Racial Trait" id="ID_MOHE_RACIAL_TRAIT_VAMPIRE" />
+			<grant type="Racial Trait" id="ID_MOHE_RACIAL_TRAIT_VAMPIRE_NATURAL_WEAPONS" />
+		</rules>
+	</element>
+	<element name="Vampirism" type="Racial Trait" source="Monstrous Heroes" id="ID_MOHE_RACIAL_TRAIT_VAMPIRISM">
+		<description>
+			<html>&lt;span class="feature"&gt;Vampirism.&lt;/span&gt; Being a vampire involves a number of characteristics, as detailed below:&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Feeding.&lt;/b&gt; You must feed every 7 days. On your turn, as an action, you can make an unarmed bite attack against an &lt;b&gt;unconscious&lt;/b&gt;, &lt;b&gt;restrained&lt;/b&gt; or &lt;b&gt;charmed&lt;/b&gt; humanoid. If you do so, the target is drained for 1 pint of blood and bears a bite mark on the location you bit them. This attack does not wake sleeping creatures or end the effect of spells and abilities. A creature bitten this way gains a level of &lt;b&gt;exhaustion&lt;/b&gt;. A vampire that does not feed within the required time goes into an unconscious feeding frenzy, under the GM's control. The next time they sleep or enter a trance they attack all nearby living creatures and attempt to feed on them. A vampire remains in this state until they have drained a creature completely (killing them), at which point the vampire falls unconscious for 4 hours.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Forbiddance.&lt;/b&gt; You cannot enter a residence without permission from a person who lives there. This applies only to houses, castles, temples, and other such formal residences where people live. It does not apply to dungeons, caves, secret hideouts, and the like.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Stake to the Heart.&lt;/b&gt; If a piercing weapon made of wood is driven into your heart while you are incapacitated in your resting place, you are paralyzed until the stake is removed.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Sunlight Hypersensitivity.&lt;/b&gt; You take 20 radiant damage when you start your turn in sunlight. While in sunlight, you have disadvantage on attack rolls and ability checks.&lt;/li&gt;&lt;br /&gt;
+&lt;/ul&gt;</html>
+		</description>
+		<sheet>
+			<description>You must feed every 7 days.
+You cannot enter a residence without permission from a person who lives there.
+If a piercing weapon made of wood is driven into your heart while you are incapacitated, you are paralyzed until the stake is removed.
+You take 20 radiant damage when you start your turn in sunlight. While in sunlight, you have disadvantage on attack rolls and ability checks.</description>
+		</sheet>
+	</element>
+	<element name="Vampire" type="Racial Trait" source="Monstrous Heroes" id="ID_MOHE_RACIAL_TRAIT_VAMPIRE">
+		<description>
+			<html>&lt;span class="feature"&gt;Creature Type.&lt;/span&gt;Your creature type is &lt;b&gt;undead&lt;/b&gt;. 
+&lt;ul&gt;
+&lt;li&gt;You retain none of the racial traits of your original race.&lt;/li&gt;
+&lt;li&gt;You do not require air, food or water to survive.&lt;/li&gt;
+&lt;li&gt;When lying motionless, you appear as a corpse.&lt;/li&gt;
+&lt;li&gt;Spells and abilities that state effects or conditions specifically regarding Undead of a specific CR have no effect on you.&lt;/li&gt;
+&lt;li&gt;If a spell or ability other than your own would cause you to gain Hit Points, you gain that many temporary Hit Points instead.&lt;/li&gt;
+&lt;li&gt;If you are reduced to 0 hit points and fall unconscious as a result, any healing you receive will stabilize you and leave you on 1 hit point.&lt;/li&gt;
+&lt;/ul&gt;</html>
+		</description>
+		<sheet>
+			<description>You do not require air, food or water to survive.
+When lying motionless, you appear as a corpse.
+If a spell or ability other than your own would cause you to gain Hit Points, you gain that many temporary Hit Points instead.
+If you are reduced to 0 hit points and fall unconscious as a result, any healing you receive will stabilize you and leave you on 1 hit point.</description>
+		</sheet>
+		<rules>
+			<grant type="Racial Trait" id="ID_WOTC_RACIAL_TRAIT_CORE_LINEAGE_CREATURE_TYPE_UNDEAD" />
+		</rules>
+	</element>
+	<element name="Vampire Natural Weapons" type="Racial Trait" source="Monstrous Heroes" id="ID_MOHE_RACIAL_TRAIT_VAMPIRE_NATURAL_WEAPONS">
+		<sheet display="false" />
+		<rules>
+			<grant type="Proficiency" id="ID_MOHE_PROFICIENCY_VAMPIRE_NATURAL_WEAPONS" />
+		</rules>
+	</element>
+	<element name="Vampire Bite" type="Weapon" source="Monstrous Heroes" id="ID_MOHE_WEAPON_VAMPIRE_BITE">
+		<supports>ID_INTERNAL_WEAPON_PROPERTY_FINESSE</supports>
+		<prerequisite>Vampire race</prerequisite>
+		<requirements>ID_MOHE_RACE_VAMPIRE</requirements>
+		<description>
+			<html>&lt;br /&gt;&lt;b&gt;Bite.&lt;/b&gt; Your sharp canine fangs are a natural weapon with the &lt;i&gt;finesse&lt;/i&gt; property.&lt;br /&gt;
+You can only use your bite to attack a target that is willing or that is grappled by you, incapacitated, or restrained.&lt;br /&gt;
+On a hit, your bite attack deals piercing damage equal to &lt;b&gt;1d6 + your Strength or Dexterity modifier&lt;/b&gt; plus &lt;b&gt;1d6 necrotic damage&lt;/b&gt;. The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and &lt;b&gt;you regain hit points equal to that amount&lt;/b&gt;.&lt;br /&gt;
+The reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.&lt;br /&gt; 
+You do not deal necrotic damage if the target is a construct or undead, if the target does not have blood, or if the target’s heart has stopped beating.&lt;br /&gt; 
+When you hit a creature grappled by you with your bite attack, you can choose to latch on. As long as the creature remains grappled by you, you can automatically deal bite’s necrotic damage to it as an action. If you want to make another bite attack, you must end the latch-on (no action required).&lt;br /&gt;
+At 6th-level vampire, your bite’s necrotic damage increases to &lt;b&gt;2d6&lt;/b&gt;, and at 11th-level vampire, it increases to &lt;b&gt;3d6&lt;/b&gt;.</html>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="proficiency">ID_MOHE_PROFICIENCY_VAMPIRE_NATURAL_WEAPONS</set>
+			<set name="slot">onehand</set>
+		</setters>
+		<sheet>
+			<description></description>
+		</sheet>
+	</element>
+	<element name="Vampire Claw" type="Weapon" source="Monstrous Heroes" id="ID_MOHE_WEAPON_VAMPIRE_CLAW">
+		<supports>Vampire Natural Weapons,ID_INTERNAL_WEAPON_PROPERTY_FINESSE,ID_INTERNAL_DAMAGE_TYPE_SLASHING</supports>
+		<prerequisite>Vampire race</prerequisite>
+		<requirements>ID_MOHE_RACE_VAMPIRE</requirements>
+		<description>
+			<html>&lt;br /&gt;&lt;b&gt;Claws.&lt;/b&gt; Your sharp nails are a natural weapon with the finesse property. On a hit, your claw attack deals slashing damage equal to &lt;b&gt;1d8 + your Strength or Dexterity modifier&lt;/b&gt;, or instead of dealing damage, you can &lt;b&gt;grapple&lt;/b&gt; the target.</html>
+		</description>
+		<setters>
+			<set name="caaategory">Weapons</set>
+			<set name="proficiency">ID_MOHE_PROFICIENCY_VAMPIRE_NATURAL_WEAPONS</set>
+			<set name="slot">onehand</set>
+			<set name="damage">1d8</set>
+		</setters>
+		<sheet display="false" />
+	</element>
+	<element name="Vampire Slam" type="Weapon" source="Monstrous Heroes" id="ID_MOHE_WEAPON_VAMPIRE_SLAM">
+		<supports>Vampire Natural Weapons,ID_INTERNAL_WEAPON_PROPERTY_FINESSE,ID_INTERNAL_DAMAGE_TYPE_BLUDGEONING</supports>
+		<prerequisite>Vampire race</prerequisite>
+		<requirements>ID_MOHE_RACE_VAMPIRE</requirements>
+		<description>
+			<html>&lt;br /&gt;&lt;b&gt;Slam.&lt;/b&gt; Strikes from your limbs are a natural weapon with the finesse property. On a hit, your slam attack deals bludgeoning damage equal to &lt;b&gt;1d8 + your Strength or Dexterity modifier&lt;/b&gt;, or instead of dealing damage, you can &lt;b&gt;grapple&lt;/b&gt; the target.</html>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="proficiency">ID_MOHE_PROFICIENCY_VAMPIRE_NATURAL_WEAPONS</set>
+			<set name="slot">onehand</set>
+			<set name="damage">1d8</set>
+		</setters>
+		<sheet display="false" />
+	</element>
+	<element name="Vampire Natural Weapons" type="Proficiency" source="Monstrous Heroes" id="ID_MOHE_PROFICIENCY_VAMPIRE_NATURAL_WEAPONS">
+		<sheet display="false" />
+	</element>
+</elements>

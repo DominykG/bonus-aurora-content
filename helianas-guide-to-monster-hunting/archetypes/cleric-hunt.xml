@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="Hunt Domain" type="Archetype" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_ARCHETYPE_CLERIC_HUNT_DOMAIN">
+		<meta>
+			<parent>Cleric</parent>
+		</meta>
+		<supports>Divine Domain</supports>
+		<description>
+			<p>From Artemis to Diana, Skadi, and Wōden - all gods of the hunt relish the chase. They promote the ideals of a journey: finding a quarry, learning its habits, and finishing it with a swift, precise blow. Clerics of these gods might bless nobles before a hunt, work as mercenaries tracking dangerous monsters through the wilderness, or be employed as scouts within armies. They are adept at finding their prey and, once located, use their magic to ensure they are never outrun. Such priests teach that all useful materials must be harvested and consumed to properly honour a quarry, and to ensure the gods’ blessing during the next foray into the wilds.</p>
+			<div element="ID_HGTMH_ARCHETYPE_FEATURE_HUNT_DOMAIN_DOMAIN_SPELLS" />
+			<div element="ID_HGTMH_ARCHETYPE_FEATURE_HUNT_DOMAIN_BONUS_PROFICIENCIES" />
+			<div element="ID_HGTMH_ARCHETYPE_FEATURE_HUNT_DOMAIN_MARK_PREY" />
+			<div element="ID_HGTMH_ARCHETYPE_FEATURE_HUNT_DOMAIN_CHANNEL_DIVINITY_HONED_INSTINCTS" />
+			<div element="ID_HGTMH_ARCHETYPE_FEATURE_HUNT_DOMAIN_PACK_HUNTER" />
+			<div element="ID_HGTMH_ARCHETYPE_FEATURE_HUNT_DOMAIN_UNFLINCHING_MARK" />
+			<div element="ID_HGTMH_ARCHETYPE_FEATURE_HUNT_DOMAIN_RITE_OF_THE_HUNT" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_HGTMH_ARCHETYPE_FEATURE_HUNT_DOMAIN_DOMAIN_SPELLS" />
+			<grant type="Archetype Feature" id="ID_HGTMH_ARCHETYPE_FEATURE_HUNT_DOMAIN_BONUS_PROFICIENCIES" />
+			<grant type="Archetype Feature" id="ID_HGTMH_ARCHETYPE_FEATURE_HUNT_DOMAIN_MARK_PREY" />
+			<grant type="Archetype Feature" id="ID_HGTMH_ARCHETYPE_FEATURE_HUNT_DOMAIN_CHANNEL_DIVINITY_HONED_INSTINCTS" level="2" />
+			<grant type="Archetype Feature" id="ID_HGTMH_ARCHETYPE_FEATURE_HUNT_DOMAIN_PACK_HUNTER" level="6" />
+			<grant type="Archetype Feature" id="ID_HGTMH_ARCHETYPE_FEATURE_HUNT_DOMAIN_UNFLINCHING_MARK" level="8" />
+			<grant type="Archetype Feature" id="ID_HGTMH_ARCHETYPE_FEATURE_HUNT_DOMAIN_RITE_OF_THE_HUNT" level="17" />
+		</rules>
+	</element>
+	<element name="Domain Spells" type="Archetype Feature" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_ARCHETYPE_FEATURE_HUNT_DOMAIN_DOMAIN_SPELLS">
+		<meta>
+			<parent>Hunt Domain</parent>
+		</meta>
+		<description>
+			<p>You gain domain spells at the cleric levels listed in the Hunt Domain Spells table. See the Divine Domain class feature for how domain spells work.</p>
+			<h6>Hunt Domain Spells</h6>
+			<table>
+				<thead>
+				<tr><td>Cleric Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>1st</td><td><em>entangle, longstrider</em></td></tr>
+				<tr><td>3rd</td><td><em>locate animals or plants, pass without trace</em></td></tr>
+				<tr><td>5th</td><td><em>conjure animals, haste</em></td></tr>
+				<tr><td>7th</td><td><em>freedom of movement, locate creature</em></td></tr>
+				<tr><td>9th</td><td><em>commune with nature, hold monster</em></td></tr>
+			</table>
+		</description>
+		<sheet>
+			<description />
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_ENTANGLE" level="1" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_LONGSTRIDER" level="1" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_LOCATE_ANIMALS_OR_PLANTS" level="3" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_PASS_WITHOUT_TRACE" level="3" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_CONJURE_ANIMALS" level="5" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_HASTE" level="5" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT" level="7" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_LOCATE_CREATURE" level="7" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_COMMUNE_WITH_NATURE" level="9" spellcasting="Cleric" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER" level="9" spellcasting="Cleric" prepared="true" />
+		</rules>
+	</element>
+	<element name="Bonus Proficiencies" type="Archetype Feature" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_ARCHETYPE_FEATURE_HUNT_DOMAIN_BONUS_PROFICIENCIES">
+		<meta>
+			<parent>Hunt Domain</parent>
+		</meta>
+		<description>
+			<p>You gain proficiency with two martial weapons of your choice. You also gain proficiency in one of the following skills of your choice: Animal Handling, Nature, or Survival.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Proficiency" name="Proficiency (Hunt Domain)" supports="ID_PROFICIENCY_SKILL_ANIMALHANDLING|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_SURVIVAL" />
+		</rules>
+	</element>
+	<element name="Mark Prey" type="Archetype Feature" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_ARCHETYPE_FEATURE_HUNT_DOMAIN_MARK_PREY">
+		<meta>
+			<parent>Hunt Domain</parent>
+		</meta>
+		<description>
+			<p>As a bonus action, you choose a creature you can see within <b>90 feet</b> and mystically mark it as your quarry for the next hour. For the duration, you deal an extra <b>1d6</b> damage to the target whenever you hit it with a weapon attack, and you have <b>advantage</b> on any <b>Wisdom (Perception)</b> or <b>Wisdom (Survival)</b> check you make to find it. If you use this feature to mark a new creature, any previous marks disappear.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>You choose a creature you can see within 90 feet and mystically mark it as your quarry for the next hour. For the duration, you deal an extra 1d6 damage to the target whenever you hit it with a weapon attack, and you have advantage on any Wisdom (Perception) or Wisdom (Survival) check you make to find it. If you use this feature to mark a new creature, any previous marks disappear.</description>
+		</sheet>
+	</element>
+	<element name="Channel Divinity: Honed Instincts" type="Archetype Feature" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_ARCHETYPE_FEATURE_HUNT_DOMAIN_CHANNEL_DIVINITY_HONED_INSTINCTS">
+		<meta>
+			<parent>Hunt Domain</parent>
+		</meta>
+		<description>
+			<p>You can use your Channel Divinity to gain preternatural insights into one creature you can see within <b>120 feet</b> of you (no action required). You can choose one of the following lists of information to learn about the target when you use this Channel Divinity:</p>
+			<ul>
+				<li><b>Proficiencies.</b> You learn the saving throws and skills with which the creature is proficient.</li>
+				<li><b>Physiology.</b> You learn the creature’s damage resistances, immunities, and vulnerabilities, as well as its condition immunities.</li>
+			</ul>
+			<p class="indent">In addition, the next time you hit the target with a weapon attack within the next minute, you deal the attack’s maximum damage instead of rolling.</p>
+		</description>
+		<sheet>
+			<description></description>
+		</sheet>
+	</element>
+	<element name="Pack Hunter" type="Archetype Feature" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_ARCHETYPE_FEATURE_HUNT_DOMAIN_PACK_HUNTER">
+		<meta>
+			<parent>Hunt Domain</parent>
+		</meta>
+		<sheet>
+			<description />
+		</sheet>
+	</element>
+	<element name="Unflinching Mark" type="Archetype Feature" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_ARCHETYPE_FEATURE_HUNT_DOMAIN_UNFLINCHING_MARK">
+		<meta>
+			<parent>Hunt Domain</parent>
+		</meta>
+		<sheet>
+			<description />
+		</sheet>
+	</element>
+	<element name="Rite of the Hunt" type="Archetype Feature" source="Heliana’s Guide to Monster Hunting" id="ID_HGTMH_ARCHETYPE_FEATURE_HUNT_DOMAIN_RITE_OF_THE_HUNT">
+		<meta>
+			<parent>Hunt Domain</parent>
+		</meta>
+		<sheet>
+			<description />
+		</sheet>
+	</element>
+</elements>
